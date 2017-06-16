@@ -1,5 +1,223 @@
+<!DOCTYPE HTML>
+<!--
+	Overflow by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-  <body>
-    MimbleWimble placeholder site. See the <a href="https://github.com/ignopeverell/grin">Grin project</a> for more.
-  </body>
+	<head>
+		<title>Grin | MimbleWimble Lightweight Implementation</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<h1>Grin</h1>
+					<p>
+						A lightweight implementation of the <a target="_blank" href="https://www.weusecoins.com/mimble-wimble-andrew-poelstra/">Mimblewimble</a> protocol.
+					</p>
+				</header>
+				<footer>
+					<a href="#banner" class="button style2 scrolly-middle"><!--[-->Proceed as anticipated<!--]--></a>
+				</footer>
+			</section>
+
+		<!-- Banner -->
+			<section id="banner">
+				<header>
+					<h2>
+						Scalable, Private Blockchain Transactions
+					</h2>
+				</header>
+				<p>
+					Grin is the implementation of MimbleWimble. A new design for a cryptocurrency with new blockchain characteristics to inhibit privacy by completely ofuscating transactions and scalability with a model to prune the size of the blockchain. All of this without loosing security.
+				</p>
+				
+				<footer>
+					<a target="_blank" href="https://github.com/ignopeverell/grin/blob/master/doc/intro.md" class="button style2 scrolly">
+						Read the docs
+					</a>
+				</footer>
+			</section>
+
+		<!-- Portfolio -->
+			<article class="container box style2">
+				<header>
+					<h2>Support the Community</h2>
+					<p>
+						Grin is 
+					</p>
+				</header>
+				
+				<div class="inner gallery">
+					<div class="row 0%">
+						<div class="3u 12u(mobile)"><a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" alt="" title="Ad infinitum" /></a></div>
+						<div class="3u 12u(mobile)"><a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" alt="" title="Dressed in Clarity" /></a></div>
+						<div class="3u 12u(mobile)"><a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" alt="" title="Raven" /></a></div>
+						<div class="3u 12u(mobile)"><a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" alt="" title="I'll have a cup of Disneyland, please" /></a></div>
+					</div>
+					<div class="row 0%">
+						<div class="3u 12u(mobile)"><a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" alt="" title="Cherish" /></a></div>
+						<div class="3u 12u(mobile)"><a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" alt="" title="Different." /></a></div>
+						<div class="3u 12u(mobile)"><a href="images/fulls/07.jpg" class="image fit"><img src="images/thumbs/07.jpg" alt="" title="History was made here" /></a></div>
+						<div class="3u 12u(mobile)"><a href="images/fulls/08.jpg" class="image fit"><img src="images/thumbs/08.jpg" alt="" title="People come and go and walk away" /></a></div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Generic -->
+		
+			<article class="container box style3">
+				<header>
+					<h2>Generic Box</h2>
+					<p>Just a generic box. Nothing to see here.</p>
+				</header>
+				<section>
+					<header>
+						<h3>Paragraph</h3>
+						<p>This is a subtitle</p>
+					</header>
+					<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque
+					habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi
+					leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
+					amet risus elit.</p>
+				</section>
+				<section>
+					<header>
+						<h3>Blockquote</h3>
+					</header>
+					<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
+					tempus euismod. Vestibulum ante ipsum primis in faucibus.</blockquote>
+				</section>
+				<section>
+					<header>
+						<h3>History</h3>
+					</header>
+					<p>
+						<a href="https://download.wpsoftware.net/bitcoin/wizardry/mimblewimble.txt">
+							
+						</a>
+					</p>
+					<hr/>
+					
+				</section>
+				<section>
+					<header>
+						<h3>Grin is an in-progress implementation of the MimbleWimble protocol. Many characteristics are still undefined but the following constitutes a first set of choices:</h3>
+					</header>
+					<ul class="default">
+						<li>
+							Clean and minimal implementation, aiming to stay as such.
+						</li>
+						<li>
+							Follows the MimbleWimble protocol, which provides great anonymity and scaling characteristics.
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/tromp/cuckoo/blob/master/doc/cuckoo.pdf"> Cuckoo Cycle proof of work </a> (at least to start with).
+						</li>
+						<li>
+							Relatively fast block time (a minute or less, possibly decreasing as networks improve).
+						</li>
+						<li>
+							Fixed block reward, both over time and in blocks (fees are not additive).
+						</li>
+						<li>
+							Relatively fast block time (a minute or less, possibly decreasing as networks improve).
+						</li>
+						<li>
+							Transaction fees are based on the number of UTXO created/destroyed and total transaction size.
+						</li>
+						<li>
+							Smooth curve for difficulty adjustments.
+						</li>
+					</ul>
+				</section>
+				
+
+				<section>
+					<header>
+						<h3>Table</h3>
+					</header>
+					<div class="table-wrapper">
+						<table class="default">
+							<thead>
+								<tr>
+									<th>ID</th>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>45815</td>
+									<td>Something</td>
+									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>24524</td>
+									<td>Nothing</td>
+									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>45815</td>
+									<td>Something</td>
+									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>24524</td>
+									<td>Nothing</td>
+									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+									<td>19.99</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="3"></td>
+									<td>100.00</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</section>
+				
+			</article>
+		
+
+		<section id="footer">
+			<ul class="icons">
+
+				<li>
+					<a target="_blank" href="https://github.com/ignopeverell/grin" class="icon fa-github">
+						<span class="label">Github</span>
+					</a>
+				</li>
+
+			</ul>
+			<div class="copyright">
+				<ul class="menu">
+					<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
