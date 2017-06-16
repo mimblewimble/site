@@ -1,5 +1,154 @@
+<!DOCTYPE HTML>
+<!--
+	Overflow by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-  <body>
-    MimbleWimble placeholder site. See the <a href="https://github.com/ignopeverell/grin">Grin project</a> for more.
-  </body>
+	<head>
+		<title>Grin | MimbleWimble Lightweight Implementation</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<h1>Grin</h1>
+					<p>
+						A lightweight implementation of the <a target="_blank" href="https://www.weusecoins.com/mimble-wimble-andrew-poelstra/">Mimblewimble</a> protocol.
+					</p>
+				</header>
+				<footer>
+					<a href="#banner" class="button style2 scrolly-middle"><!--[--><i class="fa fa-magic"></i><!--]--></a>
+				</footer>
+			</section>
+
+		<!-- Banner -->
+			<section id="banner">
+				<header>
+					<h2>
+						Scalable and Private Blockchain Transactions
+					</h2>
+				</header>
+				<p style="margin: 100px;">
+					Grin is the first implementation of the MimbleWimble protocol. A new design for a cryptocurrency with new blockchain characteristics to inhibit anonimity by completely ofuscating transactions. It will also focus on scalability with a model to prune the size of the blockchain. All of this without loosing security.
+				</p>
+				
+				<footer>
+					<a target="_blank" href="https://github.com/ignopeverell/grin/blob/master/doc/intro.md" class="button style2 scrolly">
+						Read the docs
+					</a>
+				</footer>
+			</section>
+
+		<!-- Portfolio -->
+			<article class="container box style2">
+				<header>
+					<h2>Support the Community</h2>
+					<p>
+						Grin is still in development. We are currently a  <a href="https://gitter.im/grin_community/Lobby?source=orgpage">passionate comunity</a> of cypherpunks, developers, doctors, harry potter fictional characters and you. 
+					</p>
+
+					<p></p>
+				</header>
+				
+			</article>
+
+		<!-- Generic -->
+		
+			<article class="container box style3">
+				<header>
+					<h2>Decentralize</h2>
+
+				</header>
+				
+				<section>
+					<header>
+						<h3> <a href="https://download.wpsoftware.net/bitcoin/wizardry/mimblewimble.txt"> Freedom</a> </h3>
+					</header>
+					<p>
+
+						Grin introduces a memory bound proof-of-work called <a href="https://github.com/tromp/cuckoo/blob/master/doc/cuckoo.pdf">Cuckoo Cycle</a> that can help prevent a centralization in the mining market.
+
+
+						<a href="http://www.ibtimes.co.uk/mimblewimble-scriptless-scripts-magicking-blockchain-signatures-1626375">
+							
+						</a>
+					</p>
+					<hr/>
+					
+				</section>
+				<section>
+					<header>
+						<h3>Grin is an in-progress implementation of the MimbleWimble protocol. </h2>
+						<p>Many characteristics are still undefined but the following constitutes a first set of choices:</p>
+					</header>
+					<ul class="default">
+						<li>
+							Clean and minimal implementation, aiming to stay as such.
+						</li>
+						<li>
+							Follows the MimbleWimble protocol, which provides great anonymity and scaling characteristics.
+						</li>
+						<li>
+							<a target="_blank" href="https://github.com/tromp/cuckoo/blob/master/doc/cuckoo.pdf"> Cuckoo Cycle proof of work </a> (at least to start with).
+						</li>
+						<li>
+							Relatively fast block time (a minute or less, possibly decreasing as networks improve).
+						</li>
+						<li>
+							Fixed block reward, both over time and in blocks (fees are not additive).
+						</li>
+						<li>
+							Relatively fast block time (a minute or less, possibly decreasing as networks improve).
+						</li>
+						<li>
+							Transaction fees are based on the number of UTXO created/destroyed and total transaction size.
+						</li>
+						<li>
+							Smooth curve for difficulty adjustments.
+						</li>
+					</ul>
+				</section>	
+			</article>
+		
+
+		<section id="footer">
+			<ul class="icons">
+
+				<li>
+					<a target="_blank" href="https://github.com/ignopeverell/grin" class="icon fa-github">
+						<span class="label">Github</span>
+					</a>
+				</li>
+
+				<li>
+					<a target="_blank" href="https://gitter.im/grin_community/Lobby?source=orgpage" class="icon fa-github">
+						<span class="label">Gitter</span>
+					</a>
+				</li>
+
+			</ul>
+			<div class="copyright">
+				<ul class="menu">
+					<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
