@@ -1,0 +1,33 @@
+.community_icon_container {
+    height: 210px;
+    width: 280px;
+    margin: 0 0;
+    background: #B1BEBB;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+a, a:active, a:link, a:visited {
+    text-decoration:none !important;
+}
+
+a i {
+    color: black;
+}
+
+a i:hover, i:hover {
+    color: white;
+}
+
+a svg:hover {
+    fill: white;
+}
+
+.logo-all-around {
+    width: 51px;
+}
+
+.logo-small {
+    width: 14px;
+}
