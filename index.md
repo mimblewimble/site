@@ -24,11 +24,9 @@ ready cryptocurrency.
 
 Find an area you can help with and do it. Open source is about collaboration and open participation. Grin has an open [Code of Conduct](https://github.com/ignopeverell/grin/blob/master/CODE_OF_CONDUCT.md), please be aware of it.
 
-For developers, try to make your code look like what already exists and submit a pull request. the [list of issues](https://github.com/ignopeverell/grin/issues) is a good place to start, especially the ones tagged as "help wanted" (but don't let that stop you from looking at others). If you're looking for additional ideas, the code includes `TODO` comments for minor to major improvements. Grep is your friend.
+For developers, see our [contribution guide](https://github.com/ignopeverell/grin/blob/master/CONTRIBUTING.md).
 
-Additional tests are rewarded with an immense amount of positive karma. So is documentation.
-
-Find us:
+# Find us:
 
 * Chat: [Gitter](https://gitter.im/grin_community/Lobby).
 * Mailing list: join the [~MimbleWimble team](https://launchpad.net/~mimblewimble) and subscribe on Launchpad.
