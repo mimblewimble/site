@@ -39,7 +39,7 @@ particular and it's missing, it may be a great area to [contribute](#help).
 * [Grin for Bitcoiners](https://github.com/ignopeverell/grin/blob/master/doc/grin4bitcoiners.md)
 * [Introduction to the Grin and MimbleWimble chain format](https://github.com/ignopeverell/grin/blob/master/doc/intro.md).
 * [More information on range proofs](https://github.com/ignopeverell/grin/blob/master/doc/rangeproofs.md)
-* [Cuckoo Cyle, our proof of work algorithm](https://github.com/ignopeverell/grin/blob/master/doc/pow/pow.md)
+* [Cuckoo Cycle, our proof of work algorithm](https://github.com/ignopeverell/grin/blob/master/doc/pow/pow.md)
 
 # Resources
 
