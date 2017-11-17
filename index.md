@@ -16,13 +16,16 @@ it's ready_.
 
 # Status
 
-We're preparing to launch the first Grin testnet. We anticipate we will have
-a few additional testnets afterward, followed by the launch of the fully
-ready cryptocurrency.
+Grin's first testnet has been released! We need your help testing: if you're
+able to compile from the source, see our [building guide](https://github.com/mimblewimble/grin/blob/master/doc/build.md).
+This is our first testnet and more will come, with easier ways to run it, so
+stay tuned.
 
-# [](#help) How to Help
+# [](#help) How to Contribute
 
-Find an area you can help with and do it. Open source is about collaboration and open participation. Grin has an open [Code of Conduct](https://github.com/ignopeverell/grin/blob/master/CODE_OF_CONDUCT.md), please be aware of it.
+Find an area you can help with and do it. Open source is about collaboration
+and open participation. Grin has an open [Code of Conduct](https://github.com/ignopeverell/grin/blob/master/CODE_OF_CONDUCT.md),
+please be aware of it.
 
 For developers, see our [contribution guide](https://github.com/ignopeverell/grin/blob/master/CONTRIBUTING.md).
 
