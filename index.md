@@ -29,6 +29,13 @@ please be aware of it.
 
 For developers, see our [contribution guide](https://github.com/ignopeverell/grin/blob/master/CONTRIBUTING.md).
 
+# Community Funding
+
+If you're an individual, company or institution excited about the potential of Grin or MimbleWimble, we humbly ask if you'd
+consider making a financial contribution to the project's development. We're experimenting with a [100% community-driven 
+funding model](funding.md), which we believe is the best way to keep Grin open and free from undue influence. More information
+can be found on our [funding page](funding.md).
+
 # Find us:
 
 * Chat: [Gitter](https://gitter.im/grin_community/Lobby).
