@@ -14,6 +14,7 @@ Status: Open - Progress: X of Y donated
 
 # Grin's Community Funding Principles
 
+
 [Grin](http://grin-tech.org) is currently being created by a group of developers dedicated to the realisation of a reliable and functional MimbleWimble blockchain. We are building it because we're excited about MimbleWimble technology and the possiblities that it will one day offer.
 
 Unlike the vast majority of blockchain projects, Grin's development is not motivated by profit for either its developers or early adopters. As a measure of this, the project has pledged that:
@@ -60,3 +61,7 @@ Campaigns which go towards funding developer time will be subject to additional 
 * Developers will only pay themselves from the fund at monthly intervals according to work performed.
 * Campaign amounts will be listed as per their local fiat rates, and all payouts will be the cryptocurrency equivalent of the fiat rate at the time of payment. i.e. if bitcoin increases in value over the campaign, the developer will still only get paid fiat equivalent, and the excess value will be used to prolong funding. The converse is also true, so developers will try to build some buffer into their campaigns.
 * Developers will provide weekly updates on progress via a method of their choosing (linked from the funding page).
+
+# Disclaimer
+
+The Grin project is still very young and is still experimenting with the details of its funding model. Some or all of the details above, and even our overall approach may change as the project evolves, however we will always strive to ensure that our funding model reflects the principles of openness and fairness on which the project was founded.
