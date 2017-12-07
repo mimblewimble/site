@@ -2,6 +2,10 @@
 layout: default
 ---
 
+# Developer Funding - Yeastplume
+
+Funding to allow Yeastplume to give full-time attention to Grin.
+
 ## Funding status
 
 0.00BTC of (Open) raised
@@ -62,6 +66,6 @@ In addition to this, I also intend to work on some of the softer tasks around Gr
 
 Since this is our first attempt at funding anyone, I've discussed this with the team and we've decided that a fair salary for an experienced developer should aim to be around the 120k USD mark. I work in Dublin, Ireland, and have been contracting for many years, so I interpret this as a daily rate of €450, or €9k per month. I'd consider some travel and expenses (within reason) included in this rate. The money will be paid out monthly from the campaign fund into my own consultancy company, taxed (somewhere betwee 40-50%), and the rest paid to me personally from there. As per [our policy](funding.md#developer-funding-campaigns), money will always be paid out according to fiat rates, and any increase in BTC value will be applied towards prolonging funding (with the converse also applying).
 
-I enjoy taking on a bit of risk and uncertainly for a cause like this, but I need to balance this with the fact that I have four Yeastlings and a requisite mortgage on a place to keep them all, and this rate represents a pay cut from my usual earnings. I'd rather not get into a position where I need to start selling Yeastlings, so I do need to see a window of available funds (preferably 3-4 months worth, with a buffer to accomodate swings in BTC value) before I can take the plunge, and if funding ever looks like it's running out I will need to focus on plugging that gap as a priority. Earliest full-time start would be March 2018, (to cover current professional commitments). If we don't get enough funds for this (and if it's not looking likely it will ever happen), I will pass any donations back to another project member for another cause, and will happily go on contributing part-time, as I have been.
+I enjoy taking on a bit of risk and uncertainly for a cause like this, but I need to balance this with the fact that I have four Yeastlings and a requisite mortgage on a place to keep them all, and this rate represents a pay cut from my usual earnings. I'd rather not get into a position where I need to start selling Yeastlings, so I do need to see a window of available funds (preferably 2-3 months worth, with a buffer to accomodate swings in BTC value) before I can take the plunge, and if funding ever looks like it's running out I will need to focus on plugging that gap as a priority. Earliest full-time start would be March 2018, (to cover current professional commitments). If we don't get enough funds for this (and if it's not looking likely it will ever happen), I will pass any donations back to another project member for another cause, and will happily go on contributing part-time, as I have been.
 
 The BTC address shown belongs to a hardware wallet. Both it and its recovery phrases (unmemorised) are securely stored far away from my person.
