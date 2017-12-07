@@ -42,7 +42,7 @@ I've been working on Grin part-time since about April of 2017. Some of the thing
 
 As to what I intend to work on over the next few months, since Grin is still in infancy the task list is always in flux. However, at the moment my intentions are to tackle: (in no particular order)
 
-* Continuing work on cucko-miner, particularly support for multi-GPU setups (as mining implementations become available,) and extending the API to allow for integration into pooled mining clients
+* Continuing work on Cuckoo Miner, particularly support for multi-GPU setups (as mining implementations become available,) and extending the API to allow for integration into pooled mining clients
 * A whole lot of work that will be required to get aggregated (a.k.a Schorr) signatures integrated and working within Grin; very much a requirement for release. The upstream technology is still a moving target, but there's a lot of work that can be started now, updating our secp256k1 fork to support aggsig, core/wallet changes to implement them, and keeping up with upstream implementation changes.
 * As above, integrating Bullet Proofs into grin core, which will allow for much smaller transactions with faster verifications times, leading to a much more compact blockchain. I think there's enough done upstream to get this integrated into grin and testing earlier than expected.
 * Possibly some work on cut-through and fast-sync modes
