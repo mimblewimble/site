@@ -24,7 +24,7 @@ I've been a developer in some form or another for about 20 years now. In the ear
 
 Like many technical people, I've been following Bitcoin/Blockchain from afar for many years. I've been wanting to get seriously into the technology for some time, which for me means sitting down and doing the dirty coding work. However, most projects I've evaluated are either not innovative enough (Bitcoin clones with bells on) or too far along for anyone new to make a meaningful difference. After coming across Grin and spending a bit of time reading about it, it was clear that this was the kind of project I was looking for; a project with very credible people behind it implementing new ideas, and with many unsolved challenges remaining. I started contributing where I could while catching up on the work and thought that's been put into MW to date. Thus far, it continues to be one of the best learning experiences I've ever had, and has become a bit of an obsession, much to the continual annoyance of Mrs. Yeastplume.
 
-# What have I done?
+# What have I done so far?
 
 I've been working on Grin part-time since about April of 2017. Some of the things I've been doing since then are (all works still in progress):
 
