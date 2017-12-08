@@ -4,16 +4,11 @@ layout: default
 
 ## Current Campaigns
 
-[Sample Campaign 1: Fund Dobby for 6 months will go here](campaign-1-link)
+[Q2 2018 Developer Funding - Yeastplume](yeastplume.md)
 
-Status: Open - Progress: X of Y donated
-
-[Sample Campaign 2: Fund Snape for 6 months will go here](campaign-2-link)
-
-Status: Open - Progress: X of Y donated
+Status: Open - Progress: 0.0 of 2.5BTC donated
 
 # Grin's Community Funding Principles
-
 
 [Grin](http://grin-tech.org) is currently being created by a group of developers dedicated to the realisation of a reliable and functional MimbleWimble blockchain. We are building it because we're excited about MimbleWimble technology and the possiblities that it will one day offer.
 
