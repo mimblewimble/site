@@ -4,7 +4,7 @@ layout: default
 
 # Q2 2018 Developer Funding - Yeastplume
 
-Funding to allow Yeastplume to give full-time attention to Grin, approx April-June 2018 (exact dates may vary)
+Funding to allow Yeastplume to give full-time attention to Grin, approx Feb-April 2018 (exact dates may vary)
 
 ## Funding status
 
@@ -12,15 +12,13 @@ Funding to allow Yeastplume to give full-time attention to Grin, approx April-Ju
 
 Goal: BTC Equivalent of €30,000 (~2.5 BTC as of Dec 8th, 2017)
 
-0.00BTC of 2.5BTC raised (€0 as of Dec 8th, 2017)
+Raised: 0.00BTC of 2.5BTC target (€0 raised as of Dec 8th, 2017)
 
 0 Payouts - 0 BTC Available
 
 Bitcoin donation address:
 
-3QerBBmyjjiep7o1aebBpsTDzHRMknH36m
-
-(Link to explorer address coming shortly).
+[3QerBBmyjjiep7o1aebBpsTDzHRMknH36m](https://blockchain.info/address/3QerBBmyjjiep7o1aebBpsTDzHRMknH36m)
 
 # Who am I?
 
