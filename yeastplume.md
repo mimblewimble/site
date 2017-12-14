@@ -16,9 +16,15 @@ Raised: 0.239273 of ~2.5 BTC target (appox. €3,200 as of Dec 14th, 2017)
 
 0 Payouts - 0.239273 BTC Available
 
-Bitcoin donation address:
+## Bitcoin donation address:
 
 [3QerBBmyjjiep7o1aebBpsTDzHRMknH36m](https://blockchain.info/address/3QerBBmyjjiep7o1aebBpsTDzHRMknH36m)
+
+Https source for this page:
+
+[https://github.com/mimblewimble/site/blob/master/yeastplume.md](https://github.com/mimblewimble/site/blob/master/yeastplume.md)
+
+#### Unfortunately, Githhub pages (on which this site is hosted) doesn't yet support SSL, so please verify the address as shown in your browser matches the source for this page on [mimblewimble/site](https://github.com/mimblewimble/site).
 
 # Who am I?
 
