@@ -20,11 +20,11 @@ Raised: 0.239273 of ~2.5 BTC target (appox. €3,200 as of Dec 14th, 2017)
 
 [3QerBBmyjjiep7o1aebBpsTDzHRMknH36m](https://blockchain.info/address/3QerBBmyjjiep7o1aebBpsTDzHRMknH36m)
 
-## HTTPS source for this page:
+## Source for this page (via https):
 
 [https://github.com/mimblewimble/site/blob/master/yeastplume.md](https://github.com/mimblewimble/site/blob/master/yeastplume.md)
 
-#### Unfortunately, Githhub pages (on which this site is hosted) doesn't yet support SSL, so please verify the address as shown in your browser matches the source for this page on [mimblewimble/site](https://github.com/mimblewimble/site).
+#### Unfortunately, Githhub pages (on which this site is hosted) doesn't support https, so please verify the Bitcoin donation address as shown above in your browser matches the source for this page on [mimblewimble/site](https://github.com/mimblewimble/site).
 
 # Who am I?
 
