@@ -20,7 +20,7 @@ Raised: 0.239273 of ~2.5 BTC target (appox. €3,200 as of Dec 14th, 2017)
 
 [3QerBBmyjjiep7o1aebBpsTDzHRMknH36m](https://blockchain.info/address/3QerBBmyjjiep7o1aebBpsTDzHRMknH36m)
 
-Https source for this page:
+## HTTPS source for this page:
 
 [https://github.com/mimblewimble/site/blob/master/yeastplume.md](https://github.com/mimblewimble/site/blob/master/yeastplume.md)
 
