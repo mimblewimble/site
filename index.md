@@ -36,6 +36,10 @@ consider making a financial contribution to the project's development. We're exp
 funding model](funding.md), which we believe is the best way to keep Grin open and free from undue influence. More information
 can be found on our [funding page](funding.md).
 
+# Friends of Grin
+
+Companies or individuals who have donated to Grin's Development are listed on our [Friends of Grin page](friends.md).
+
 # Find us:
 
 * Chat: [Gitter](https://gitter.im/grin_community/Lobby).

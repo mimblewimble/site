@@ -26,7 +26,7 @@ To keep Grin open and free from controlling influences, the project will attempt
 
 # Friends of Grin
 
-We believe that any donors, large or small, should be given recognition for their contribution. Any individual donor who wishes to be listed on our 'Friends of Grin' page will be listed, and any corporate or insitutional Donors making a significant contribution to Grin's development will have their logo displayed (if desired).
+We believe that any donors, large or small, should be given recognition for their contribution. Any individual donor who wishes to be listed on our [Friends of Grin](friends.md)  page will be listed, and any corporate or insitutional Donors making a significant contribution to Grin's development will have their logo displayed (if desired).
 
 We are also happy to accept recurring sponsorships and acknowledge your support prominently on our Friends of Grin page. However, as per our pledges above, we cannot accept sponsorships or donations predicated on being able to unduly influence Grin's direction.
 

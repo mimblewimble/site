@@ -7,8 +7,8 @@ The following companies, institutions, or individuals have generously donated fi
 
 ## Companies
 
-<img src="assets/images/logos/blockcypher_logo_white.svg" width="33%" style="padding:5px;vertical-align:middle;" title="BlockCypher">
-<img src="assets/images/logos/kyokan_teal_white.png" width="33%" style="padding:5px;vertical-align:middle;" title="Kyokan">
+[<img src="assets/images/logos/blockcypher_logo_white.svg" width="33%" style="padding:5px;vertical-align:middle;" title="BlockCypher">](https://www.blockcypher.com/)
+[<img src="assets/images/logos/kyokan_teal_white.png" width="33%" style="padding:5px;vertical-align:middle;" title="Kyokan">](https://kyokan.io/)
 
 ## Individuals
 
