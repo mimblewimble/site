@@ -8,11 +8,13 @@ Funding to allow Yeastplume to give full-time attention to Grin, approx Feb-Apri
 
 ## Funding status
 
+Funding Goal Met! Provided there's no major dip in BTC value, the money raised should allow me to focus full-time on Grin for 5-6 months. Heartfelt thanks to everyone who donated!
+
 #### Please note that values here will be adjusted here over time due to BTC price swings
 
 Goal: BTC Equivalent of €30,000 (+ Price Swing Buffer, ~2.5 BTC as of Dec 16th, 2017)
 
-Raised: 3.11626407 of ~2.5 BTC target (appox. €47,700 as of Dec 16th, 2017)
+Raised: 3.11626407 of ~2.5 BTC target (appox. €50,000 as of Dec 16th, 2017)
 
 0 Payouts - 3.11626407 BTC Available
 
