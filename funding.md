@@ -6,7 +6,7 @@ layout: default
 
 [Q2 2018 Developer Funding - Yeastplume](yeastplume.md)
 
-Status: Open - Progress: 2.36655526 of 2.5 BTC Target
+Status: Open - Progress: 3.11626407 of 2.5 BTC Target
 
 # Grin's Community Funding Principles
 
