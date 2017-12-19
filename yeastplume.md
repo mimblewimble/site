@@ -14,9 +14,9 @@ Funding Goal Met! Provided there's no major dip in BTC value, the money raised s
 
 Goal: BTC Equivalent of €30,000 (+ Price Swing Buffer, ~2.5 BTC as of Dec 16th, 2017)
 
-Raised: 3.11626407 of ~2.5 BTC target (appox. €50,000 as of Dec 16th, 2017)
+Raised: 3.13459468 of ~2.5 BTC target (appox. €50,000 as of Dec 16th, 2017)
 
-0 Payouts - 3.11626407 BTC Available
+0 Payouts - 3.13459468 BTC Available
 
 ## Bitcoin donation address:
 
