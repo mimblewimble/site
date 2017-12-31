@@ -18,8 +18,8 @@ it's ready_.
 
 Grin's first testnet has been released! We need your help testing: if you're
 able to compile from the source, see our [building guide](https://github.com/mimblewimble/grin/blob/master/doc/build.md).
-This is our first testnet and more will come, with easier ways to run it, so
-stay tuned.
+
+We're currently hard at work in building the features required for [testnet2](https://github.com/mimblewimble/grin/milestone/3).
 
 # [](#help) How to Contribute
 
@@ -28,15 +28,14 @@ and open participation. Grin has an open [Code of Conduct](https://github.com/ig
 please be aware of it.
 
 For developers, see our [contribution guide](https://github.com/ignopeverell/grin/blob/master/CONTRIBUTING.md).
+An [open wiki](https://github.com/mimblewimble/docs/wiki) lets anyone add missing documentation
+and help others.
 
 # Community Funding
 
 If you're an individual, company or institution excited about the potential of Grin or MimbleWimble, we humbly ask if you'd
 consider making a financial contribution to the project's development. We're experimenting with a [100% community-driven 
-funding model](funding.md), which we believe is the best way to keep Grin open and free from undue influence. More information
-can be found on our [funding page](funding.md).
-
-# Friends of Grin
+funding model](funding.md).
 
 Companies or individuals who have donated to Grin's Development are listed on our [Friends of Grin page](friends.md).
 
@@ -48,7 +47,8 @@ Companies or individuals who have donated to Grin's Development are listed on ou
 # Documentation
 
 We have a small but growing set of documents. If you're looking for something in
-particular and it's missing, it may be a great area to [contribute](#help).
+particular and it's missing, it may be a great area to [contribute](#help) to our
+[open wiki](https://github.com/mimblewimble/docs/wiki).
 
 * [Grin for Bitcoiners](https://github.com/ignopeverell/grin/blob/master/doc/grin4bitcoiners.md)
 * [Introduction to the Grin and MimbleWimble chain format](https://github.com/ignopeverell/grin/blob/master/doc/intro.md).
