@@ -4,7 +4,7 @@ layout: default
 
 **Grin is still highly experimental technology**
 
-[Grin](https://github.com/ignopeverell/grin) is a blockchain and a
+[Grin](https://github.com/mimblewimble/grin) is a blockchain and a
 cryptocurrency focused on privacy and scalability. Grin is also an
 implementation of the MimbleWimble transaction format with the extensions
 required for a complete blockchain.
