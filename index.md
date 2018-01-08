@@ -24,10 +24,10 @@ We're currently hard at work in building the features required for [testnet2](ht
 # [](#help) How to Contribute
 
 Find an area you can help with and do it. Open source is about collaboration
-and open participation. Grin has an open [Code of Conduct](https://github.com/ignopeverell/grin/blob/master/CODE_OF_CONDUCT.md),
+and open participation. Grin has an open [Code of Conduct](https://github.com/mimblewimble/grin/blob/master/CODE_OF_CONDUCT.md),
 please be aware of it.
 
-For developers, see our [contribution guide](https://github.com/ignopeverell/grin/blob/master/CONTRIBUTING.md).
+For developers, see our [contribution guide](https://github.com/mimblewimble/grin/blob/master/CONTRIBUTING.md).
 An [open wiki](https://github.com/mimblewimble/docs/wiki) lets anyone add missing documentation
 and help others.
 
@@ -50,13 +50,13 @@ We have a small but growing set of documents. If you're looking for something in
 particular and it's missing, it may be a great area to [contribute](#help) to our
 [open wiki](https://github.com/mimblewimble/docs/wiki).
 
-* [Grin for Bitcoiners](https://github.com/ignopeverell/grin/blob/master/doc/grin4bitcoiners.md)
-* [Introduction to the Grin and MimbleWimble chain format](https://github.com/ignopeverell/grin/blob/master/doc/intro.md).
-* [More information on range proofs](https://github.com/ignopeverell/grin/blob/master/doc/rangeproofs.md)
-* [Cuckoo Cycle, our proof of work algorithm](https://github.com/ignopeverell/grin/blob/master/doc/pow/pow.md)
+* [Grin for Bitcoiners](https://github.com/mimblewimble/grin/blob/master/doc/grin4bitcoiners.md)
+* [Introduction to the Grin and MimbleWimble chain format](https://github.com/mimblewimble/grin/blob/master/doc/intro.md).
+* [More information on range proofs](https://github.com/mimblewimble/grin/blob/master/doc/rangeproofs.md)
+* [Cuckoo Cycle, our proof of work algorithm](https://github.com/mimblewimble/grin/blob/master/doc/pow/pow.md)
 
 # Resources
 
-* [Grin's Github page](https://github.com/ignopeverell/grin)
+* [Grin's Github page](https://github.com/mimblewimble/grin)
 * [Original MimbleWimble white paper](https://download.wpsoftware.net/bitcoin/wizardry/mimblewimble.txt)
 * [Andrew Poelstra's MimbleWimble follow up paper](https://download.wpsoftware.net/bitcoin/wizardry/mimblewimble.pdf)
