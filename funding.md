@@ -6,7 +6,7 @@ layout: default
 
 [Q2 2018 Developer Funding - Yeastplume](yeastplume.md)
 
-Status: Goal Met - 3.13459468 of 2.5 BTC Target
+Status: Goal Met - 3.12775707 of 2.5 BTC Target
 
 # Grin's Community Funding Principles
 
