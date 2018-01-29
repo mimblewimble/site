@@ -42,6 +42,7 @@ Companies or individuals who have donated to Grin's Development are listed on ou
 # Find us:
 
 * Chat: [Gitter](https://gitter.im/grin_community/Lobby).
+* Forum: [grin-forum.org](https://www.grin-forum.org/).
 * Mailing list: join the [~MimbleWimble team](https://launchpad.net/~mimblewimble) and subscribe on Launchpad.
 
 # Documentation
