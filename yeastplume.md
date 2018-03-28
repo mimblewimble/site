@@ -27,7 +27,7 @@ Raised: 0.305 BTC (~€1950 as of March 28th, 2018)
 
 [https://github.com/mimblewimble/site/blob/master/yeastplume.md](https://github.com/mimblewimble/site/blob/master/yeastplume.md)
 
-#### Unfortunately, Githhub pages (on which this site is hosted) doesn't support https, so please verify the Bitcoin donation address as shown above in your browser matches the source for this page on [mimblewimble/site](https://github.com/mimblewimble/site).
+#### Unfortunately, Githhub pages (on which this site is hosted) doesn't support https, so please verify the donation addresses as shown above in your browser matches the source for this page on [mimblewimble/site](https://github.com/mimblewimble/site).
 
 I have felt extremely privileged to be able to focus on Grin as a full-time job for the past few months, and I hope my performance so far has been satisfactory to the community as well as beneficial to Grin and MimbleWimble development. I've tried to leave detailed information on my activities so far (as well as a few other random musings) in my [Forum Progress update thread](https://www.grin-forum.org/t/yeastplume-progress-update-thread-feb-april-2018/93/10), so I invite you to have a look through there for precise information about what the previous funds have been used for, as well as information about future plans.
 
