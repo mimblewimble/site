@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Q2 2018 Developer Funding - Yeastplume
+# May-Aug 2018 Developer Funding - Yeastplume
 
 Funding to allow Yeastplume to give full-time attention to Grin, May-August 2018
 
