@@ -18,8 +18,7 @@ Raised: 0.305 BTC (~€1950 as of March 28th, 2018)
 
 ## Bitcoin donation address:
 
-[3QerBBmyjjiep7o1aebBpsTDzHRMknH36m](https://blockchain.info/address/3QerBBmyjjiep7o1aebBpsTDzHRMknH36m)
-
+[3GDKMDubNdxXRxhycLLe8qQKF3kfTpwKDf](https://blockchain.info/address/3GDKMDubNdxXRxhycLLe8qQKF3kfTpwKDf)
 ## Monero donation address:
 49i8cvLsEyHF2nHH4MdYCjZ8ZebuVgb1Z9gFEdo52Q1iez2RPVMTLkYVpVdSG7uHFY2D7pq9AZ2fcXjiGQfTZtShBqYuWcs
 
