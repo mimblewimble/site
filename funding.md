@@ -4,9 +4,9 @@ layout: default
 
 ## Current Campaigns
 
-[Q2 2018 Developer Funding - Yeastplume](yeastplume.md)
+[Q3 2018 Developer Funding (May - August) - Yeastplume](yeastplume.md)
 
-Status: Goal Met - 3.12775707 of 2.5 BTC Target
+Status: Open - ~€1950 of €36,000 Target (Crypto balances on campaign page)
 
 # Grin's Community Funding Principles
 
@@ -53,8 +53,8 @@ Donors and sponsors should understand that the funds donated may not always go t
 Campaigns which go towards funding developer time will be subject to additional rules:
 
 * Developer campaigns will target enough money to pay the equivalent of a daily rate+expenses over a certain time period.
-* Developers will only pay themselves from the fund at monthly intervals according to work performed.
-* Campaign amounts will be listed as per their local fiat rates, and all payouts will be the cryptocurrency equivalent of the fiat rate at the time of payment. i.e. if bitcoin increases in value over the campaign, the developer will still only get paid fiat equivalent, and the excess value will be used to prolong funding. The converse is also true, so developers will try to build some buffer into their campaigns.
+* Developers are responsible for controlling their own campaign funds, and are personally accountable for them to the community.
+* Campaign amounts will be listed as per their local fiat rates.
 * Developers will provide weekly updates on progress via a method of their choosing (linked from the funding page).
 
 # Disclaimer
