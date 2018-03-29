@@ -12,13 +12,14 @@ Status: Open - ~€1950 of €36,000 Target
 
 Goal: Crypto equivalent of €36,000
 
-Raised: 0.305 BTC (~€1950 as of March 28th, 2018)
+Raised: 0.799 BTC (~€1950 as of March 28th, 2018)
         0.00 XMR (€0 as of March 28th, 2018)
-        ~€1950 Total (March 28th, 2018)
+        ~€4900 Total (March 28th, 2018)
 
 ## Bitcoin donation address:
 
 [3GDKMDubNdxXRxhycLLe8qQKF3kfTpwKDf](https://blockchain.info/address/3GDKMDubNdxXRxhycLLe8qQKF3kfTpwKDf)
+
 ## Monero donation address:
 49i8cvLsEyHF2nHH4MdYCjZ8ZebuVgb1Z9gFEdo52Q1iez2RPVMTLkYVpVdSG7uHFY2D7pq9AZ2fcXjiGQfTZtShBqYuWcs
 
