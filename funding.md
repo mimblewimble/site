@@ -10,7 +10,7 @@ Status: Open - ~€11,100 of €36,000 Target (Crypto balances on campaign page)
 
 # Grin's Community Funding Principles
 
-[Grin](http://grin-tech.org) is currently being created by a group of developers dedicated to the realisation of a reliable and functional MimbleWimble blockchain. We are building it because we're excited about MimbleWimble technology and the possiblities that it will one day offer.
+[Grin](http://grin-tech.org) is currently being created by a group of developers dedicated to the realisation of a reliable and functional MimbleWimble blockchain. We are building it because we're excited about MimbleWimble technology and the possibilities that it will one day offer.
 
 Unlike the vast majority of blockchain projects, Grin's development is not motivated by profit for either its developers or early adopters. As a measure of this, the project has pledged that:
 
@@ -26,7 +26,7 @@ To keep Grin open and free from controlling influences, the project will attempt
 
 # Friends of Grin
 
-We believe that any donors, large or small, should be given recognition for their contribution. Any individual donor who wishes to be listed on our [Friends of Grin](friends.md)  page will be listed, and any corporate or insitutional Donors making a significant contribution to Grin's development will have their logo displayed (if desired).
+We believe that any donors, large or small, should be given recognition for their contribution. Any individual donor who wishes to be listed on our [Friends of Grin](friends.md)  page will be listed, and any corporate or institutional Donors making a significant contribution to Grin's development will have their logo displayed (if desired).
 
 We are also happy to accept recurring sponsorships and acknowledge your support prominently on our Friends of Grin page. However, as per our pledges above, we cannot accept sponsorships or donations predicated on being able to unduly influence Grin's direction.
 
