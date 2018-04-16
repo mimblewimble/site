@@ -7,7 +7,7 @@ The following companies, institutions, or individuals have generously donated fi
 
 ## Companies
 
-[<img src="assets/images/logos/bitonic-logo.svg" width="30%" style="padding:8px;vertical-align:middle;" title="Bitonic">](https://www.bitonic.nl/)
+[<img src="assets/images/logos/bitonic-white.png" width="30%" style="padding:8px;vertical-align:middle;" title="Bitonic">](https://www.bitonic.nl/)
 [<img src="assets/images/logos/blockcypher_logo_white.svg" width="30%" style="padding:8px;vertical-align:middle;" title="BlockCypher">](https://www.blockcypher.com/)
 [<img src="assets/images/logos/kyokan_teal_white.png" width="30%" style="padding:8px;vertical-align:middle;" title="Kyokan">](https://kyokan.io/)
 
