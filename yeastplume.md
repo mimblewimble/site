@@ -17,7 +17,7 @@ Goal: Crypto equivalent of €36,000
 Raised:
 * 5.332 BTC  (~€38,900 as of April 22th, 2018)
 * 37.837 XMR (~€8,100 as of April 22th, 2018)
-* ~€42,100 Total
+* ~€47,000 Total
 
 ## Bitcoin donation address:
 
