@@ -11,7 +11,7 @@ The following companies, institutions, or individuals have generously donated fi
 [<img src="assets/images/logos/blockcypher_logo_white.svg" width="30%" style="padding:8px;vertical-align:middle;" title="BlockCypher">](https://www.blockcypher.com/)
 [<img src="assets/images/logos/kyokan_teal_white.png" width="30%" style="padding:8px;vertical-align:middle;" title="Kyokan">](https://kyokan.io/)
 [<img src="assets/images/logos/kr1_med.png" width="30%" style="padding:16px;vertical-align:left;" title="KR1">](https://www.kryptonite1.co/)
-[<img src="assets/images/logos/cypher_capital.png" width="30%" style="padding:0 20px;" title="Cypher Capital">](#)
+[<img src="assets/images/logos/cypher_capital.png" width="30%" style="padding:0 30px 8px 0;" title="Cypher Capital">](#)
 
 
 
