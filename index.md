@@ -16,10 +16,10 @@ it's ready_.
 
 # Status
 
-Grin's first testnet has been released! We need your help testing: if you're
+Grin's second testnet has been released! We need your help testing: if you're
 able to compile from the source, see our [building guide](https://github.com/mimblewimble/grin/blob/master/doc/build.md).
 
-We're currently hard at work in building the features required for [testnet2](https://github.com/mimblewimble/grin/milestone/3).
+We're currently hard at work in building the features required for [testnet3](https://github.com/mimblewimble/grin/milestone/5).
 
 # [](#help) How to Contribute
 
