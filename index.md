@@ -16,10 +16,11 @@ it's ready_.
 
 # Status
 
-Grin's second testnet has been released! We need your help testing: if you're
-able to compile from the source, see our [building guide](https://github.com/mimblewimble/grin/blob/master/doc/build.md).
+Grin's third testnet has been [released](https://www.grin-forum.org/t/testnet3-release/524)!
+We need your help testing: if you're able to compile from the source, see our
+[building guide](https://github.com/mimblewimble/grin/blob/master/doc/build.md).
 
-We're currently hard at work in building the features required for [testnet3](https://github.com/mimblewimble/grin/milestone/5).
+We're currently hard at work in building the features required for [mainnet3](https://github.com/mimblewimble/grin/milestone/4).
 
 # [](#help) How to Contribute
 
@@ -33,9 +34,10 @@ and help others.
 
 # Community Funding
 
-If you're an individual, company or institution excited about the potential of Grin or MimbleWimble, we humbly ask if you'd
-consider making a financial contribution to the project's development. We're experimenting with a [100% community-driven 
-funding model](funding.md).
+If you're an individual, company or institution excited about the potential of
+Grin or MimbleWimble, we humbly ask if you'd consider making a financial
+contribution to the project's development. We're experimenting with a
+[100% community-driven funding model](funding.md).
 
 Companies or individuals who have donated to Grin's Development are listed on our [Friends of Grin page](friends.md).
 
