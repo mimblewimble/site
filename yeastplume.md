@@ -2,29 +2,29 @@
 layout: default
 ---
 
-# May-Aug 2018 Developer Funding - Yeastplume
+# Oct 2018 - Feb 2019 Developer Funding - Yeastplume
 
-Funding to allow Yeastplume to give full-time attention to Grin, May-August 2018
+Funding to allow Yeastplume to give full-time attention to Grin, from October 2018 - Feb 2019
 
 ## Funding status
 
 The current target has been met and exceeded, and will allow me to concentrate fully on Grin for 5 months from May-September 2018! Many thanks again to all who donated, and I look forward to the next few months of helping to get Grin ready for prime time!
 
-Status: Closed - ~€47,000 of €36,000 Target
+Status: Open - ~€0 of €45,000 Target
 
-Goal: Crypto equivalent of €36,000
+Goal: Crypto equivalent of €45,000
 
 Raised:
-* 5.332 BTC  (~€38,900 as of April 22th, 2018)
-* 37.837 XMR (~€8,100 as of April 22th, 2018)
-* ~€47,000 Total
+* 0.59 BTC  (~€2,800 as of Aug 20th, 2018)
+* 0.0 XMR (~€0 as of Aug 20th, 2018)
+* ~€2,800 Total
 
 ## Bitcoin donation address:
 
-[3GDKMDubNdxXRxhycLLe8qQKF3kfTpwKDf](https://blockchain.info/address/3GDKMDubNdxXRxhycLLe8qQKF3kfTpwKDf)
+[3NfmvyAMDAMCX8M5zngGqkLeKjrSg6ANz5](https://blockchain.info/address/3NfmvyAMDAMCX8M5zngGqkLeKjrSg6ANz5)
 
 ## Monero donation address:
-49i8cvLsEyHF2nHH4MdYCjZ8ZebuVgb1Z9gFEdo52Q1iez2RPVMTLkYVpVdSG7uHFY2D7pq9AZ2fcXjiGQfTZtShBqYuWcs
+44wuZipxTa449nAVfTsrNrHzqCjaGFsSUQLfZFXYhQEFWCYiqVmvhe9T82uM16QoQhVhoK7uyWhfV7sRneAD1YD1KMNfhwh
 
 ## Source for this page (via https):
 
@@ -32,15 +32,20 @@ Raised:
 
 #### Unfortunately, GitHub pages (on which this site is hosted) doesn't support https, so please verify the donation addresses as shown above in your browser matches the source for this page on [mimblewimble/site](https://github.com/mimblewimble/site).
 
-I have felt extremely privileged to be able to focus on Grin as a full-time job for the past few months, and I hope my performance so far has been satisfactory to the community as well as beneficial to Grin and MimbleWimble development. I've tried to leave detailed information on my activities so far (as well as a few other random musings) in my [Forum Progress update thread](https://www.grin-forum.org/t/yeastplume-progress-update-thread-feb-april-2018/93/10), so I invite you to have a look through there for precise information about what the previous funds have been used for, as well as information about future plans.
+I've been privileged to have been able to focus on Grin full-time since February of 2018, and I hope my performance so far has been satisfactory to the community as well as beneficial to Grin and MimbleWimble development. I've left detailed information on my activities so far (as well as a few other random musings) in my Forum Progress update threads:
 
-It's time to reach out to the community again for the upcoming months. Based on experiences from the previous campaign, I'm going to make a couple of changes to how the campaign is organised:
+* [Feb-April 2018](https://www.grin-forum.org/t/yeastplume-progress-update-thread-feb-april-2018/93/10)
+* [May-September 2018](https://www.grin-forum.org/t/yeastplume-progress-update-thread-may-sept-2018/361/16)
 
-* Once the funding goal is reached, I will cash out crypto amounts into Euro more-or-less immediately. As much as I'd like to keep the account transparent, we were burned very hard last time by the volatility of Bitcoin and I found myself far too interested in the daily price swings of bitcoin to the point of distraction. We've decided this to be the best course of action for now to ensure all donations remain the intended amount and are used for their intended purpose.
+I invite you to have a look through there for precise information about what the previous funds have been used for, as well as information about future plans.
 
-* I'm aiming to cover 4 months this time, until the end of August, partly because midsummer is a poor time to be campaigning again (or looking for work,) but also because cashing the funds immediately means less buffer needed and more accuracy on how long the funds will last.
+Based on experiences and feedback from previous campaigns, this campaign is organised thusly:
 
-* Due to popular request, I've set up a Monero (XMR) address for donations as well. We have a lot of mutual interest with the Monero community, and we're very happy to have many prominent members taking an interest in us.
+* Once the funding goal is reached, I will cash out crypto amounts into Euro more-or-less immediately. As much as I'd like to keep the account transparent, we were burned very hard in the first campaign by the volatility of Bitcoin and I found myself far too interested in the daily price swings of bitcoin to the point of distraction. We've decided this to be the best course of action for now to ensure all donations remain the intended amount and are used for their intended purpose.
+
+* I'm aiming to cover 5 months this time, until the end of Feb 2019. This is a little bit longer than previous asks, however anything shorter would mean I'd need to be worrying about the next funding round (or looking for other work) around or shortly after Christmas. The previous funding round covered a full 5 months, so hopefully this isn't too much of an ask.
+
+* As with the previous round, there's are both Monero (XMR) and BTC donation addresses. We have a lot of mutual interest with the Monero community, and we're very happy to have many prominent members taking an interest in us.
 
 As always, those who wish to be listed on the [Friends of Grin](friends.md) page will be, and I'm available as long as I'm awake on our gitter channel.
 
@@ -59,14 +64,16 @@ Like many technical people, I've been following Bitcoin/Blockchain from afar for
 
 I've been working on Grin part-time since about May of 2017. Some of the things I've been doing since then are (all can be considered still in progress):
 
-* Developing the [Cuckoo Miner](https://github.com/mimblewimble/cuckoo-miner) library, which is what drives all of the mining support currently in Grin. It uses a plugin architecture which will hopefully allow any and all mining plugins to be included as part of the main Grin package, as well as support standalone mining clients.
+* Much work on refactoring the wallet code to support further wallet usability and security features.
+* Begun work on an [embedded wallet web-interface](https://github.com/mimblewimble/grin-web-wallet), which will hopefully greatly increase grin's usability.
+* Developing the [Grin-Miner](https://github.com/mimblewimble/grin-miner) application and the [Cuckoo Miner](https://github.com/mimblewimble/cuckoo-miner) library, which is what drives all of the mining support currently in Grin. It uses a plugin architecture which will hopefully allow any and all mining plugins to be included as part of the main Grin package, as well as support standalone mining clients.
 * Adapting and maintaining a set of mining plugins from [John Tromp's cuckoo cycle implementations](https://github.com/mimblewimble/cuckoo) for use in Cuckoo Miner. (Ensuring the latest and greatest updates are always in Grin)
 * Updating [our fork of secp256k1](https://github.com/mimblewimble/secp256k1-zkp) to support switch commitments, (which will provide optional quantum-hardness as well as allows for wallet reconstruction from seed).
 * Core work to implement switch commitments and provide a wallet restoration function.
 * Implementing Aggregated (Schnorr) Signatures within our secp256k1 fork and within the Grin wallet.
 * Integrating Bullet Proofs into Grin, and adding message rewinding functionality to support wallet restore
 * Core work on our PMMR implementation and storage formats.
-* Grin's new TUI (text user interface, providing a real-time view of what's going on in the server)
+* Grin's TUI (text user interface, providing a real-time view of what's going on in the server)
 * Performance improvements in several areas (in particular around output retrieval for the wallet)
 * Ongoing work on Docker deployments for testing purposes, as well as to provide an eventual release vector.
 * Plenty of vital but unglamourous work, such as config file infrastructure, logging, test infrastructure, build maintenance.
@@ -75,15 +82,17 @@ I've been working on Grin part-time since about May of 2017. Some of the things 
 
 # What will I do?
 
-As to what I intend to work on over the next few months, since Grin is still in infancy the task list is always in flux. Testnet2 is in the process of being launched, so many of the actual tasks will result from our findings there as it evolves. However, for a general idea.
+As to what I intend to work on over the next few months, the task list is always in flux. Testnet3 has been very successful so far, and it feels like we're hurtling towards a proper launch date... however this means there is more to do than ever! Very roughly:
 
-* Continuing work on Cuckoo Miner, particularly support for multi-GPU setups (as mining implementations become available,) and extending the API to allow for integration into pooled mining clients
-* There is much work to be done on the wallet infrastructure and client, which will most likely be a team focus for the next few months
-* Continuing work on the new TUI
+* Continuing work on wallet improvements and the web wallet interface
+* Properly addressing wallet security now that the infrastructure is in place
+* More Much needed testing, bug fixing and refinements on core code
+* Reviewing, rewriting, improving critical crypto code in our libsecp256k fork
+* Continued updates and improvements to grin-miner and cuckoo miner as mining requirements become clearer
 * Continual improvements to infrastructure, build, quality of life, documentation.
 * As always, PR review, bug-squashing, fixes and improvements as they come up.
 
-In addition to this, I also intend to work on some of the softer tasks around Grin's governance and promotion, which include:
+In addition to this, I also intend to continue work on some of the softer tasks around Grin's governance and promotion, which include:
 
 * Visits to conferences or meetups (particularly if Grin/MW needs representing)
 * Developer interviews with any interested podcasters/journalists (since Igno won't do it)
@@ -100,3 +109,4 @@ The BTC address shown belongs to a hardware wallet. Both it and its recovery phr
 #Previous Campaigns
 
 * Q2 2018 Developer Funding (Feb-April 2018) - Status: Goal Met - 3.12775707 of 2.5 BTC Target
+* Q3 2018 Developer Funding (May-Sept 2017)  - Status: Goal Met - ~€47,000 of €36,000 Target

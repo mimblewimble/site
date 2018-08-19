@@ -4,9 +4,9 @@ layout: default
 
 ## Current Campaigns
 
-[Q3 2018 Developer Funding (May - August) - Yeastplume](yeastplume.md)
+[Oct 2018 - Feb 2019 Developer Funding - Yeastplume](yeastplume.md)
 
-Status: Closed - ~€47,000 of €36,000 Target (Crypto balances on campaign page)
+Status: Open - ~€2,800 of €45,000 Target (Crypto balances on campaign page)
 
 # Grin's Community Funding Principles
 
