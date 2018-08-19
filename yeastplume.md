@@ -8,8 +8,6 @@ Funding to allow Yeastplume to give full-time attention to Grin, from October 20
 
 ## Funding status
 
-The current target has been met and exceeded, and will allow me to concentrate fully on Grin for 5 months from May-September 2018! Many thanks again to all who donated, and I look forward to the next few months of helping to get Grin ready for prime time!
-
 Status: Open - ~€0 of €45,000 Target
 
 Goal: Crypto equivalent of €45,000
