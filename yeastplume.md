@@ -28,7 +28,7 @@ Raised:
 
 [https://github.com/mimblewimble/site/blob/master/yeastplume.md](https://github.com/mimblewimble/site/blob/master/yeastplume.md)
 
-#### Unfortunately, GitHub pages (on which this site is hosted) doesn't support https, so please verify the donation addresses as shown above in your browser matches the source for this page on [mimblewimble/site](https://github.com/mimblewimble/site).
+#### Please verify the donation addresses as shown above in your browser matches the source for this page on [mimblewimble/site](https://github.com/mimblewimble/site).
 
 I've been privileged to have been able to focus on Grin full-time since February of 2018, and I hope my performance so far has been satisfactory to the community as well as beneficial to Grin and MimbleWimble development. I've left detailed information on my activities so far (as well as a few other random musings) in my Forum Progress update threads:
 
