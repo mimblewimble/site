@@ -13,9 +13,9 @@ Status: Open - ~€0 of €45,000 Target
 Goal: Crypto equivalent of €45,000
 
 Raised:
-* 0.59 BTC  (~€2,800 as of Aug 20th, 2018)
-* 0.0 XMR (~€0 as of Aug 20th, 2018)
-* ~€2,800 Total
+* 0.55 BTC  (~€3,150 as of Aug 27th, 2018)
+* 2.05 XMR (~€150 as of Aug 27th, 2018)
+* ~€3,300 Total
 
 ## Bitcoin donation address:
 
@@ -41,7 +41,7 @@ Based on experiences and feedback from previous campaigns, this campaign is orga
 
 * Once the funding goal is reached, I will cash out crypto amounts into Euro more-or-less immediately. As much as I'd like to keep the account transparent, we were burned very hard in the first campaign by the volatility of Bitcoin and I found myself far too interested in the daily price swings of bitcoin to the point of distraction. We've decided this to be the best course of action for now to ensure all donations remain the intended amount and are used for their intended purpose.
 
-* I'm aiming to cover 5 months this time, until the end of Feb 2019. This is a little bit longer than previous asks, however anything shorter would mean I'd need to be worrying about the next funding round (or looking for other work) around or shortly after Christmas. The previous funding round covered a full 5 months, so hopefully this isn't too much of an ask.
+* I'm aiming to cover 5 months this time, until the end of Feb 2019. This is a little bit longer than previous rounds, however anything shorter would mean I'd need to be worrying about the next funding round (or looking for other work) around or shortly after Christmas. The previous funding round covered a full 5 months, so hopefully this isn't too much of an ask.
 
 * As with the previous round, there's are both Monero (XMR) and BTC donation addresses. We have a lot of mutual interest with the Monero community, and we're very happy to have many prominent members taking an interest in us.
 
@@ -51,6 +51,7 @@ As always, those who wish to be listed on the [Friends of Grin](friends.md) page
 
 * [Interview on the Captain Crypto Show](https://www.youtube.com/watch?v=nwi9pMqUBQI)
 * [Myself, Andreas Antonopoulos and Adam B. Levine on Let's Talk Bitcoin](https://letstalkbitcoin.com/blog/post/lets-talk-bitcoin-356-privacy-on-the-blockchain-with-mimblewimble)
+* [Notes from the first Grin meetup in London](https://medium.com/grin-mimblewimble/grin-mimblewimble-meetup-in-london-with-yeastplume-f11476b3a590)
 
 My name is Michael Cordner, otherwise known as 'Yeastplume' in Grin circles. I'm happy to make myself known partly for funding transparency reasons, and partly because I'm happy to take on some of the public-facing tasks that will inevitably come up as Grin evolves (more on that below). Also, my handle has no relation whatsoever to Harry Potter, which means journalists will forever leave me out of their Grin/MimbleWimble write-ups unless I start taking bold measures. :D
 
