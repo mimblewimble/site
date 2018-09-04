@@ -20,7 +20,7 @@ Grin's third testnet has been [released](https://www.grin-forum.org/t/testnet3-r
 We need your help testing: if you're able to compile from the source, see our
 [building guide](https://github.com/mimblewimble/grin/blob/master/doc/build.md).
 
-We're currently hard at work in building the features required for [mainnet3](https://github.com/mimblewimble/grin/milestone/4).
+We're currently hard at work in building the features required for [mainnet](https://github.com/mimblewimble/grin/milestone/4).
 
 # [](#help) How to Contribute
 
