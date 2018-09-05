@@ -6,7 +6,7 @@ layout: default
 
 [Oct 2018 - Feb 2019 Developer Funding - Yeastplume](yeastplume.md)
 
-Status: Open - ~€3,900 of €45,000 Target (Crypto balances on campaign page)
+Status: Open - ~€4,800 of €45,000 Target (Crypto balances on campaign page)
 
 # Grin's Community Funding Principles
 
