@@ -13,8 +13,8 @@ Status: Open - ~€4,800 of €45,000 Target
 Goal: Crypto equivalent of €45,000
 
 Raised:
-* 0.7053 BTC  (~€4,450 as of Sept 5th, 2018)
-* 3.36 XMR (~€350 as of Sept 5th, 2018)
+* 0.79 BTC  (~€4,350 as of Sept 6th, 2018)
+* 3.36 XMR (~€350 as of Sept 6th, 2018)
 * ~€4,800 Total
 
 ## Bitcoin donation address:
