@@ -14,12 +14,16 @@ Goal: Crypto equivalent of €45,000
 
 Raised:
 * 1.79 BTC  (~€9,950 as of Sept 7th, 2018)
+* 0.0 ETH (€0 as of Sept 7th, 2018)
 * 3.36 XMR (~€350 as of Sept 7th, 2018)
 * ~€10,300 Total
 
 ## Bitcoin donation address:
 
 [3NfmvyAMDAMCX8M5zngGqkLeKjrSg6ANz5](https://blockchain.info/address/3NfmvyAMDAMCX8M5zngGqkLeKjrSg6ANz5)
+
+## Ethereum donation address:
+[0xb010E9160E75A9aDb2139DeEcfdf2C307Fd5A0Ef](https://etherscan.io/address/0xb010E9160E75A9aDb2139DeEcfdf2C307Fd5A0Ef)
 
 ## Monero donation address:
 44wuZipxTa449nAVfTsrNrHzqCjaGFsSUQLfZFXYhQEFWCYiqVmvhe9T82uM16QoQhVhoK7uyWhfV7sRneAD1YD1KMNfhwh
@@ -43,7 +47,7 @@ Based on experiences and feedback from previous campaigns, this campaign is orga
 
 * I'm aiming to cover 5 months this time, until the end of Feb 2019. This is a little bit longer than previous rounds, however anything shorter would mean I'd need to be worrying about the next funding round (or looking for other work) around or shortly after Christmas. The previous funding round covered a full 5 months, so hopefully this isn't too much of an ask.
 
-* As with the previous round, there's are both Monero (XMR) and BTC donation addresses. We have a lot of mutual interest with the Monero community, and we're very happy to have many prominent members taking an interest in us.
+* As with the previous round, there's are both Monero (XMR) and BTC donation addresses. We have a lot of mutual interest with the Monero community, and we're very happy to have many prominent members taking an interest in us. (Update: Ethereum address added by request)
 
 As always, those who wish to be listed on the [Friends of Grin](friends.md) page will be, and I'm available as long as I'm awake on our gitter channel.
 
