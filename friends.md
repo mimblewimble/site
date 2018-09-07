@@ -17,7 +17,7 @@ The following companies, institutions, or individuals have generously donated fi
 
 ## Individuals
 
-Jameson Lopp - Jack Misteli Jean-Guillaume - Redouan Ahaloui - Chris McCann
+Aurel - Chris McCann - Jack Misteli Jean-Guillaume - Jameson Lopp - Michalis Kargakis - Redouan Ahaloui
 
 ## Anonymous Supporters
 
