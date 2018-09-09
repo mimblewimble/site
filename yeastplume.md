@@ -8,15 +8,15 @@ Funding to allow Yeastplume to give full-time attention to Grin, from October 20
 
 ## Funding status
 
-Status: Open - ~€50,350 of €45,000 Target
+Status: Successfully Closed - ~€48,300 of €45,000 Target
 
 Goal: Crypto equivalent of €45,000
 
 Raised:
-* 2.812 BTC  (~€15,650 as of Sept 8th, 2018)
-* 183.005 ETH (€34,350 as of Sept 8th, 2018)
-* 3.36 XMR (~€350 as of Sept 8th, 2018)
-* ~€50,350 Total
+* 2.812 BTC  (~€15,550 as of Sept 9th, 2018)
+* 183.005 ETH (€32,400 as of Sept 9th, 2018)
+* 3.36 XMR (~€350 as of Sept 9th, 2018)
+* ~€48,300 Total
 
 ## Bitcoin donation address:
 
