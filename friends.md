@@ -12,6 +12,7 @@ The following companies, institutions, or individuals have generously donated fi
 [<img src="assets/images/logos/cypher_capital.png" width="30%" style="padding:8px 0px 8px 8px;position: relative; top: 34px;" title="Cypher Capital">](http://cyphercapital.net)
 [<img src="assets/images/logos/kr1_med.png" width="30%" style="padding:8px;vertical-align:left;position: relative; top: 10px" title="KR1">](https://www.kryptonite1.co/)
 [<img src="assets/images/logos/kyokan_teal_white.png" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -60px;" title="Kyokan">](https://kyokan.io/)
+[<img src="assets/images/logos/hashrabbit.png" width="30%" style="padding:8px;vertical-align:middle;" title="Hashrabbit">](https://hashrabbit.co/)
 
 
 
