@@ -2,7 +2,13 @@
 layout: default
 ---
 
-## Current Campaigns
+### Grin General Donation Fund
+
+[General Funding for Grin's Development](general_funding.md)
+
+Status: Always Open - 0.0 BTC donated to date
+
+## Current and Recent Campaigns
 
 [Oct 2018 - Feb 2019 Developer Funding - Yeastplume](yeastplume.md)
 
@@ -32,19 +38,21 @@ We are also happy to accept recurring sponsorships and acknowledge your support 
 
 # Donation Format
 
-As in all things Grin, we want to ensure that the funding process remains as transparent as all other aspects of the project. Rather than create a single open-ended donation fund, Grin will try to encourage transparency by creating funding campaigns on a need-by-need basis. Examples of a "Need" might be:
+As in all things Grin, we want to ensure that the funding process remains as transparent as all other aspects of the project. To this end, Grin will actively seek community funding via:
 
-* Allow developer Dobby to work full-time for 6 months
-* Hosting fees for X for the next year
-* Purchase test mining hardware
+* [A general fund](general_funding.md), proceeds of which will be allocated according to project need by Grin's technical council
+* Specific funding campaigns on a need-by-need basis. Examples of a "Need" might be:
+ + Allow developer Dobby to work full-time for 6 months
+ + Hosting fees for X for the next year
+ + Purchase test mining hardware
 
-Each campaign will specifically outline how the funds will be used, and the owner of the campaign will be responsible for updating the community on progress.
+The general fund will be allocated by the Grin council as needs are identified, with all spending decisions posted and made public. Campaigns will specifically outline campaign funds will be used, and the owner of the campaign will be responsible for updating the community on progress.
 
-Since Grin doesn't currently have a foundation, any funds will go directly into an account controlled by the person making the request, (which will be shown alongside the funding request). This is to minimize exposure to the project as a whole, and to ensure that the community has 100% visibility on who is responsible for which funds. This may change as Grin's governance model evolves, but for now this arrangement remains the safest for the project.
+Since Grin doesn't currently have a foundation, general donations will go into a 3 of 5 multisig wallet, while specific campaign funds will go directly into an account controlled by the person making the request, (which will be shown alongside the funding request). This is to minimize exposure to the project as a whole, and to ensure that the community has 100% visibility on who is responsible for which funds. This may change as Grin's governance model evolves, but for now this arrangement remains the safest for the project.
 
 In the event that a campaign doesn't achieve its required funding, the funds will be redistributed into other campaigns that progress Grin's development (hopefully allowing another campaign to reach its goals.)
 
-In the event that funds aren't or can't be used for their intended purpose (e.g. a developer who had been previously funded leaves the project for any reason,) the funds will be distributed amongst other outstanding funding requests.
+In the event that campaign funds aren't or can't be used for their intended purpose (e.g. a developer who had been previously funded leaves the project for any reason,) the funds will be distributed amongst other outstanding funding requests.
 
 Donors and sponsors should understand that the funds donated may not always go to the exact cause they've donated to due to eventualities such as the ones listed above, but they will always go towards the advancement of Grin.
 
