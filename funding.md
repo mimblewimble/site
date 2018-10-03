@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Grin General Donation Fund
+## Grin General Fund
 
 [General Funding for Grin's Development](general_funding.md)
 

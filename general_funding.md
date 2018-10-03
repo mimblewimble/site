@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Grin General Donation Fund
+# Grin General Fund
 
 This is a general fund for the Grin project's ongoing and ever-expanding needs. Donations into this fund are always welcome, very appreciated, and a quick and easy way to get yourself or your company on to the hallowed [friends of grin](friends.md) page.
 
