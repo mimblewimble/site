@@ -42,9 +42,9 @@ As in all things Grin, we want to ensure that the funding process remains as tra
 
 * [A general fund](general_funding.md), proceeds of which will be allocated by Grin's technical council according to project need
 * Specific funding campaigns on a need-by-need basis. Examples of a "Need" might be:
- - Allow developer Dobby to work full-time for 6 months
- - Hosting fees for X for the next year
- - Purchase test mining hardware
+   Allow developer Dobby to work full-time for 6 months
+   Hosting fees for X for the next year
+   Purchase test mining hardware
 
 The general fund will be allocated by the Grin council as needs are identified, with all spending decisions posted and made public. Campaigns will specifically outline campaign funds will be used, and the owner of the campaign will be responsible for updating the community on progress.
 
