@@ -10,7 +10,7 @@ This is a general fund for the Grin project's ongoing and ever-expanding needs. 
 
 Status: Always Open
 
-## Current Indentified Needs:
+## Current Identified Needs:
 * Professional security audit (please see relevant [Governance Meeting Notes](https://www.grin-forum.org/t/meeting-notes-governance-sep-25-2018/874) (Estimate TBD)
 
 ## Amounts
