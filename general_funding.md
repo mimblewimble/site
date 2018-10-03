@@ -49,7 +49,7 @@ Some examples of where proceeds of this fund might be allocated (by no means exh
 * Contributions toward open Grin ASIC design
 * Legal support as and when needed
 
-## Other
+## Further Information
 
 The Grin project is strictly non-profit. Please refer back to our [Funding overview page](funding.md) for details on our fundraising appoach and our inclusive development philosophy.
 
