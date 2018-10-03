@@ -15,14 +15,9 @@ Status: Always Open
 
 ## Amounts
 
-Total Raised:
-* 0.0 BTC
-
-Total Spent:
-* 0.0 BTC
-
-Current Balance:
-* 0.0 BTC
+* Total Raised:     0.0 BTC
+* Total Spent:      0.0 BTC
+* Current Balance:  0.0 BTC
 
 Last updated October 3rd, 2018
 
