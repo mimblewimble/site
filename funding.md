@@ -10,6 +10,10 @@ Status: Always Open - 0.0 BTC donated to date
 
 ## Current and Recent Campaigns
 
+[Grin Security Audit](sec_audit.md)
+
+Status: Open -~0.03 BTC of 16 BTC Target 
+
 [Oct 2018 - Feb 2019 Developer Funding - Yeastplume](yeastplume.md)
 
 Status: Closed - ~€48,300 of €45,000 Target (Crypto balances on campaign page)
