@@ -18,7 +18,7 @@ The following companies, institutions, or individuals have generously donated fi
 
 ## Individuals
 
-Aurel - Chris McCann - Jack Misteli Jean-Guillaume - Jameson Lopp - Max Tannahill - Michalis Kargakis - Redouan Ahaloui - Roy Blankman - Neils de Ruiter
+Aurel - Chris McCann - Jack Misteli Jean-Guillaume - Jameson Lopp - Max Tannahill - Michalis Kargakis - Redouan Ahaloui - Roy Blankman - Niels de Ruiter
 
 ## Anonymous Supporters
 
