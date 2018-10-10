@@ -8,7 +8,10 @@ TL;DR Grin is nearing its final phases of development before the release of
 its cryptocurrency network (mainnet). To do so safely, the Grin codebase needs
 to undergo a security audit. We're soliciting donations on the bitcoin segwit
 address [bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65](https://blockchair.com/bitcoin/address/bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65).
-The target is 16 BTC.
+
+Status: Open
+Goal: 16 BTC
+Raised: 0.08 BTC
 
 ## Who?
 
