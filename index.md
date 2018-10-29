@@ -18,7 +18,7 @@ it's ready_.
 
 Our [Code Security Audit](sec_audit.md) funding campaign is open. Please consider donating!
 
-Grin's third testnet has been [released](https://www.grin-forum.org/t/testnet3-release/524)!
+Grin's fourth testnet has been [released](https://www.grin-forum.org/t/grin-testnet-4-launch-announcement/993)!
 We need your help testing: if you're able to compile from the source, see our
 [building guide](https://github.com/mimblewimble/grin/blob/master/doc/build.md).
 
