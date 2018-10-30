@@ -15,7 +15,7 @@ Status: Open
 
 Goal: 16 BTC
 
-Raised: 3.61 BTC
+Raised: 3.71 BTC
 
 ## Who?
 
