@@ -14,7 +14,11 @@ There is an opportunity to be a sponsor of the event and get valuable exposure f
 |---|---|---|---|
 |**Fee (crypto equivalent)** | $3k | $15k | $30k |
 | **Available packages** | 10 | 5 | 1 |
-| **Package includes** | <ul><li>Silver-sized logo on grincon.org</ul> |<ul><li>Gold-sized logo on grincon.org <li>Logo on Grincon0 presentations</ul> |<ul><li>Grin-sized logo on grincon.org <li>Logo on Grincon0 presentations<li>Dinner with Grin council during Grincon0 <li>Logo (on the left arm) on the official Grincon0 t-shirt <li>Mention on the event email to meetup attendees</ul> |
+| **Package includes** | Silver-sized logo on grincon.org | Gold-sized logo on grincon.org | Grin-sized logo on grincon.org |
+| | | Logo on Grincon0 presentations | Logo on Grincon0 presentations |
+| | | | Dinner with Grin council during Grincon0 |
+| | | | Logo (on the left arm) on the official Grincon0 t-shirt |
+| | | | Mention on the event email to meetup attendees</ul> |
 
 ## Application process
 
