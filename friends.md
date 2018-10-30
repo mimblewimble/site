@@ -14,11 +14,12 @@ The following companies, institutions, or individuals have generously donated fi
 [<img src="assets/images/logos/kyokan_teal_white.png" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -60px;" title="Kyokan">](https://kyokan.io/)
 [<img src="assets/images/logos/hashrabbit.png" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -65px;" title="Hashrabbit">](https://hashrabbit.co/)
 [<img src="assets/images/logos/tmgox-logo.jpg" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -10px" title="TMGOX">](https://tmgox.com/)
+[<img src="assets/images/logos/beam_logo.png" style="padding:8px;vertical-align:middle;position: relative;" height="150px" width="176px" title="Beam">](https://www.beam-mw.com)
 
 
 ## Individuals
 _In alphabetical order:_
-Redouan Ahaloui - Aurel - Roy Blankman - Guy Corem - Michalis Kargakis - Jameson Lopp - Chris McCann - Jack Misteli Jean-Guillaume - Niels de Ruiter - Max Tannahill 
+Redouan Ahaloui - Aurel - Roy Blankman - Guy Corem - Michalis Kargakis - Jameson Lopp - Chris McCann - Jack Misteli Jean-Guillaume - Niels de Ruiter - Max Tannahill - Alexander Zaidelson
 
 ## Anonymous Supporters
 
