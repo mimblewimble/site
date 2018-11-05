@@ -16,11 +16,11 @@ Status: Always Open
 
 ## Amounts
 
-* Total Raised:     3.71 BTC
+* Total Raised:     4.62 BTC
 * Total Spent:      0.0 BTC
-* Current Balance:  3.71 BTC
+* Current Balance:  4.62 BTC
 
-Last updated October 3rd, 2018
+Last updated November 5th, 2018
 
 ## Bitcoin donation address:
 
