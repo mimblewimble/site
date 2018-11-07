@@ -4,7 +4,7 @@ layout: default
 
 ## Grin General Fund
 
-[General Funding for Grin's Development](general_funding.md)
+[General Funding for Grin's Development](general_funding.md), currently fully directed toward the security audit.
 
 Status: Always Open - 0.0 BTC donated to date
 
@@ -12,7 +12,7 @@ Status: Always Open - 0.0 BTC donated to date
 
 [Grin Security Audit](sec_audit.md)
 
-Status: Open -~0.03 BTC of 16 BTC Target 
+Status: Open 4.62 BTC of 16 BTC Target 
 
 [Oct 2018 - Feb 2019 Developer Funding - Yeastplume](yeastplume.md)
 
