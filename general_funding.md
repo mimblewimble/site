@@ -24,8 +24,8 @@ Last updated November 5th, 2018
 
 ## Bitcoin donation address:
 
-* bitcoin legacy [3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs](https://live.blockcypher.com/btc/address/3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs/)
-* bitcoin segwit [bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65](https://blockchair.com/bitcoin/address/bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65).
+* bitcoin legacy: [3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs](https://blockstream.info/address/3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs)
+* bitcoin segwit: [bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65](https://blockstream.info/address/bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65)
 
 Please note the 2nd address is a [Bech32 address](https://en.bitcoin.it/wiki/Bech32_adoption), so please ensure your wallet supports sending to a Bech32 address to use it. Many wallets and exchanges now support this, and you can [check adoption here](https://en.bitcoin.it/wiki/Bech32_adoption).
 
