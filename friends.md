@@ -15,7 +15,7 @@ The following companies, institutions, or individuals have generously donated fi
 [<img src="assets/images/logos/hashrabbit.png" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -65px;" title="Hashrabbit">](https://hashrabbit.co/)
 [<img src="assets/images/logos/tmgox-logo.jpg" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -10px" title="TMGOX">](https://tmgox.com/)
 [<img src="assets/images/logos/beam_logo.png" style="padding:8px;vertical-align:middle;position: relative;" height="30%" width="30%" title="Beam">](https://www.beam-mw.com)
-[<img src="assets/images/logos/lemniscap.png" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -65px;" title="Lemniscap">](https://lemniscap.com)
+[<img src="assets/images/logos/lemniscap.png" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -10px;" title="Lemniscap">](https://lemniscap.com)
 
 
 ## Individuals
