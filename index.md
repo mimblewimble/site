@@ -24,10 +24,6 @@ We need your help testing: if you're able to compile from the source, see our
 
 We're currently hard at work in building the features required for [mainnet](https://github.com/mimblewimble/grin/milestone/4).
 
-# Grincon0
-
-The first conference on Grin and Mimblewimble, [Grincon0](https://grincon.org), is taking place in Berlin on November 9. There are several [sponsorship packages available](grincon_sponsorship.md).  
-
 # [](#help) How to Contribute
 
 Find an area you can help with and do it. Open source is about collaboration
