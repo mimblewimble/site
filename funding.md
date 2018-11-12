@@ -12,7 +12,7 @@ Status: Always Open - 0.0 BTC donated to date
 
 [Grin Security Audit](sec_audit.md)
 
-Status: Open 6.03 BTC of 16 BTC Target 
+Status: Open 8.04 BTC of 16 BTC Target 
 
 [Oct 2018 - Feb 2019 Developer Funding - Yeastplume](yeastplume.md)
 
