@@ -16,7 +16,8 @@ The following companies, institutions, or individuals have generously donated fi
 [<img src="assets/images/logos/tmgox-logo.jpg" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -10px" title="TMGOX">](https://tmgox.com/)
 [<img src="assets/images/logos/beam_logo.png" style="padding:8px;vertical-align:middle;position: relative;" height="30%" width="30%" title="Beam">](https://www.beam-mw.com)
 [<img src="assets/images/logos/lemniscap.png" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -10px;" title="Lemniscap">](https://lemniscap.com)
-
+[<img src="assets/images/logos/gpuOne-white.png" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -10px;" title="GPU.one">](https://gpu.one)
+[<img src="assets/images/logos/continuecapital-black.png" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -10px;" title="Continue Capital">](https://continue.capital)
 
 ## Individuals
 _In alphabetical order:_
