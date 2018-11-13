@@ -21,8 +21,11 @@ The following companies, institutions, or individuals have generously donated fi
 
 ## Individuals
 _In alphabetical order:_
-Redouan Ahaloui - Aurel - Roy Blankman - Guy Corem - Michalis Kargakis - Jameson Lopp - Chris McCann - Jack Misteli Jean-Guillaume - Yan Pritzker - Niels de Ruiter - Max Tannahill - Alexander Zaidelson
+Redouan Ahaloui - Aurel - Roy Blankman - Guy Corem - Michalis Kargakis - Jameson Lopp - Chris McCann - Jack Misteli Jean-Guillaume - Yan Pritzker - Niels de Ruiter - Max Tannahill - Aaron Ting - Alexander Zaidelson
 
 ## Anonymous Supporters
 
 We'd also like to explicitly thank everyone who's donated to one of Grin's campaigns but chosen to remain anonymous. We're working to protect that choice!
+
+## Minimum amounts
+$100 in crypto-equivalent in order to be listed in the individuals section, $1,000 in the companies section.
