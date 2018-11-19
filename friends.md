@@ -18,10 +18,12 @@ The following companies, institutions, or individuals have generously donated fi
 [<img src="assets/images/logos/lemniscap.png" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -10px;" title="Lemniscap">](https://lemniscap.com)
 [<img src="assets/images/logos/gpuOne-white.png" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -10px;" title="GPU.one">](https://gpu.one)
 [<img src="assets/images/logos/continuecapital.png" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -10px;" title="Continue Capital">](https://continue.capital)
+<img src="assets/images/logos/chanceventures.png" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -10px;" title="Chance Ventures">
+
 
 ## Individuals
 _In alphabetical order:_
-Redouan Ahaloui - Aurel - Roy Blankman - Guy Corem - Michalis Kargakis - Jameson Lopp - Chris McCann - Jack Misteli Jean-Guillaume - Yan Pritzker - Niels de Ruiter - Max Tannahill - Aaron Ting - Alexander Zaidelson
+Redouan Ahaloui - Aurel - Roy Blankman - Guy Corem - Chance Du - Michalis Kargakis - Jameson Lopp - Chris McCann - Jack Misteli Jean-Guillaume - Yan Pritzker - Niels de Ruiter - Max Tannahill - Aaron Ting - Alexander Zaidelson
 
 ## Anonymous Supporters
 
