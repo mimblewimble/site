@@ -10,6 +10,7 @@ to undergo a security audit. We're soliciting donations:
 
 * bitcoin legacy [3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs](https://live.blockcypher.com/btc/address/3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs/)
 * bitcoin segwit [bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65](https://blockchair.com/bitcoin/address/bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65).
+* zcash t-address [t1QGYYXan3HHEuiPEfccKnUuWEP4CsVvPA5](https://explorer.zcha.in/accounts/t1QGYYXan3HHEuiPEfccKnUuWEP4CsVvPA5)
 
 Status: Open
 
