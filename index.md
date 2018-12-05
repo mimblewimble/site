@@ -2,66 +2,338 @@
 layout: default
 ---
 
-**Grin is still highly experimental technology**
+<section class="hero is-fullheight is-default is-bold">
+  <div class="hero-head">
+    {% include navigation.html %}
+  </div>
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div class="columns is-vcentered">
+        <div class="column is-5">
+          <img src="assets/images/grin_mw_logo.svg" class="hero-logo" alt="Description">
+        </div>
+        <div class="column is-6 is-offset-1">
+          <br><h1 class="title is-2" style="margin-bottom: 2rem;">
+            Meet Grin
+          </h1>
+          <h2 class="subtitle is-3">
+            the private & scalable<br> mimblewimble blockchain 
+          </h2>
+          <br>
+          <p class="has-text-centered" style="margin-top: -1rem;">
+          <a href="https://github.com/mimblewimble/grin/blob/master/doc/intro.md" class="button is-medium is-warning is-outlined">
+            What's Mimblewimble?
+          </a>
+          <a href="https://github.com/mimblewimble/grin" class="button is-medium is-warning is-outlined">
+            <i class="fab fa-github"></i>
+          </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-[Grin](https://github.com/mimblewimble/grin) is a blockchain and a
-cryptocurrency focused on privacy and scalability. Grin is also an
-implementation of the MimbleWimble transaction format with the extensions
-required for a complete blockchain.
+  <div class="hero-foot">
+    <!-- CTA BOX -->
+    <div class="box cta">
+      <p class="has-text-centered">
+      <span class="tag is-warning">
+        Currently Live: Testnet 4
+      </span> 
+      <span href="#" style="margin-left: 10px;">
+        Grin is under development. Launch planned for early 2019.
+      </span>
+      </p>
+    </div>
+    <!-- // CTA BOX -->
+  </div>
+</section>
+<!-- //HERO -->
 
-This site is geared toward developers or people who are willing to help grow a
-technology that's still very early stage. If you're interested in the
-cryptocurrency, how to use it or how to mine it, you will have to _wait until
-it's ready_.
+<!-- BODY -->
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-10 is-offset-1">
+        <div class="content">
 
-# Status
+          <!-- HEADER -->
+          <section>
+            <h1 class="title">
+              What's Grin?
+            </h1>
+            <h2>
+              Electronic transactions for all. Without censorship or restrictions.
+            </h2>
+            <p>
+            Grin empowers anyone to transact or save modern money without the fear of external control or oppression. Grin is designed for the decades to come, not just tomorrow. Grin wants be usable by everyone, regardless of borders, culture, skills or access.
+            </p>
+          </section>
+          <!-- //HEADER  -->
 
-Our [Code Security Audit](sec_audit.md) funding campaign is open. Please consider donating!
+          <br><br>
 
-Grin's fourth testnet has been [released](https://www.grin-forum.org/t/grin-testnet-4-launch-announcement/993)!
-We need your help testing: if you're able to compile from the source, see our
-[building guide](https://github.com/mimblewimble/grin/blob/master/doc/build.md).
+          <!-- DESCRIPTION DOTS -->
+          <section class="columns dots">
 
-We're currently hard at work in building the features required for [mainnet](https://github.com/mimblewimble/grin/milestone/4).
+            <!-- DOT -->
+            <div class="column">
+              <h2 class="subtitle">
+                <img src="assets/images/privacy.svg">
+                Private
+              </h2>
+              <span> Grin has no amounts and no addresses. Transactions are
+                additionally obscured. To hide where a newly created
+                transaction comes from, it gets relayed privately (a
+                "random walk") among peers before it is publicly announced.
+              </span>
+            </div>
+            <!-- //DOT -->
 
-# [](#help) How to Contribute
+            <!-- DOT -->
+            <div class="column">
+              <h2 class="subtitle">
+                <img src="assets/images/scale.svg">
+                Scalable
+              </h2>
+              <span>
+                MimbleWimble leverages cryptography to allow most of the blockchain data to be removed. In particular, nearly all past transaction data is pruned.
+              </span>
+            </div>
+            <!-- //DOT -->
 
-Find an area you can help with and do it. Open source is about collaboration
-and open participation. Grin has an open [Code of Conduct](https://github.com/mimblewimble/grin/blob/master/CODE_OF_CONDUCT.md),
-please be aware of it.
+            <!-- DOT -->
+            <div class="column">
+              <h2 class="subtitle">
+                <img src="assets/images/nodes.svg">
+                Open
+              </h2>
+              <span>
+                Grin is developed openly, by open source developers based in different countries. It's not controlled by any company, foundation or individual. The coin distribution is designed to be as fair (but not gratis) as is known to be possible.
+              </span>
+            </div>
+            <!-- //DOT -->
+          </section>
+          <!-- //DESCRIPTION DOTS -->
 
-For developers, see our [contribution guide](https://github.com/mimblewimble/grin/blob/master/CONTRIBUTING.md).
-An [open wiki](https://github.com/mimblewimble/docs/wiki) lets anyone add missing documentation
-and help others.
+          <section>
+              <div class="columns">
+                <div class="column">
+                  <div class="content">
+                    <h1 class="title is-1">
+                      Community Initiatives
+                    </h1>
 
-# Community Funding
+                      <div class="tile is-ancestor">
+                        <div class="tile is-vertical is-parent">
+                          <div class="tile is-child box">
+                            <p class="subtitle">TestNet 4</p> <hr>
+                            <p>Grin’s fourth testnet has been <a href="https://www.grin-forum.org/t/grin-testnet-4-launch-announcement/993">released</a>! We need your help testing: if you’re able to compile from the source, <a href="https://github.com/mimblewimble/grin/blob/master/doc/build.md">see our building guide</a>.</p>
+                          </div>
+                          <div class="tile is-child box">
+                            <p class="subtitle">MainNet, Onwards!</p> <hr>
+                            <p>
+                            We’re currently hard at work in building the features required for mainnet.
+                            <br><br>
+                            Check out our <a href="https://github.com/mimblewimble/grin/milestone/4">feature list</a> and jump in.
+                            </p>
+                          </div>
+                          <div class="tile is-child box">
+                            <p class="subtitle">
+                            <a href="sec_audit">Crowdfunding the Security Audit</a>
+                            </p> <hr>
+                            <p>
+                            TL;DR Grin is nearing its final phases of development before the release of its cryptocurrency network (mainnet).
+                            </p>
+                            <br><br>
+                            <p>
+                            To do so safely, the Grin codebase needs to undergo a security audit. We’re soliciting donations:
+                            <br><br>
+                            <ul>
+                              <li>bitcoin legacy <a class="address-link" href="https://live.blockcypher.com/btc/address/3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs/">3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs</a></li>
+                              <li>bitcoin segwit <a class="address-link" href="https://blockchair.com/bitcoin/address/bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65">bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65</a></li>
+                            </ul>
+                            </p>
+                            <br><br>
+                            <p>
+                            <a href="sec_audit">Read how we're conducting our security audit and status of funding.</a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </section>
 
-If you're an individual, company or institution excited about the potential of
-Grin or MimbleWimble, we humbly ask if you'd consider making a financial
-contribution to the project's development. We're experimenting with a
-[100% community-driven funding model](funding.md).
+          <!-- FUNDING -->
+          <section>
+            <h1 class="title is-1">
+              Community Funding
+            </h1>
+            <p>
+            Grin is launched fairly, free of ICO, pre-mine or founder’s reward. We rely on donations to keep working on the project. Support the movement by purchasing some swag or making a donation.
+            </p><br>
+            <a href="funding" class="button is-warning is-large donate-button">Donate Now</a>
+            <a href="https://tmgox.com" class="button is-info is-outlined is-large buy-swag-button">
+              <img src="assets/images/hat.png" style="height: 8rem;">Buy Swag
+            </a>
+          </section><br><br>
+          <!-- //FUNDING -->
 
-Companies or individuals who have donated to Grin's Development are listed on our [Friends of Grin page](friends.md).
 
-# Find us:
+          <!-- PATRONS -->
+          <section class="patron">
+            <h1 class="title">
+              Patrons
+            </h1>
+            <p>
+            If you’re an individual, company or institution excited about the potential of Grin or MimbleWimble, we humbly ask if you’d consider making a financial contribution to the project’s development. We’re experimenting with a <a href="funding.html">100% community-driven funding model</a>.
+            </p>
 
-* Chat: [Gitter](https://gitter.im/grin_community/Lobby).
-* Forum: [grin-forum.org](https://www.grin-forum.org/).
-* Mailing list: join the [~MimbleWimble team](https://launchpad.net/~mimblewimble) and subscribe on Launchpad.
+            <br><br>
 
-# Documentation
+            <!-- COMPANY PATRONS -->
+            <div class=" companies">
+              <h2 class="subtitle">
+                Companies
+              </h2>
 
-We have a small but growing set of documents. If you're looking for something in
-particular and it's missing, it may be a great area to [contribute](#help) to our
-[open wiki](https://github.com/mimblewimble/docs/wiki).
+              <!-- SPONSOR ROW 1 -->
+              <div class="level is-vcentered">
+                <div class="level-item">
+                  <a href="https://bitonic.nl">
+                    <img src="assets/images/patron/bitonic.svg">
+                  </a>
+                </div>
+                <div class="level-item inverted">
+                  <a href="https://www.blockcypher.com/">
+                    <img src="assets/images/patron/blockcypher.svg">
+                  </a>
+                </div>
+                <div class="level-item inverted">
+                  <a href="https://cypher.capital/">
+                    <img src="assets/images/patron/cypher_capital.png">
+                  </a>
+                </div>
+                <div class="level-item inverted">
+                  <a href="https://hashrabbit.co/">
+                    <img src="assets/images/patron/hashrabbit.png">
+                  </a>
+                </div>
+              </div>
+              <!-- //SPONSOR ROW 1 -->
 
-* [Grin for Bitcoiners](https://github.com/mimblewimble/grin/blob/master/doc/grin4bitcoiners.md)
-* [Introduction to the Grin and MimbleWimble chain format](https://github.com/mimblewimble/grin/blob/master/doc/intro.md).
-* [More information on range proofs](https://github.com/mimblewimble/grin/blob/master/doc/rangeproofs.md)
-* [Cuckoo Cycle, our proof of work algorithm](https://github.com/mimblewimble/grin/blob/master/doc/pow/pow.md)
 
-# Resources
+              <!-- SPONSOR ROW 2 -->
+              <div class="level is-vcentered">
+                <div class="level-item inverted">
+                  <a href="https://www.kryptonite1.co/">
+                    <img src="assets/images/patron/kr1_med.png">
+                  </a>
+                </div>
+                <div class="level-item inverted">
+                  <a href="https://www.kyokan.io/">
+                    <img src="assets/images/patron/kyokan.png">
+                  </a>
+                </div>
+                <div class="level-item">
+                  <a href="https://tmgox.com/">
+                    <img src="assets/images/patron/tmgox.jpg">
+                  </a>
+                </div>
+              </div>
+              <!-- //SPONSOR ROW 2 -->
+            </div>
+            <!-- //COMPANY PATRONS -->
 
-* [Grin's Github page](https://github.com/mimblewimble/grin)
-* [Original MimbleWimble white paper](https://download.wpsoftware.net/bitcoin/wizardry/mimblewimble.txt)
-* [Andrew Poelstra's MimbleWimble follow up paper](https://download.wpsoftware.net/bitcoin/wizardry/mimblewimble.pdf)
+
+
+            <!-- PRIVATE PATRONS -->
+            <div>
+              <h2 class="subtitle has-top-space">
+                Private Funding Contributors
+              </h2>
+
+              <!-- SPONSOR ROW 3 -->
+              <div class="level is-vcentered names">
+                <div class="level-item">
+                  <p>
+                  Aurel
+                  </p>
+                </div>
+                <div class="level-item">
+                  <p>
+                  Chris McCann
+                  </p>
+                </div>
+                <div class="level-item">
+                  <p>
+                  Jack Misteli
+                  </p>
+                </div>
+                <div class="level-item">
+                  <p>
+                  Jean-Guillaume
+                  </p>
+                </div>
+                <div class="level-item">
+                  <p>
+                  Jameson Lopp
+                  </p>
+                </div>
+              </div>
+              <!-- //SPONSOR ROW 3 -->
+
+              <!-- SPONSOR ROW 3 -->
+              <div class="level is-vcentered names">
+                <div class="level-item">
+                  <p>
+                  Max Tannahill
+                  </p>
+                </div>
+                <div class="level-item">
+                  <p>
+                  Michalis Kargakis
+                  </p>
+                </div>
+                <div class="level-item">
+                  <p>
+                  Redouan Ahaloui
+                  </p>
+                </div>
+                <div class="level-item">
+                  <p>
+                  Roy Blankman
+                  </p>
+                </div>
+                <div class="level-item">
+                  <p>
+                  Niels de Ruiter
+                  </p>
+                </div>
+              </div>
+              <!-- //SPONSOR ROW 3 -->
+            </div>
+            <!-- //PRIVATE PATRONS -->
+
+            <!-- ANON PATRONS -->
+            <div>
+              <h2 class="subtitle has-top-space">
+                Anonymous Funding Contributors
+              </h2>
+              <p>
+              And all our great anonymous supporters! We’re not forgetting your contribution, and are working to protect that choice!
+              </p>
+            </div>
+            <!-- //ANON PATRONS -->
+          </section>
+          <!-- //PATRONS -->
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- //BODY -->

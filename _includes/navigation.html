@@ -1,0 +1,103 @@
+<nav class="navbar is-fixed-top" role="navigation" aria-label="dropdown navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img id="logo" class="largeLogo" src="assets/images/grin_mw_logo.svg" alt="Logo">
+      </a>
+      <span class="navbar-burger burger" data-target="navbarMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </div>
+    <div id="navbarMenu" class="navbar-menu">
+      <div class="navbar-end">
+        {% if page.url != '/' %}
+        <div class="navbar-item">
+          <a href="{{ site.url }}" class="navbar-item">
+            Home
+          </a>
+        </div>
+        <!-- //navbar item -->
+        {% endif %}
+        <!-- navbar item -->
+        <div class="navbar-item">
+          <a href="https://github.com/mimblewimble/grin/releases" class="navbar-item">
+            Github
+          </a>
+        </div>
+        <!-- //navbar item -->
+
+        <!-- navbar item -->
+        <div class="navbar-item">
+          <a href="https://www.grin-forum.org/" class="navbar-item">
+            Forum
+          </a>
+        </div>
+        <!-- //navbar item -->
+
+        <!-- navbar item -->
+        <div class="navbar-item">
+          <a href="https://gitter.im/grin_community/Lobby" class="navbar-item">
+            Chat
+          </a>
+        </div>
+        <!-- //navbar item -->
+
+        <!-- dropdown -->
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Build
+          </a>
+
+          <div class="navbar-dropdown">
+            <a href="https://github.com/mimblewimble/grin/blob/master/doc/grin4bitcoiners.md" class="navbar-item">
+              Build Steps
+            </a>
+            <a href="https://github.com/mimblewimble/docs/wiki/How-to-use-grin" class="navbar-item">
+              Using Grin
+            </a>
+            <a href="https://github.com/mimblewimble/grin-miner" class="navbar-item">
+              Grin Miner
+            </a>
+            <hr class="navbar-divider">
+            <div class="navbar-item">
+              <span class="tag is-warning">
+                Live: Testnet 4
+              </span> 
+            </div>
+          </div>
+        </div>
+        <!-- //dropdown -->
+
+        <!-- dropdown -->
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Learn
+          </a>
+
+          <div class="navbar-dropdown">
+            <a href="https://github.com/mimblewimble/grin/blob/master/doc/grin4bitcoiners.md" class="navbar-item">
+              Grin for Bitcoiners
+            </a>
+            <a href="https://github.com/mimblewimble/grin/blob/master/doc/intro.md" class="navbar-item">
+              MimWim Chain Format
+            </a>
+            <a href="https://github.com/mimblewimble/grin/blob/master/doc/rangeproofs.md" class="navbar-item">
+              Range Proofs
+            </a>
+            <a href="https://github.com/mimblewimble/grin/blob/master/doc/pow/pow.md" class="navbar-item">
+              Cuckoo Cycle PoW
+            </a>
+            <!-- <hr class="navbar-divider">
+              <div class="navbar-item">
+              Version 0.7.2
+              </div> -->
+          </div>
+        </div>
+        <!-- //dropdown -->
+
+      </div>
+    </div>
+  </div>
+</nav>

@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 ---
+
 # Friends of Grin
 
 The following companies, institutions, or individuals have generously donated financial resources to the Grin project under our [community funding model](funding.md). We're grateful for their support, and are proud to display their logos or names as supporters of Grin.
@@ -22,6 +23,7 @@ The following companies, institutions, or individuals have generously donated fi
 [<img src="assets/images/logos/Mega-Pool-Logo-trans.png" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -10px;" title="Mega Pool">](https://www.megapool.info)
 
 ## Individuals
+
 _In alphabetical order:_
 Redouan Ahaloui - Aurel - Roy Blankman - Guy Corem - Chance Du - Michalis Kargakis - Jameson Lopp - Chris McCann - Jack Misteli Jean-Guillaume - Yan Pritzker - Niels de Ruiter - Max Tannahill - Aaron Ting - Alexander Zaidelson
 
@@ -30,4 +32,5 @@ Redouan Ahaloui - Aurel - Roy Blankman - Guy Corem - Chance Du - Michalis Kargak
 We'd also like to explicitly thank everyone who's donated to one of Grin's campaigns but chosen to remain anonymous. We're working to protect that choice!
 
 ## Minimum amounts
+
 $100 in crypto-equivalent in order to be listed in the individuals section, $1,000 in the companies section.
