@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 # Grin General Fund
@@ -12,20 +12,20 @@ Status: Always Open
 
 ## Current Identified Needs:
 
-* [Professional security audit](sec_audit.md)
+- [Professional security audit](sec_audit.md)
 
 ## Amounts
 
-* Total Raised:     9.1 BTC
-* Total Spent:      0.0 BTC
-* Current Balance:  9.1 BTC
+- Total Raised: 9.1 BTC
+- Total Spent: 0.0 BTC
+- Current Balance: 9.1 BTC
 
 Last updated November 12th, 2018
 
 ## Bitcoin donation address:
 
-* bitcoin legacy [3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs](https://live.blockcypher.com/btc/address/3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs/)
-* bitcoin segwit [bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65](https://blockchair.com/bitcoin/address/bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65).
+- bitcoin legacy [3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs](https://live.blockcypher.com/btc/address/3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs/)
+- bitcoin segwit [bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65](https://blockchair.com/bitcoin/address/bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65).
 
 Please note the 2nd address is a [Bech32 address](https://en.bitcoin.it/wiki/Bech32_adoption), so please ensure your wallet supports sending to a Bech32 address to use it. Many wallets and exchanges now support this, and you can [check adoption here](https://en.bitcoin.it/wiki/Bech32_adoption).
 
@@ -43,21 +43,16 @@ This fund is managed entirely by the Grin Technical Council, and all spending de
 
 Some examples of where proceeds of this fund might be allocated (by no means exhaustive and subject to change):
 
-* Professional security audits
-* Service fees related to build and deployment infrastructure
-* Website design and/or development or other marketing materials
-* Presence at conferences
-* Contributing to developer campaigns or other specific development work if required
-* Contributions toward open Grin ASIC design
-* Legal support as and when needed
+- Professional security audits
+- Service fees related to build and deployment infrastructure
+- Website design and/or development or other marketing materials
+- Presence at conferences
+- Contributing to developer campaigns or other specific development work if required
+- Contributions toward open Grin ASIC design
+- Legal support as and when needed
 
 ## Further Information
 
 The Grin project is strictly non-profit. Please refer back to our [Funding overview page](funding.md) for details on our fundraising appoach and our inclusive development philosophy.
 
 As always, anyone donating to this fund can optionally have themselves listed on the [Friends of Grin Page](friends.md).
-
-
-
-
-

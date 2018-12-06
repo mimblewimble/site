@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ## Grin General Fund
@@ -12,7 +12,7 @@ Status: Always Open - 0.0 BTC donated to date
 
 [Grin Security Audit](sec_audit.md)
 
-Status: Open 9.1 BTC of 16 BTC Target 
+Status: Open 9.1 BTC of 16 BTC Target
 
 [Oct 2018 - Feb 2019 Developer Funding - Yeastplume](yeastplume.md)
 
@@ -24,11 +24,11 @@ Status: Closed - ~€48,300 of €45,000 Target (Crypto balances on campaign pag
 
 Unlike the vast majority of blockchain projects, Grin's development is not motivated by profit for either its developers or early adopters. As a measure of this, the project has pledged that:
 
-* Grin will not engage in an ICO
-* Grin's launch will be pre-announced, open, and fair. There will be no pre-mining or any other funny business
-* Grin will not channel a mandatory percentage of mining rewards back to the developers (although it reserves the right to include a mechanism for doing so voluntarily)
-* Grin will not seek or accept any capital that comes with the expectation of future monetary return
-* Grin will not seek or accept any capital that comes with the expectation of being able to unduly influence Grin's decision-making process
+- Grin will not engage in an ICO
+- Grin's launch will be pre-announced, open, and fair. There will be no pre-mining or any other funny business
+- Grin will not channel a mandatory percentage of mining rewards back to the developers (although it reserves the right to include a mechanism for doing so voluntarily)
+- Grin will not seek or accept any capital that comes with the expectation of future monetary return
+- Grin will not seek or accept any capital that comes with the expectation of being able to unduly influence Grin's decision-making process
 
 Thus far, Grin's development has been mostly a part-time effort, with volunteers contributing their code on an ad-hoc basis. This will continue in any event, but the reality is that a project of Grin's scope would be greatly helped by having a source of funding. This would allow Grin to reach its potential more quickly, more reliably, with better supporting infrastructure, and with a far greater chance of success competing against (or co-existing with) well-funded blockchain projects.
 
@@ -36,7 +36,7 @@ To keep Grin open and free from controlling influences, the project will attempt
 
 # Friends of Grin
 
-We believe that any donors, large or small, should be given recognition for their contribution. Any individual donor who wishes to be listed on our [Friends of Grin](friends.md)  page will be listed, and any corporate or institutional Donors making a significant contribution to Grin's development will have their logo displayed (if desired).
+We believe that any donors, large or small, should be given recognition for their contribution. Any individual donor who wishes to be listed on our [Friends of Grin](friends.md) page will be listed, and any corporate or institutional Donors making a significant contribution to Grin's development will have their logo displayed (if desired).
 
 We are also happy to accept recurring sponsorships and acknowledge your support prominently on our Friends of Grin page. However, as per our pledges above, we cannot accept sponsorships or donations predicated on being able to unduly influence Grin's direction.
 
@@ -44,12 +44,12 @@ We are also happy to accept recurring sponsorships and acknowledge your support 
 
 As in all things Grin, we want to ensure that the funding process remains as transparent as all other aspects of the project. To this end, Grin will actively seek community funding via:
 
-* [A general fund](general_funding.md), proceeds of which will be allocated by Grin's technical council according to project need
-* Specific funding campaigns on a need-by-need basis. Examples of a "Need" might be:
+- [A general fund](general_funding.md), proceeds of which will be allocated by Grin's technical council according to project need
+- Specific funding campaigns on a need-by-need basis. Examples of a "Need" might be:
 
-   + Allow developer Dobby to work full-time for 6 months
-   + Hosting fees for X for the next year
-   + Purchase test mining hardware
+  - Allow developer Dobby to work full-time for 6 months
+  - Hosting fees for X for the next year
+  - Purchase test mining hardware
 
 The general fund will be allocated by the Grin council as needs are identified, with all spending decisions posted and made public. Campaigns will specifically outline campaign funds will be used, and the owner of the campaign will be responsible for updating the community on progress.
 
@@ -65,10 +65,10 @@ Donors and sponsors should understand that the funds donated may not always go t
 
 Campaigns which go towards funding developer time will be subject to additional rules:
 
-* Developer campaigns will target enough money to pay the equivalent of a daily rate+expenses over a certain time period.
-* Developers are responsible for controlling their own campaign funds, and are personally accountable for them to the community.
-* Campaign amounts will be listed as per their local fiat rates.
-* Developers will provide weekly updates on progress via a method of their choosing (linked from the funding page).
+- Developer campaigns will target enough money to pay the equivalent of a daily rate+expenses over a certain time period.
+- Developers are responsible for controlling their own campaign funds, and are personally accountable for them to the community.
+- Campaign amounts will be listed as per their local fiat rates.
+- Developers will provide weekly updates on progress via a method of their choosing (linked from the funding page).
 
 # Disclaimer
 
