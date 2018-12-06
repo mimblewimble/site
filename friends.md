@@ -10,7 +10,7 @@ The following companies, institutions, or individuals have generously donated fi
 
 <!-- Temporary black div until we convert to black on white logos -->
 <div style="background: #000000">
-<div class="columns">
+<div id="friend-logos" class="columns">
 	<div class="column">
 		<a href="https://www.bitonic.nl/"><img src="assets/images/logos/bitonic-white.png" title="Bitonic"></a>
 		<a href="https://www.kryptonite1.co/"><img src="assets/images/logos/kr1_med.png" title="KR1"></a>
