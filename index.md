@@ -82,8 +82,9 @@ layout: default
                 <img src="assets/images/privacy.svg">
                 Private
               </h2>
-              <span> Grin has no amounts and no addresses. Transactions are
-                additionally obscured. To hide where a newly created
+              <span>
+								Grin has no amounts and no addresses. Transactions can be
+								trivially aggregated. To hide where a newly created
                 transaction comes from, it gets relayed privately (a
                 "random walk") among peers before it is publicly announced.
               </span>
@@ -97,7 +98,9 @@ layout: default
                 Scalable
               </h2>
               <span>
-                MimbleWimble leverages cryptography to allow most of the blockchain data to be removed. In particular, nearly all past transaction data is pruned.
+                MimbleWimble leverages cryptography to allow most of the
+								past transaction data to be removed. This guarantees Grin
+								won't crumble under its own weight in the long term.
               </span>
             </div>
             <!-- //DOT -->
@@ -109,7 +112,10 @@ layout: default
                 Open
               </h2>
               <span>
-                Grin is developed openly, by open source developers based in different countries. It's not controlled by any company, foundation or individual. The coin distribution is designed to be as fair (but not gratis) as is known to be possible.
+                Grin is developed openly, by developers distributed all over
+								the world. It's not controlled by any company,
+								foundation or individual. The coin distribution is designed
+								to be as fair (but not gratis) as is known to be possible.
               </span>
             </div>
             <!-- //DOT -->
