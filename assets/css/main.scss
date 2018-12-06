@@ -112,13 +112,16 @@ ul li a {
 
 #friend-logos .cell {
 	height: 120px;
+	line-height: 110px;
 	max-height: 120px;
 	text-align: center;
 	margin: 10px;
 	background: #303030;
+	padding: 10px;
 }
 
 #friend-logos img {
 	max-width: 100%;
 	max-height: 100%;
+	vertical-align: 10px;
 }
