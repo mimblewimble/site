@@ -9,7 +9,6 @@ The following companies, institutions, or individuals have generously donated fi
 ## Companies
 
 <!-- Temporary black div until we convert to black on white logos -->
-<div style="background: #000000">
 <div id="friend-logos" class="columns">
 	<div class="column">
 		<div class="cell">
@@ -56,7 +55,6 @@ The following companies, institutions, or individuals have generously donated fi
 			<img src="assets/images/logos/chanceventures.png" title="Chance Ventures">
 		</div>
 	</div>
-</div>
 </div>
 
 ## Individuals
