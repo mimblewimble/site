@@ -8,6 +8,8 @@ The following companies, institutions, or individuals have generously donated fi
 
 ## Companies
 
+<!-- Temporary black div until we convert to black on white logos -->
+<div style="background: #000000">
 [<img src="assets/images/logos/bitonic-white.png" width="30%" style="padding:8px;vertical-align:middle;" title="Bitonic">](https://www.bitonic.nl/)
 [<img src="assets/images/logos/blockcypher_logo_white.svg" width="30%" style="padding:8px;vertical-align:middle;" title="BlockCypher">](https://www.blockcypher.com/)
 [<img src="assets/images/logos/cypher_capital.png" width="30%" style="padding:8px 0px 8px 8px;position: relative; top: 34px;" title="Cypher Capital">](http://cyphercapital.net)
@@ -21,6 +23,7 @@ The following companies, institutions, or individuals have generously donated fi
 [<img src="assets/images/logos/continuecapital.png" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -10px;" title="Continue Capital">](https://continue.capital)
 <img src="assets/images/logos/chanceventures.png" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -10px;" title="Chance Ventures">
 [<img src="assets/images/logos/Mega-Pool-Logo-trans.png" width="30%" style="padding:8px;vertical-align:middle;position: relative; top: -10px;" title="Mega Pool">](https://www.megapool.info)
+</div>
 
 ## Individuals
 
