@@ -12,23 +12,49 @@ The following companies, institutions, or individuals have generously donated fi
 <div style="background: #000000">
 <div id="friend-logos" class="columns">
 	<div class="column">
-		<a href="https://www.bitonic.nl/"><img src="assets/images/logos/bitonic-white.png" title="Bitonic"></a>
-		<a href="https://www.kryptonite1.co/"><img src="assets/images/logos/kr1_med.png" title="KR1"></a>
-		<a href="https://www.tmgox.com/"><img src="assets/images/logos/tmgox-logo.jpg" title="KR1"></a>
-		<a href="https://gpu.one/"><img src="assets/images/logos/gpuOne-white.png" title="GPU.one"></a>
-		<a href="https://www.megapool.info/"><img src="assets/images/logos/Mega-Pool-Logo-trans.png" title="Mega Pool"></a>
+		<div class="cell">
+			<a href="https://www.bitonic.nl/"><img src="assets/images/logos/bitonic-white.png" title="Bitonic"></a>
+		</div>
+		<div class="cell">
+			<a href="https://www.kryptonite1.co/"><img src="assets/images/logos/kr1_med.png" title="KR1"></a>
+		</div>
+		<div class="cell">
+			<a href="https://www.tmgox.com/"><img src="assets/images/logos/tmgox-logo.jpg" title="KR1"></a>
+		</div>
+		<div class="cell">
+			<a href="https://gpu.one/"><img src="assets/images/logos/gpuOne-white.png" title="GPU.one"></a>
+		</div>
+		<div class="cell">
+			<a href="https://www.megapool.info/"><img src="assets/images/logos/Mega-Pool-Logo-trans.png" title="Mega Pool"></a>
+		</div>
 	</div>
 	<div class="column">
-		<a href="https://www.blockcypher.com/"><img src="assets/images/logos/blockcypher_logo_white.svg" title="BlockCypher"></a>
-		<a href="https://kyokan.io/"><img src="assets/images/logos/kyokan_teal_white.png" title="BlockCypher"></a>
-		<a href="https://beam-mw.com/"><img src="assets/images/logos/beam_logo.png" title="Beam"></a>
-		<a href="https://continue.capital/"><img src="assets/images/logos/continuecapital.png" title="Continue Capital"></a>
+		<div class="cell">
+			<a href="https://www.blockcypher.com/"><img src="assets/images/logos/blockcypher_logo_white.svg" title="BlockCypher"></a>
+		</div>
+		<div class="cell">
+			<a href="https://kyokan.io/"><img src="assets/images/logos/kyokan_teal_white.png" title="BlockCypher"></a>
+		</div>
+		<div class="cell">
+			<a href="https://beam-mw.com/"><img src="assets/images/logos/beam_logo.png" title="Beam"></a>
+		</div>
+		<div class="cell">
+			<a href="https://continue.capital/"><img src="assets/images/logos/continuecapital.png" title="Continue Capital"></a>
+		</div>
 	</div>
 	<div class="column">
-		<a href="http://cyphercapital.net/"><img src="assets/images/logos/cypher_capital.png" title="Cypher Capital"></a>
-		<a href="https://hashrabbit.co/"><img src="assets/images/logos/hashrabbit.png" title="Cypher Capital"></a>
-		<a href="https://lemniscap.com/"><img src="assets/images/logos/lemniscap.png" title="Lemniscap"></a>
-		<img src="assets/images/logos/chanceventures.png" title="Chance Ventures">
+		<div class="cell">
+			<a href="http://cyphercapital.net/"><img src="assets/images/logos/cypher_capital.png" title="Cypher Capital"></a>
+		</div>
+		<div class="cell">
+			<a href="https://hashrabbit.co/"><img src="assets/images/logos/hashrabbit.png" title="Cypher Capital"></a>
+		</div>
+		<div class="cell">
+			<a href="https://lemniscap.com/"><img src="assets/images/logos/lemniscap.png" title="Lemniscap"></a>
+		</div>
+		<div class="cell">
+			<img src="assets/images/logos/chanceventures.png" title="Chance Ventures">
+		</div>
 	</div>
 </div>
 </div>
