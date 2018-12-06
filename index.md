@@ -193,6 +193,7 @@ layout: default
             <p>
             If you’re an individual, company or institution excited about the potential of Grin or MimbleWimble, we humbly ask if you’d consider making a financial contribution to the project’s development. We’re experimenting with a <a href="funding.html">100% community-driven funding model</a>.
             </p>
+						<br><br>
 						<p>We sincerely thank <a href="friends.html">all our past patrons</a> for their support.</p>
             <!-- //ANON PATRONS -->
           </section>
