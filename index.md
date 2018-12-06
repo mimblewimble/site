@@ -17,7 +17,7 @@ layout: default
             Meet Grin
           </h1>
           <h2 class="subtitle is-3">
-            the private & scalable<br> mimblewimble blockchain 
+            the private & friendly<br> mimblewimble blockchain 
           </h2>
           <br>
           <p class="has-text-centered" style="margin-top: -1rem;">
@@ -41,7 +41,7 @@ layout: default
         Currently Live: Testnet 4
       </span> 
       <span href="#" style="margin-left: 10px;">
-        Grin is under development. Launch planned for early 2019.
+        Grin is under development. Launch planned for Jan. 15th 2019.
       </span>
       </p>
     </div>
@@ -184,9 +184,9 @@ layout: default
 
           <!-- PATRONS -->
           <section class="patron">
-            <h1 class="title">
+            <h2 class="title">
               Patrons
-            </h1>
+            </h2>
             <p>
             If you’re an individual, company or institution excited about the potential of Grin or MimbleWimble, we humbly ask if you’d consider making a financial contribution to the project’s development. We’re experimenting with a <a href="funding.html">100% community-driven funding model</a>.
             </p>
@@ -195,9 +195,9 @@ layout: default
 
             <!-- COMPANY PATRONS -->
             <div class=" companies">
-              <h2 class="subtitle">
+              <h3 class="subtitle">
                 Companies
-              </h2>
+              </h3>
 
               <!-- SPONSOR ROW 1 -->
               <div class="level is-vcentered">
@@ -251,9 +251,9 @@ layout: default
 
             <!-- PRIVATE PATRONS -->
             <div>
-              <h2 class="subtitle has-top-space">
+              <h3 class="subtitle has-top-space">
                 Private Funding Contributors
-              </h2>
+              </h3>
 
               <!-- SPONSOR ROW 3 -->
               <div class="level is-vcentered names">
