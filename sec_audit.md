@@ -2,27 +2,29 @@
 layout: page
 ---
 
+{% assign current_amount = 10.1 %}
+{% assign target_amount = 16.0 %}
+
 # Security Audit Funding
 
-<p class="has-text-right">
-62.5% Funded
-</p>
+{:.has-text-right}
+{{current_amount| divided_by: target_amount | times: 100.0 | round}}% Funded
 
-<progress class="progress is-large is-success" value=".568" max="1"></progress>
+<progress class="progress is-large is-success" value="{{current_amount| divided_by: target_amount}}" max="1"></progress>
 
 TL;DR Grin is nearing its final phases of development before the release of
 its cryptocurrency network (mainnet). To do so safely, the Grin codebase needs
 to undergo a security audit. We're soliciting donations:
 
-- bitcoin legacy [3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs](https://live.blockcypher.com/btc/address/3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs/)
-- bitcoin segwit [bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65](https://blockchair.com/bitcoin/address/bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65).
-- zcash t-address [t1QGYYXan3HHEuiPEfccKnUuWEP4CsVvPA5](https://explorer.zcha.in/accounts/t1QGYYXan3HHEuiPEfccKnUuWEP4CsVvPA5)
+- bitcoin legacy [3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs](https://live.blockcypher.com/btc/address/3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs/){:.address-link}
+- bitcoin segwit [bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65](https://blockchair.com/bitcoin/address/bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65){:.address-link}
+- zcash t-address [t1QGYYXan3HHEuiPEfccKnUuWEP4CsVvPA5](https://explorer.zcha.in/accounts/t1QGYYXan3HHEuiPEfccKnUuWEP4CsVvPA5){:.address-link}
 
 Status: Open
 
-Goal: 16 BTC
+Goal: {{target_amount | round}} BTC
 
-Raised: 10.1 BTC
+Raised: {{current_amount}} BTC
 
 ## Who?
 
