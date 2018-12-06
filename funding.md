@@ -51,7 +51,7 @@ As in all things Grin, we want to ensure that the funding process remains as tra
   - Hosting fees for X for the next year
   - Purchase test mining hardware
 
-The general fund will be allocated by the Grin council as needs are identified, with all spending decisions posted and made public. Campaigns will specifically outline campaign funds will be used, and the owner of the campaign will be responsible for updating the community on progress.
+The general fund will be allocated by the Grin council as needs are identified, with all spending decisions posted and made public. Campaigns will specifically outline how campaign funds will be used, and the owner of the campaign will be responsible for updating the community on progress.
 
 Since Grin doesn't currently have a foundation, general donations will go into a 3 of 5 multisig wallet, while specific campaign funds will go directly into an account controlled by the person making the request, (which will be shown alongside the funding request). This is to minimize exposure to the project as a whole, and to ensure that the community has 100% visibility on who is responsible for which funds. This may change as Grin's governance model evolves, but for now this arrangement remains the safest for the project.
 

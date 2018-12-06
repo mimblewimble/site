@@ -34,7 +34,7 @@ Raised: 10.1 BTC
   who believes Grin makes an important contribution in furthering some of those
   early cryptocurrency ideals.
 - You, the technology enthusiast, who sees something in Grin that has never
-  been tried before and is new an exciting.
+  been tried before and is new and exciting.
 - You, who's not in any of the above categories, but believes that the current
   financial system status quo could use a good kick in the pants.
 
