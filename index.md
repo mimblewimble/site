@@ -147,7 +147,7 @@ layout: default
                           </div>
                           <div class="tile is-child box">
                             <p class="subtitle">
-                            <a href="sec_audit">Crowdfunding the Security Audit</a>
+                            Crowdfunding the Security Audit
                             </p> <hr>
                             <p>
                             Grin is nearing its final phases of development before the release of its cryptocurrency network (mainnet). To do so safely, the Grin codebase needs to undergo a security audit. We’re soliciting donations:
