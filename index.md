@@ -17,7 +17,7 @@ layout: default
             Meet Grin
           </h1>
           <h2 class="subtitle is-3">
-            the private & friendly<br> mimblewimble blockchain 
+            the private & lightweight<br> mimblewimble blockchain 
           </h2>
           <br>
           <p class="has-text-centered" style="margin-top: -1rem;">
