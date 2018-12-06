@@ -5,7 +5,7 @@ layout: page
 # Security Audit Funding
 
 <p class="has-text-right">
-56.8% Funded
+62.5% Funded
 </p>
 
 <progress class="progress is-large is-success" value=".568" max="1"></progress>
@@ -22,7 +22,7 @@ Status: Open
 
 Goal: 16 BTC
 
-Raised: 9.1 BTC
+Raised: 10.1 BTC
 
 ## Who?
 

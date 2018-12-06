@@ -133,27 +133,24 @@ layout: default
                       <div class="tile is-ancestor">
                         <div class="tile is-vertical is-parent">
                           <div class="tile is-child box">
-                            <p class="subtitle">TestNet 4</p> <hr>
-                            <p>Grin’s fourth testnet has been <a href="https://www.grin-forum.org/t/grin-testnet-4-launch-announcement/993">released</a>! We need your help testing: if you’re able to compile from the source, <a href="https://github.com/mimblewimble/grin/blob/master/doc/build.md">see our building guide</a>.</p>
-                          </div>
-                          <div class="tile is-child box">
                             <p class="subtitle">MainNet, Onwards!</p> <hr>
                             <p>
-                            We’re currently hard at work in building the features required for mainnet.
+                            We’re currently hard at work in stabilizing Grin for our
+														mainnet release, around Jan. 15th 2019.
                             <br><br>
                             Check out our <a href="https://github.com/mimblewimble/grin/milestone/4">feature list</a> and jump in.
                             </p>
+                          </div>
+                          <div class="tile is-child box">
+                            <p class="subtitle">TestNet 4</p> <hr>
+                            <p>Grin’s fourth testnet has been <a href="https://www.grin-forum.org/t/grin-testnet-4-launch-announcement/993">released</a>! We need your help testing: if you’re able to compile from the source, <a href="https://github.com/mimblewimble/grin/blob/master/doc/build.md">see our building guide</a>.</p>
                           </div>
                           <div class="tile is-child box">
                             <p class="subtitle">
                             <a href="sec_audit">Crowdfunding the Security Audit</a>
                             </p> <hr>
                             <p>
-                            TL;DR Grin is nearing its final phases of development before the release of its cryptocurrency network (mainnet).
-                            </p>
-                            <br><br>
-                            <p>
-                            To do so safely, the Grin codebase needs to undergo a security audit. We’re soliciting donations:
+                            Grin is nearing its final phases of development before the release of its cryptocurrency network (mainnet). To do so safely, the Grin codebase needs to undergo a security audit. We’re soliciting donations:
                             <br><br>
                             <ul>
                               <li>bitcoin legacy <a class="address-link" href="https://live.blockcypher.com/btc/address/3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs/">3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs</a></li>
