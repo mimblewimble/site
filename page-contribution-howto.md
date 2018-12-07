@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Contributing to these web pages"
 ---
 
@@ -37,7 +37,7 @@ git commit -m "added illustration to learn.md"
 git push --set-upstream origin my-task-branch
 (then find the link that is displayed, and browse there to easily create a PR)
 
-# Previous examples, see here for content ideas:
-- [https://grin-tech.org/](https://grin-tech.org/)
+# Previous examples -- see here for content ideas:
+- [grin-tech.org, the initial black version](https://web.archive.org/web/20180917135841/http://grin-tech.org)
 - [https://grin.mw/up/](https://grin.mw/up/)
 - [https://sesam.github.io/grin-pages/](https://sesam.github.io/grin-pages/)
