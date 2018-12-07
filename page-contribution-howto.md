@@ -28,6 +28,7 @@ Please come discuss design here in the [design chat](https://gitter.im/grin_comm
 If your suggestion needs to be shown in context, make create a separate page (like example-redesignX-YOUR_USERNAME.md and push to your github.io page, then share the link on the design chat etc.
 
 # Git Command line example:
+```
 git clone (your repo url after you forked the master repo)
 git remote add upstream https://github.com/mimblewimble/site
 git fetch --all
@@ -36,6 +37,7 @@ git checkout -b my-task-branch upstream/master
 git commit -m "added illustration to learn.md"
 git push --set-upstream origin my-task-branch
 (then find the link that is displayed, and browse there to easily create a PR)
+```
 
 # Previous examples -- see here for content ideas:
 - [grin-tech.org, the initial black version](https://web.archive.org/web/20180917135841/http://grin-tech.org)
