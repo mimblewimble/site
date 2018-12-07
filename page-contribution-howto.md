@@ -20,12 +20,12 @@ If you're a more advanced user you could consider having more than one branch an
 You could also use git on the command line or via some graphical Git client, or use a git integration in your text editor.
 
 # Organizing files
-Adding a new file? Follow the guidlines here [File structure for current page theme](https://github.com/mmistakes/so-simple-theme#structure)
+Adding a new file? Follow the guidelines here [File structure for current page theme](https://github.com/mmistakes/so-simple-theme#structure)
 
 # Design changes
 Please come discuss design here in the [design chat](https://gitter.im/grin_community/design).
 [It seems the logo is now finalized, at least for a while.](https://github.com/mimblewimble/site/issues/7)
-If your suggestion needs to be shown in context, makye create a separate page (like example-redesignX-YOUR_USERNAME.md and push to your github.io page, then share the link on the design chat etc.
+If your suggestion needs to be shown in context, make create a separate page (like example-redesignX-YOUR_USERNAME.md and push to your github.io page, then share the link on the design chat etc.
 
 # Git Command line example:
 git clone (your repo url after you forked the master repo)
