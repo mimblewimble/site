@@ -18,7 +18,7 @@ You can view all of our past campaigns [here](campaigns).
 
 # Grin's Community Funding Principles
 
-[Grin](http://grin-tech.org) is currently being created by a group of developers dedicated to the realisation of a reliable and functional MimbleWimble blockchain. We are building it because we're excited about MimbleWimble technology and the possibilities that it will one day offer.
+[Grin](https://grin-tech.org) is currently being created by a group of developers dedicated to the realisation of a reliable and functional MimbleWimble blockchain. We are building it because we're excited about MimbleWimble technology and the possibilities that it will one day offer.
 
 Unlike the vast majority of blockchain projects, Grin's development is not motivated by profit for either its developers or early adopters. As a measure of this, the project has pledged that:
 
