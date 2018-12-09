@@ -2,13 +2,13 @@
 layout: page
 ---
 
-# Oct 2018 - Feb 2019 Developer Funding - Yeastplume
+# Developer Funding - Yeastplume
 
-Funding to allow Yeastplume to give full-time attention to Grin, from October 2018 - Feb 2019
+Funding to allow Yeastplume to give full-time attention to Grin.
 
-## Funding status
+## Funding status (Oct 2018 - Feb 2019)
 
-Status: Successfully Closed - ~€48,300 of €45,000 Target
+Status: Goal Met - ~€48,300 of €45,000 Target
 
 Goal: Crypto equivalent of €45,000
 
@@ -39,8 +39,9 @@ Raised:
 
 I've been privileged to have been able to focus on Grin full-time since February of 2018, and I hope my performance so far has been satisfactory to the community as well as beneficial to Grin and MimbleWimble development. I've left detailed information on my activities so far (as well as a few other random musings) in my Forum Progress update threads:
 
-- [Feb-April 2018](https://www.grin-forum.org/t/yeastplume-progress-update-thread-feb-april-2018/93/10)
-- [May-September 2018](https://www.grin-forum.org/t/yeastplume-progress-update-thread-may-sept-2018/361/16)
+- [Feb 2018 - April 2018](https://www.grin-forum.org/t/yeastplume-progress-update-thread-feb-april-2018/93/10)
+- [May 2018 - Sept 2018](https://www.grin-forum.org/t/yeastplume-progress-update-thread-may-sept-2018/361/16)
+- [Oct 2018 - Feb 2019](https://www.grin-forum.org/t/funding-campaign-yeastplume-oct-2018-to-feb-2019-closed/677)
 
 I invite you to have a look through there for precise information about what the previous funds have been used for, as well as information about future plans.
 
@@ -52,7 +53,7 @@ Based on experiences and feedback from previous campaigns, this campaign is orga
 
 - As with the previous round, there's are both Monero (XMR) and BTC donation addresses. We have a lot of mutual interest with the Monero community, and we're very happy to have many prominent members taking an interest in us. (Update: Ethereum address added by request)
 
-As always, those who wish to be listed on the [Friends of Grin](friends.md) page will be, and I'm available as long as I'm awake on our gitter channel.
+As always, those who wish to be listed on the [Friends of Grin](friends) page will be, and I'm available as long as I'm awake on our gitter channel.
 
 # Who am I?
 
@@ -112,7 +113,8 @@ The team has decided that a fair salary for an experienced developer should aim 
 
 The BTC address shown belongs to a hardware wallet. Both it and its recovery phrases (unmemorised) are securely stored far away from my person.
 
-#Previous Campaigns
+# Previous Campaigns
 
-- Q2 2018 Developer Funding (Feb-April 2018) - Status: Goal Met - 3.12775707 of 2.5 BTC Target
-- Q3 2018 Developer Funding (May-Sept 2017) - Status: Goal Met - ~€47,000 of €36,000 Target
+- Feb 2018 - April 2018 Developer Funding - Status: Goal Met - 3.12775707 of 2.5 BTC Target
+- May 2018 - Sept 2018 Developer Funding - Status: Goal Met - ~€47,000 of €36,000 Target
+- Oct 2018 - Feb 2019 Developer Funding - Status: Goal Met - ~€48,300 of €45,000 Target
