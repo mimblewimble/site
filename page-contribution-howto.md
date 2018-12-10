@@ -26,16 +26,16 @@ git commit -m "added illustration to learn.md"
 git push --set-upstream origin my-task-branch
 (then find the link that is displayed, and browse there to easily create a PR)
 ```
-
 In case you push your work in a branch other than `master` you will not be able to see your changes live
 in https://YOUR_GITHUB_USERNAME.github.io/site/. You can either merge your changes in your master branch
 or [deploy the website locally on your host](README.md#local-run) and visit http://127.0.0.1:4000.
 
 3. Upstream your changes
+
 Open a [pull request](https://help.github.com/articles/about-pull-requests/) with your changes.
 
 # Organizing files
-Adding a new file? Follow the guidelines here [File structure for current page theme](https://github.com/mmistakes/so-simple-theme#structure)
+Adding a new file? Follow the guidelines [here](https://github.com/mmistakes/so-simple-theme#structure)
 
 # Design changes
 Please come discuss design here in the [design chat](https://gitter.im/grin_community/design).
