@@ -4,7 +4,7 @@ layout: page
 
 # Grin General Fund
 
-This is a general fund for the Grin project's ongoing and ever-expanding needs. Donations into this fund are always welcome, very appreciated, and a quick and easy way to get yourself or your company on to the hallowed [friends of grin](friends.md) page.
+This is a general fund for the Grin project's ongoing and ever-expanding needs. Donations into this fund are always welcome, very appreciated, and a quick and easy way to get yourself or your company on to the hallowed [friends of grin](friends) page.
 
 ## Funding status
 
@@ -12,7 +12,7 @@ Status: Always Open
 
 ## Current Identified Needs:
 
-- [Professional security audit](sec_audit.md)
+- [Professional security audit](sec_audit)
 
 ## Amounts
 
@@ -53,6 +53,6 @@ Some examples of where proceeds of this fund might be allocated (by no means exh
 
 ## Further Information
 
-The Grin project is strictly non-profit. Please refer back to our [Funding overview page](funding.md) for details on our fundraising appoach and our inclusive development philosophy.
+The Grin project is strictly non-profit. Please refer back to our [Funding overview page](funding) for details on our fundraising appoach and our inclusive development philosophy.
 
-As always, anyone donating to this fund can optionally have themselves listed on the [Friends of Grin Page](friends.md).
+As always, anyone donating to this fund can optionally have themselves listed on the [Friends of Grin Page](friends).
