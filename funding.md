@@ -4,23 +4,21 @@ layout: page
 
 ## Grin General Fund
 
-[General Funding for Grin's Development](general_funding.md), currently fully directed toward the security audit.
+[General Funding for Grin's Development](general_funding), currently fully directed toward the security audit.
 
-Status: Always Open - 0.0 BTC donated to date
+Status: Always Open
 
-## Current and Recent Campaigns
+## Current Campaigns
 
-[Grin Security Audit](sec_audit.md)
+- [Grin Security Audit](sec_audit)
 
-Status: Open 9.1 BTC of 16 BTC Target
+  Status: Open - 9.1 BTC of 16 BTC Target
 
-[Oct 2018 - Feb 2019 Developer Funding - Yeastplume](yeastplume.md)
-
-Status: Closed - ~€48,300 of €45,000 Target (Crypto balances on campaign page)
+You can view all of our past campaigns [here](campaigns).
 
 # Grin's Community Funding Principles
 
-[Grin](http://grin-tech.org) is currently being created by a group of developers dedicated to the realisation of a reliable and functional MimbleWimble blockchain. We are building it because we're excited about MimbleWimble technology and the possibilities that it will one day offer.
+[Grin](https://grin-tech.org) is currently being created by a group of developers dedicated to the realisation of a reliable and functional MimbleWimble blockchain. We are building it because we're excited about MimbleWimble technology and the possibilities that it will one day offer.
 
 Unlike the vast majority of blockchain projects, Grin's development is not motivated by profit for either its developers or early adopters. As a measure of this, the project has pledged that:
 
@@ -36,7 +34,7 @@ To keep Grin open and free from controlling influences, the project will attempt
 
 # Friends of Grin
 
-We believe that any donors, large or small, should be given recognition for their contribution. Any individual donor who wishes to be listed on our [Friends of Grin](friends.md) page will be listed, and any corporate or institutional Donors making a significant contribution to Grin's development will have their logo displayed (if desired).
+We believe that any donors, large or small, should be given recognition for their contribution. Any individual donor who wishes to be listed on our [Friends of Grin](friends) page will be listed, and any corporate or institutional Donors making a significant contribution to Grin's development will have their logo displayed (if desired).
 
 We are also happy to accept recurring sponsorships and acknowledge your support prominently on our Friends of Grin page. However, as per our pledges above, we cannot accept sponsorships or donations predicated on being able to unduly influence Grin's direction.
 
@@ -44,7 +42,7 @@ We are also happy to accept recurring sponsorships and acknowledge your support 
 
 As in all things Grin, we want to ensure that the funding process remains as transparent as all other aspects of the project. To this end, Grin will actively seek community funding via:
 
-- [A general fund](general_funding.md), proceeds of which will be allocated by Grin's technical council according to project need
+- [A general fund](general_funding), proceeds of which will be allocated by Grin's technical council according to project need
 - Specific funding campaigns on a need-by-need basis. Examples of a "Need" might be:
 
   - Allow developer Dobby to work full-time for 6 months
