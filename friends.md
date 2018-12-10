@@ -4,7 +4,7 @@ layout: page
 
 # Friends of Grin
 
-The following companies, institutions, or individuals have generously donated financial resources to the Grin project under our [community funding model](funding.md). We're grateful for their support, and are proud to display their logos or names as supporters of Grin.
+The following companies, institutions, or individuals have generously donated financial resources to the Grin project under our [community funding model](funding). We're grateful for their support, and are proud to display their logos or names as supporters of Grin.
 
 ## Companies
 

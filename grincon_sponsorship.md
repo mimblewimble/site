@@ -6,7 +6,7 @@ layout: page
 
 [Grincon0](https://grincon.org) is the first ever conference on Grin and the Mimblewimble protocol, taking place in Berlin on November 9.
 
-There is an opportunity to be a sponsor of the event and get valuable exposure for your organisation and brand in front of an audience that's interested in bleeding edge cryptographic protocols, Rust development, and privacy preserving technology. Funds raised will go towards funding Grin's [Security Audit](sec_audit.md) and the Grin General Fund.
+There is an opportunity to be a sponsor of the event and get valuable exposure for your organisation and brand in front of an audience that's interested in bleeding edge cryptographic protocols, Rust development, and privacy preserving technology. Funds raised will go towards funding Grin's [Security Audit](sec_audit) and the Grin General Fund.
 
 - Only 16 packages available.
 - Conference held at the historic [c-base Raumstation](https://www.c-base.org) in Berlin. Founded in 1995, it's recognized as one of the first hackerspaces in the world.
