@@ -66,7 +66,7 @@ layout: default
               Electronic transactions for all. Without censorship or restrictions.
             </h2>
             <p>
-            Grin empowers anyone to transact or save modern money without the fear of external control or oppression. Grin is designed for the decades to come, not just tomorrow. Grin wants be usable by everyone, regardless of borders, culture, skills or access.
+            Grin empowers anyone to transact or save modern money without the fear of external control or oppression. Grin is designed for the decades to come, not just tomorrow. Grin wants to be usable by everyone, regardless of borders, culture, skills or access.
             </p>
           </section>
           <!-- //HEADER  -->
