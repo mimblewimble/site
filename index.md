@@ -100,7 +100,7 @@ layout: default
               <span>
                 MimbleWimble leverages cryptography to allow most of the
 								past transaction data to be removed. This guarantees Grin
-								won't crumble under its own weight in the long term.
+								won't collapse under its own weight in the long term.
               </span>
             </div>
             <!-- //DOT -->
