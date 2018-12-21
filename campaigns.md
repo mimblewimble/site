@@ -4,6 +4,10 @@ layout: page
 
 # Past funding campaigns
 
+- [Grin Security Audit](sec_audit)
+
+	Status: Goal Met - 17.28 BTC of 16 BTC
+
 - [Feb 2018 - April 2018 Yeastplume Developer Funding](yeastplume)
 
   Status: Goal Met - 3.12775707 of 2.5 BTC Target

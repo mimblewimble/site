@@ -4,17 +4,9 @@ layout: page
 
 ## Grin General Fund
 
-[General Funding for Grin's Development](general_funding), currently fully directed toward the security audit.
+[General Funding for Grin's Development](general_funding)
 
 Status: Always Open
-
-## Current Campaigns
-
-- [Grin Security Audit](sec_audit)
-
-  Status: Open - 9.1 BTC of 16 BTC Target
-
-You can view all of our past campaigns [here](campaigns).
 
 # Grin's Community Funding Principles
 

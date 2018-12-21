@@ -2,7 +2,7 @@
 layout: page
 ---
 
-{% assign current_amount = 10.1 %}
+{% assign current_amount = 17.28 %}
 {% assign target_amount = 16.0 %}
 
 # Security Audit Funding
@@ -11,6 +11,8 @@ layout: page
 {{current_amount| divided_by: target_amount | times: 100.0 | round}}% Funded
 
 <progress class="progress is-large is-success" value="{{current_amount| divided_by: target_amount}}" max="1"></progress>
+
+**The grin security audit funding campaign was completed on December 201th 2018. Thank you to all who generously donated!**
 
 TL;DR Grin is nearing its final phases of development before the release of
 its cryptocurrency network (mainnet). To do so safely, the Grin codebase needs
