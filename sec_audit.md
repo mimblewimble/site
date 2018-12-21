@@ -12,7 +12,7 @@ layout: page
 
 <progress class="progress is-large is-success" value="{{current_amount| divided_by: target_amount}}" max="1"></progress>
 
-**The grin security audit funding campaign was completed on December 201th 2018. Thank you to all who generously donated!**
+**The grin security audit funding campaign was completed on December 20th 2018. Thank you to all who generously donated!**
 
 TL;DR Grin is nearing its final phases of development before the release of
 its cryptocurrency network (mainnet). To do so safely, the Grin codebase needs
