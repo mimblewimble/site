@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Jean-Philippe Aumasson" />
+  <title>Audit of Grin’s secp256k1 extensions</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <style type="text/css">
+html {
+font-size: 100%;
+overflow-y: scroll;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+}
+body {
+color: #444;
+font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+
+font-size: 12px;
+line-height: 1.7;
+padding: 1em;
+margin: auto;
+max-width: 42em;
+background: #fefefe;
+}
+a {
+color: #ff4500;
+text-decoration: none;
+}
+a:visited {
+color: #ff4500;
+}
+a:hover {
+color: #444;
+}
+a:active {
+color: #444;
+}
+a:focus {
+outline: thin dotted;
+}
+*::-moz-selection {
+background: rgba(255, 255, 0, 0.3);
+color: #000;
+}
+*::selection {
+background: rgba(255, 255, 0, 0.3);
+color: #000;
+}
+a::-moz-selection {
+background: rgba(255, 255, 0, 0.3);
+color: #0645ad;
+}
+a::selection {
+background: rgba(255, 255, 0, 0.3);
+color: #0645ad;
+}
+p {
+margin: 1em 0;
+}
+img {
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+color: #111;
+line-height: 125%;
+margin-top: 2em;
+font-weight: normal;
+}
+h4, h5, h6 {
+font-weight: bold;
+}
+h1 {
+font-size: 2.5em;
+}
+h2 {
+font-size: 2em;
+}
+h3 {
+font-size: 1.5em;
+}
+h4 {
+font-size: 1.2em;
+}
+h5 {
+font-size: 1em;
+}
+h6 {
+font-size: 0.9em;
+}
+blockquote {
+color: #666666;
+margin: 0;
+padding-left: 3em;
+border-left: 0.5em #EEE solid;
+}
+hr {
+display: block;
+height: 2px;
+border: 0;
+border-top: 1px solid #aaa;
+border-bottom: 1px solid #eee;
+margin: 1em 0;
+padding: 0;
+}
+pre, code, kbd, samp {
+color: #000;
+font-family: monospace, monospace;
+_font-family: 'courier new', monospace;
+font-size: 0.98em;
+}
+pre {
+white-space: pre;
+white-space: pre-wrap;
+word-wrap: break-word;
+}
+b, strong {
+font-weight: bold;
+}
+dfn {
+font-style: italic;
+}
+ins {
+background: #ff9;
+color: #000;
+text-decoration: none;
+}
+mark {
+background: #ff0;
+color: #000;
+font-style: italic;
+font-weight: bold;
+}
+sub, sup {
+font-size: 75%;
+line-height: 0;
+position: relative;
+vertical-align: baseline;
+}
+sup {
+top: -0.5em;
+}
+sub {
+bottom: -0.25em;
+}
+ul, ol {
+margin: 1em 0;
+padding: 0 0 0 2em;
+}
+li p:last-child {
+margin-bottom: 0;
+}
+ul ul, ol ol {
+margin: .3em 0;
+}
+dl {
+margin-bottom: 1em;
+}
+dt {
+font-weight: bold;
+margin-bottom: .8em;
+}
+dd {
+margin: 0 0 .8em 2em;
+}
+dd:last-child {
+margin-bottom: 0;
+}
+img {
+border: 0;
+-ms-interpolation-mode: bicubic;
+vertical-align: middle;
+}
+figure {
+display: block;
+text-align: center;
+margin: 1em 0;
+}
+figure img {
+border: none;
+margin: 0 auto;
+}
+figcaption {
+font-size: 0.8em;
+font-style: italic;
+margin: 0 0 .8em;
+}
+table {
+margin-bottom: 2em;
+border-bottom: 1px solid #ddd;
+border-right: 1px solid #ddd;
+border-spacing: 0;
+border-collapse: collapse;
+}
+table th {
+padding: .2em 1em;
+background-color: #eee;
+border-top: 1px solid #ddd;
+border-left: 1px solid #ddd;
+}
+table td {
+padding: .2em 1em;
+border-top: 1px solid #ddd;
+border-left: 1px solid #ddd;
+vertical-align: top;
+}
+.author {
+font-size: 1.2em;
+text-align: center;
+}
+@media only screen and (min-width: 480px) {
+body {
+font-size: 14px;
+}
+}
+@media only screen and (min-width: 768px) {
+body {
+font-size: 16px;
+}
+}
+@media print {
+* {
+background: transparent !important;
+color: black !important;
+filter: none !important;
+-ms-filter: none !important;
+}
+body {
+font-size: 12pt;
+max-width: 100%;
+}
+a, a:visited {
+text-decoration: underline;
+}
+hr {
+height: 1px;
+border: 0;
+border-bottom: 1px solid black;
+}
+a[href]:after {
+content: " (" attr(href) ")";
+}
+abbr[title]:after {
+content: " (" attr(title) ")";
+}
+.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+content: "";
+}
+pre, blockquote {
+border: 1px solid #999;
+padding-right: 1em;
+page-break-inside: avoid;
+}
+tr, img {
+page-break-inside: avoid;
+}
+img {
+max-width: 100% !important;
+}
+@page :left {
+margin: 15mm 20mm 15mm 10mm;
+}
+@page :right {
+margin: 15mm 10mm 15mm 20mm;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3 {
+page-break-after: avoid;
+}
+}</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Audit of Grin’s secp256k1 extensions</h1>
+<p class="author">Jean-Philippe Aumasson</p>
+<p class="date">23/12/18</p>
+</header>
+<nav id="TOC">
+<ul>
+<li><a href="#summary"><span class="toc-section-number">1</span> Summary</a></li>
+<li><a href="#potential-security-issues"><span class="toc-section-number">2</span> Potential security issues</a><ul>
+<li><a href="#optimized-out-dead-assignment-may-leak-sensitive-data"><span class="toc-section-number">2.1</span> Optimized out dead assignment may leak sensitive data</a></li>
+<li><a href="#missing-null-pointers-checks"><span class="toc-section-number">2.2</span> Missing null pointers checks</a></li>
+</ul></li>
+<li><a href="#other-observations"><span class="toc-section-number">3</span> Other observations</a><ul>
+<li><a href="#unfreed-heap-allocations"><span class="toc-section-number">3.1</span> Unfreed heap allocations</a></li>
+<li><a href="#unchecked-heap-allocation"><span class="toc-section-number">3.2</span> Unchecked heap allocation</a></li>
+<li><a href="#secp256k1_compute_sighash_single-always-returns-1-with-scalar_low_impl.h"><span class="toc-section-number">3.3</span> <code>secp256k1_compute_sighash_single()</code> always returns 1 with scalar_low_impl.h</a></li>
+<li><a href="#unnecessary-operations"><span class="toc-section-number">3.4</span> Unnecessary operations?</a></li>
+<li><a href="#unnecessary-operation"><span class="toc-section-number">3.5</span> Unnecessary operation?</a></li>
+<li><a href="#faster-rejection-of-invalid-parameters"><span class="toc-section-number">3.6</span> Faster rejection of invalid parameters</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="summary"><span class="header-section-number">1</span> Summary</h1>
+<p><a href="https://grin-tech.org/">Grin</a> is a privacy-enhanced coin that uses MimbleWimble to obfuscate addresses and amount from the public blockchain records.</p>
+<p>The goal of this audit is to assess the security of the extensions added to libsecp256k1 in order to support privacy features, in particular the <a href="https://github.com/mimblewimble/secp256k1-zkp/tree/master/src/modules/bulletproofs">bulletproofs</a> range proofs and the <a href="https://github.com/mimblewimble/secp256k1-zkp/tree/master/src/modules/aggsig">aggsig</a> module.</p>
+<p>The section below describe the issues discovered, in perceived order of severity (starting with the highest severity), and proposes mitigations. The last section reports minor observations to improve the application.</p>
+<p>The main primitive operations are secp256k1 arithmetic and HMAC-SHA-256. We reviewed the code and looked for issues related to do:</p>
+<ul>
+<li>side-channel leaks (such as timing leaks)</li>
+<li>software safety (such as memory leaks, or abuse of the API)</li>
+<li>usage of the underlying crypto primities</li>
+<li>randomness and pseudorandom generation</li>
+<li>cryptographic security level (such as key lengths)</li>
+<li>decoding of serialized/DER data</li>
+</ul>
+<p>Furthremore, we tried to assess the safety of the changes introduced compared to the original Bulletproofs protocol, but have not formally assessed the security of the modified system.</p>
+<p>The audit was carried out in limited time (7 hours, including reporting), and consisted in manual code review, and dynamic analysis based on the unit tests included.</p>
+<h1 id="potential-security-issues"><span class="header-section-number">2</span> Potential security issues</h1>
+<h2 id="optimized-out-dead-assignment-may-leak-sensitive-data"><span class="header-section-number">2.1</span> Optimized out dead assignment may leak sensitive data</h2>
+<p>At ./src/ecmult_gen_impl.h:153, the line <code>bits = 0</code> aims to overwrite the value of private exponent bits. However compilers may remove the corresponding instructions, since the variable <code>bits</code> is no longer used.</p>
+<p>Likewise, the subsequent “clear” functions could be optimized out:</p>
+<pre><code>    bits = 0;
+    secp256k1_ge_clear(&amp;add);
+    secp256k1_scalar_clear(&amp;gnb);
+  }</code></pre>
+<p>Furthermore, in aggsig’s main_impl.h the following memset may also be optimized out (as evidently noted by the developers):</p>
+<pre><code>    memset(data, 0, 32);  /* TODO proper clear */</code></pre>
+<p>There is no simple solution guaranteed to work, the best is to review the binaries generated and check that those operations haven’t been removed by the compiler.</p>
+<h2 id="missing-null-pointers-checks"><span class="header-section-number">2.2</span> Missing null pointers checks</h2>
+<p><code>secp256k1_aggsig_sign_single()</code> checks some but not all pointers’ nullity. Is this on purpose?</p>
+<p>Likewise for <code>secp256k1_aggsig_verify_single()</code> and <code>secp256k1_aggsig_add_signatures_single(()</code>(where <code>sigs</code> is checked but not the <code>sigs[i]</code>).</p>
+<h1 id="other-observations"><span class="header-section-number">3</span> Other observations</h1>
+<h2 id="unfreed-heap-allocations"><span class="header-section-number">3.1</span> Unfreed heap allocations</h2>
+<p>In <code>secp256k1_aggsig_verify_single()</code>, if <code>secp256k1_ecmult_multi_var()</code> fails then the <code>scratch</code> buffer will not be freed:</p>
+<pre><code>    scratch = secp256k1_scratch_space_create(ctx, 1024*4096);
+    /* Compute sG - eP, which should be R */
+    if (!secp256k1_ecmult_multi_var(&amp;ctx-&gt;ecmult_ctx, scratch, &amp;pk_sum, &amp;g_sc, secp256k1_aggsig_verify_callback_single, &amp;cbdata, 1)) {
+        return 0;
+    }
+
+    secp256k1_scratch_space_destroy(scratch);</code></pre>
+<p>Too, in <code>secp256k1_bulletproof_rangeproof_prove()</code>, <code>secp256k1_scratch_deallocate_frame()</code> is only called if the function succeeds, hence it may return 0 without deallocating the scratch frame.</p>
+<h2 id="unchecked-heap-allocation"><span class="header-section-number">3.2</span> Unchecked heap allocation</h2>
+<p>The value of <code>secp256k1_scratch_space_create(ctx, 1024*4096)</code> in <code>secp256k1_aggsig_verify_single()</code> and in <code>secp256k1_aggsig_build_scratch_and_verify()</code> is not verified. The <code>checked_malloc()</code> would display an error, but would still return NULL to the caller.</p>
+<p>Too, in <code>secp256k1_bulletproof_rangeproof_prove()</code>, the <code>tge = malloc(2*sizeof(secp256k1_ge));</code> are not checked.</p>
+<p>These mallocs are unlikely to fail but it’s still a bit safer to check them.</p>
+<h2 id="secp256k1_compute_sighash_single-always-returns-1-with-scalar_low_impl.h"><span class="header-section-number">3.3</span> <code>secp256k1_compute_sighash_single()</code> always returns 1 with scalar_low_impl.h</h2>
+<p>Probably a non-issue, just</p>
+<p><code>secp256k1_compute_sighash_single()</code> returns the following, given an uninitialized <code>int overflow</code>:</p>
+<pre><code>   secp256k1_scalar_set_b32(r, output, &amp;overflow);
+    return !overflow;</code></pre>
+<p>However <code>overflow</code> will always be 0 when using scalar_low_impl.h:</p>
+<pre><code>static void secp256k1_scalar_set_b32(secp256k1_scalar *r, const unsigned char *b32, int *overflow) {
+    const int base = 0x100 % EXHAUSTIVE_TEST_ORDER;
+    int i;
+    *r = 0;
+    for (i = 0; i &lt; 32; i++) {
+       *r = ((*r * base) + b32[i]) % EXHAUSTIVE_TEST_ORDER;
+    }
+    /* just deny overflow, it basically always happens */
+    if (overflow) *overflow = 0;
+}</code></pre>
+<p>Hence <code>secp256k1_compute_sighash_single()</code> always returns 1 in this case. This does not happen with the 8x32 nor 4x64 implementations.</p>
+<p>The same behavior occurs in <code>secp256k1_computer_sighash()</code>.</p>
+<h2 id="unnecessary-operations"><span class="header-section-number">3.4</span> Unnecessary operations?</h2>
+<p>At the end of <code>secp256k1_bulletproof_rangeproof_prove()</code>:</p>
+<pre><code>    ret = secp256k1_bulletproof_rangeproof_prove_impl(&amp;ctx-&gt;ecmult_ctx, scratch, proof, plen, tau_x, tge, nbits, value, min_value, blinds, commitp, n_commits, &amp;value_genp, gens, nonce, secondary_nonce, extra_commit, extra_commit_len, message);
+
+    if (t_one != NULL &amp;&amp; tau_x == NULL) {
+        secp256k1_pubkey_save(t_one, &amp;tge[0]);
+        secp256k1_pubkey_save(t_two, &amp;tge[1]);
+    }
+    secp256k1_scratch_deallocate_frame(scratch);
+    return ret;</code></pre>
+<p>Two potential improvements here:</p>
+<ul>
+<li><p>If the proof fails (<code>ret != 0</code>), aren’t the <code>secp256k1_pubkey_save()</code> useless?</p></li>
+<li><p>Why isn’t there an additional check <code>t_two != NULL</code>?</p></li>
+</ul>
+<h2 id="unnecessary-operation"><span class="header-section-number">3.5</span> Unnecessary operation?</h2>
+<p>I didn’t get why the HMAC finalize is done here:</p>
+<pre><code>void secp256k1_aggsig_context_destroy(secp256k1_aggsig_context *aggctx) {
+    if (aggctx == NULL) {
+        return;
+    }
+    memset(aggctx-&gt;pubkeys, 0, aggctx-&gt;n_sigs * sizeof(*aggctx-&gt;pubkeys));
+    memset(aggctx-&gt;secnonce, 0, aggctx-&gt;n_sigs * sizeof(*aggctx-&gt;secnonce));
+    memset(aggctx-&gt;progress, 0, aggctx-&gt;n_sigs * sizeof(*aggctx-&gt;progress));
+    free(aggctx-&gt;pubkeys);
+    free(aggctx-&gt;secnonce);
+    free(aggctx-&gt;progress);
+    secp256k1_rfc6979_hmac_sha256_finalize(&amp;aggctx-&gt;rng);
+    free(aggctx);
+}</code></pre>
+<h2 id="faster-rejection-of-invalid-parameters"><span class="header-section-number">3.6</span> Faster rejection of invalid parameters</h2>
+<p>In <code>secp256k1_bulletproof_rangeproof_prove()</code> the only valid values of <code>nbits</code> are <code>&lt; 64</code> and have a Hamming weight of 1 bit. This may be checked during the <code>ARG_CHECK()</code> sequence to avoid doing costly arithmetic operations before <code>nbits</code> is eventually rejected in <code>secp256k1_bulletproof_rangeproof_prove_impl()</code>.</p>
+</body>
+</html>
