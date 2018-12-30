@@ -2,11 +2,15 @@
 layout: page
 ---
 
-## Grin General Fund
+# Grin General Fund
 
 [General Funding for Grin's Development](general_funding)
 
 Status: Always Open
+
+# Past campaigns
+
+You can view all of our past campaigns [here](campaigns).
 
 # Grin's Community Funding Principles
 

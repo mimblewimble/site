@@ -142,25 +142,8 @@ layout: default
                             </p>
                           </div>
                           <div class="tile is-child box">
-                            <p class="subtitle">TestNet 4</p> <hr>
-                            <p>Grin’s fourth testnet has been <a href="https://www.grin-forum.org/t/grin-testnet-4-launch-announcement/993">released</a>! We need your help testing: if you’re able to compile from the source, <a href="https://github.com/mimblewimble/grin/blob/master/doc/build.md">see our building guide</a>.</p>
-                          </div>
-                          <div class="tile is-child box">
-                            <p class="subtitle">
-                            Crowdfunding the Security Audit
-                            </p> <hr>
-                            <p>
-                            Grin is nearing its final phases of development before the release of its cryptocurrency network (mainnet). To do so safely, the Grin codebase needs to undergo a security audit. We’re soliciting donations:
-                            <br><br>
-                            <ul>
-                              <li>bitcoin legacy <a class="address-link" href="https://live.blockcypher.com/btc/address/3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs/">3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs</a></li>
-                              <li>bitcoin segwit <a class="address-link" href="https://blockchair.com/bitcoin/address/bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65">bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65</a></li>
-                            </ul>
-                            </p>
-                            <br><br>
-                            <p>
-                            <a href="sec_audit">Read how we're conducting our security audit and status of funding.</a>
-                            </p>
+                            <p class="subtitle">Floonet</p> <hr>
+                            <p>Grin’s official testnet has been released! We need your help testing: either <a href="https://github.com/mimblewimble/grin/blob/master/doc/build.md">compile from the source</a> or <a href="https://github.com/mimblewimble/grin/releases/tag/v0.5.0">download the grin binary</a> and join us in Floonet.</p>
                           </div>
                         </div>
                       </div>
