@@ -6,7 +6,7 @@ layout: page
 
 - [Grin Security Audit](sec_audit)
 
-	Status: Goal Met - 17.28 BTC of 16 BTC
+  Status: Goal Met - 17.28 BTC of 16 BTC
 
 - [Feb 2018 - April 2018 Yeastplume Developer Funding](yeastplume)
 
