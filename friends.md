@@ -63,7 +63,7 @@ The following companies, institutions, or individuals have generously donated fi
 ## Individuals
 
 _In alphabetical order:_
-Redouan Ahaloui - Aurel - Leonid Beder - Roy Blankman - Guy Corem - Chance Du - Michalis Kargakis - Jameson Lopp - Chris McCann - Jack Misteli Jean-Guillaume - Yan Pritzker - Hendrik Richter - Niels de Ruiter - Max Tannahill - Aaron Ting - Alexander Zaidelson
+Redouan Ahaloui - Aurel - Leonid Beder - Roy Blankman - Ivan Brightly - Guy Corem - Chance Du - Michalis Kargakis - Jameson Lopp - Chris McCann - Jack Misteli Jean-Guillaume - Yan Pritzker - Hendrik Richter - Niels de Ruiter - Max Tannahill - Aaron Ting - Alexander Zaidelson
 
 ## Anonymous Supporters
 
