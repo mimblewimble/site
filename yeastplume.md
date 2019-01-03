@@ -4,32 +4,24 @@ layout: page
 
 # Developer Funding - Yeastplume
 
-Funding to allow Yeastplume to give full-time attention to Grin.
+Funding to allow Yeastplume to give full-time attention to Grin from March-Aug 2019
 
-## Funding status (Oct 2018 - Feb 2019)
+## Funding status (March 2018 - Aug 2019)
 
-Status: Goal Met - ~€48,300 of €45,000 Target
-
-Goal: Crypto equivalent of €45,000
+Status: Open - €0 of €55,000 Target
+Goal: Crypto equivalent of €55,000
 
 Raised:
 
-- 2.812 BTC (~€15,550 as of Sept 9th, 2018)
-- 183.005 ETH (€32,400 as of Sept 9th, 2018)
-- 3.36 XMR (~€350 as of Sept 9th, 2018)
-- ~€48,300 Total
+- 0.0 BTC (~€0 as of Jan 3rd, 2019)
+- 0.0 ETH (€0 as of Jan 3rd, 2019)
+- ~€0 Total
 
 ## Bitcoin donation address:
-
-[3NfmvyAMDAMCX8M5zngGqkLeKjrSg6ANz5](https://blockchain.info/address/3NfmvyAMDAMCX8M5zngGqkLeKjrSg6ANz5)
+[3B3qq3EAPtpkSoGHSDfY6rxpK5Bqh7zmij](https://blockchain.info/address/3B3qq3EAPtpkSoGHSDfY6rxpK5Bqh7zmij)
 
 ## Ethereum donation address:
-
-[0xb010E9160E75A9aDb2139DeEcfdf2C307Fd5A0Ef](https://etherscan.io/address/0xb010E9160E75A9aDb2139DeEcfdf2C307Fd5A0Ef)
-
-## Monero donation address:
-
-44wuZipxTa449nAVfTsrNrHzqCjaGFsSUQLfZFXYhQEFWCYiqVmvhe9T82uM16QoQhVhoK7uyWhfV7sRneAD1YD1KMNfhwh
+[0xeFC76886E5C50D1FD15addAbb59D2D3582A03A61](https://etherscan.io/address/0xeFC76886E5C50D1FD15addAbb59D2D3582A03A61)
 
 ## Source for this page (via https):
 
@@ -37,26 +29,27 @@ Raised:
 
 #### Please verify the donation addresses as shown above in your browser matches the source for this page on [mimblewimble/site](https://github.com/mimblewimble/site).
 
-I've been privileged to have been able to focus on Grin full-time since February of 2018, and I hope my performance so far has been satisfactory to the community as well as beneficial to Grin and MimbleWimble development. I've left detailed information on my activities so far (as well as a few other random musings) in my Forum Progress update threads:
+I've been an active contributor to Grin since about May of 2017, and thanks to the generosity of the community Grin has been my full-time job since February of 2018. I hope my performance so far has been satisfactory to the community as well as beneficial to Grin and MimbleWimble development. I've left detailed information on my activities so far (as well as a few other random musings) in my Forum Progress update threads:
 
-- [Feb 2018 - April 2018](https://www.grin-forum.org/t/yeastplume-progress-update-thread-feb-april-2018/93/10)
-- [May 2018 - Sept 2018](https://www.grin-forum.org/t/yeastplume-progress-update-thread-may-sept-2018/361/16)
-- [Oct 2018 - Feb 2019](https://www.grin-forum.org/t/funding-campaign-yeastplume-oct-2018-to-feb-2019-closed/677)
+- [Feb 2018 - April 2018](https://www.grin-forum.org/t/yeastplume-progress-update-thread-feb-april-2018/93)
+- [May 2018 - Sept 2018](https://www.grin-forum.org/t/yeastplume-progress-update-thread-may-sept-2018/361)
+- [Oct 2018 - Feb 2019](https://www.grin-forum.org/t/yeastplume-progress-update-thread-oct-18-feb-19/933)
 
-I invite you to have a look through there for precise information about what the previous funds have been used for, as well as information about future plans.
+I invite you to have a look through there for precise information about what the previous funds have been used for, as well as information on my future development plans.
 
 Based on experiences and feedback from previous campaigns, this campaign is organised thusly:
 
 - Once the funding goal is reached, I will cash out crypto amounts into Euro more-or-less immediately. As much as I'd like to keep the account transparent, we were burned very hard in the first campaign by the volatility of Bitcoin and I found myself far too interested in the daily price swings of bitcoin to the point of distraction. We've decided this to be the best course of action for now to ensure all donations remain the intended amount and are used for their intended purpose.
 
-- I'm aiming to cover 5 months this time, until the end of Feb 2019. This is a little bit longer than previous rounds, however anything shorter would mean I'd need to be worrying about the next funding round (or looking for other work) around or shortly after Christmas. The previous funding round covered a full 5 months, so hopefully this isn't too much of an ask.
+- I'm aiming to cover a full 6 months, until the end of August 2019.
 
-- As with the previous round, there's are both Monero (XMR) and BTC donation addresses. We have a lot of mutual interest with the Monero community, and we're very happy to have many prominent members taking an interest in us. (Update: Ethereum address added by request)
+- This time I'm just providing BTC and Ethereum addresses - There hasn't been enough take-up of the Monero address in the previous couple of rounds to justify maintaining the address.
 
 As always, those who wish to be listed on the [Friends of Grin](friends) page will be, and I'm available as long as I'm awake on our gitter channel.
 
 # Who am I?
 
+- [Myself on the What Bitcoid Did Podcast](https://www.whatbitcoindid.com/podcast/grins-michael-cordner-aka-yeastplume-on-implementing-mimblewimble)
 - [Interview on the Captain Crypto Show](https://www.youtube.com/watch?v=nwi9pMqUBQI)
 - [Myself, Andreas Antonopoulos and Adam B. Levine on Let's Talk Bitcoin](https://letstalkbitcoin.com/blog/post/lets-talk-bitcoin-356-privacy-on-the-blockchain-with-mimblewimble)
 - [Notes from the first Grin meetup in London](https://medium.com/grin-mimblewimble/grin-mimblewimble-meetup-in-london-with-yeastplume-f11476b3a590)
@@ -89,17 +82,16 @@ I've been working on Grin part-time since about May of 2017. Some of the things 
 
 # What will I do?
 
-As to what I intend to work on over the next few months, the task list is always in flux. Testnet3 has been very successful so far, and it feels like we're hurtling towards a proper launch date... however this means there is more to do than ever! Very roughly:
+As to what I intend to work on over the next few months, the task list is always in flux, especially with launch just around the corner (Jan 15th, 2019!) However, to give a sampling:
 
-- Continuing work on wallet improvements and the web wallet interface
+- Fixes and improvements as become clear during and after launch
+- Continuing work on wallet improvements and the web wallet interface (including a full JSON-RPC interface)
 - Properly addressing wallet security now that the infrastructure is in place
 - More Much needed testing, bug fixing and refinements on core code
-- Reviewing, rewriting, improving critical crypto code in our libsecp256k fork
-- Continued updates and improvements to grin-miner and cuckoo miner as mining requirements become clearer
 - Continual improvements to infrastructure, build, quality of life, documentation.
 - As always, PR review, bug-squashing, fixes and improvements as they come up.
 
-In addition to this, I also intend to continue work on some of the softer tasks around Grin's governance and promotion, which include:
+Suffice it to say, I'll always be doing somethin useful. In addition to this, I also intend to continue work on some of the softer tasks around Grin's governance and promotion, which include:
 
 - Visits to conferences or meetups (particularly if Grin/MW needs representing)
 - Developer interviews with any interested podcasters/journalists (since Igno won't do it)
@@ -109,7 +101,7 @@ In addition to this, I also intend to continue work on some of the softer tasks 
 
 # Funding
 
-The team has decided that a fair salary for an experienced developer should aim to be around the 120k USD mark. I work in Ireland and have been contracting for many years, so I interpret this as a daily rate of €450, or €9k per month. I'd consider some travel and expenses (within reason) included in this rate. The money will be paid out monthly from the campaign fund into my own consultancy company, taxed (somewhere between 40-50%), and the rest paid to me personally from there. As per [our policy](funding.md#developer-funding-campaigns), money will always be paid out according to fiat rates.
+The team has decided that a fair salary for an experienced developer should aim to be around the 120k USD mark. I work in Ireland and have been contracting for many years, so I interpret this as a daily rate of €450, or around €9k per month. I'd consider some travel and expenses (within reason) included in this rate, but this time around I might add a bit (1k) to cover these, as worthy reasons for travel are becoming more numerous. The money will be paid out monthly from the campaign fund into my own consultancy company, taxed (somewhere between 40-50%), and the rest paid to me personally from there. As per [our policy](funding.md#developer-funding-campaigns), money will always be paid out according to fiat rates.
 
 The BTC address shown belongs to a hardware wallet. Both it and its recovery phrases (unmemorised) are securely stored far away from my person.
 

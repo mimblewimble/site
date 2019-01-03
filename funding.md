@@ -2,6 +2,12 @@
 layout: page
 ---
 
+# Developer Funding
+
+[Developer Funding - Yeastplume Mar-Aug 2019](yeastplume)
+
+Status: Open - €0 of €55,000 Target
+
 # Grin General Fund
 
 [General Funding for Grin's Development](general_funding)
