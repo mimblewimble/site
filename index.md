@@ -21,10 +21,10 @@ layout: default
           </h2>
           <br>
           <p class="has-text-centered" style="margin-top: -1rem;">
-          <a href="https://github.com/mimblewimble/grin/blob/master/doc/intro.md" class="button is-medium is-warning is-outlined">
+          <a href="https://github.com/mimblewimble/grin/blob/master/doc/intro.md" class="button is-medium is-outlined whatis">
             What's Mimblewimble?
           </a>
-          <a href="https://github.com/mimblewimble/grin" class="button is-medium is-warning is-outlined">
+          <a href="https://github.com/mimblewimble/grin" class="button is-medium is-outlined whatis">
             <i class="fab fa-github"></i>
           </a>
           </p>
