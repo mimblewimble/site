@@ -143,7 +143,7 @@ layout: default
                           </div>
                           <div class="tile is-child box">
                             <p class="subtitle">Floonet</p> <hr>
-                            <p>Grin’s official pre-mainnet testing net has been released! We need your help testing: either <a href="https://github.com/mimblewimble/grin/blob/master/doc/build.md">compile from the source</a> or <a href="https://github.com/mimblewimble/grin/releases/">download the grin binary</a> and join us.</p>
+                            <p>Grin’s official testnet Floonet has been released! We need your help testing: either <a href="https://github.com/mimblewimble/grin/blob/master/doc/build.md">compile from the source</a> or <a href="https://github.com/mimblewimble/grin/releases/">download the grin binary</a> and join us.</p>
                           </div>
                         </div>
                       </div>
