@@ -13,3 +13,11 @@
     @content;
   }
 }
+
+$smiley-yellow: #fef102;
+$smiley-black: black;
+
+// bulma has some default colors (#ffdd57, ffd324, ffdb4a) which we've been using by default. They're almost, but not entirely, completely unlike tea^H^H^Hthe smiley yellow. (Tip: Uncomment and your editor might render the colors)
+// $bulma-warning: #ffdd57;
+// $bulma-warning-hover: #ffd324;
+// $bulma-warning-hover-background: #ffdb4a;
