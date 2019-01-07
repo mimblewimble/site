@@ -38,10 +38,10 @@ layout: default
     <div class="box cta">
       <p class="has-text-centered">
       <span class="tag is-warning">
-        Currently Live: Testnet 4
+        Currently Live: Floonet
       </span> 
       <span href="#" style="margin-left: 10px;">
-        Grin is under development. Launch planned for Jan. 15th 2019.
+        Grin is under development. Mainnet launch planned for Jan. 15th 2019.
       </span>
       </p>
     </div>
@@ -143,7 +143,7 @@ layout: default
                           </div>
                           <div class="tile is-child box">
                             <p class="subtitle">Floonet</p> <hr>
-                            <p>Grin’s official testnet has been released! We need your help testing: either <a href="https://github.com/mimblewimble/grin/blob/master/doc/build.md">compile from the source</a> or <a href="https://github.com/mimblewimble/grin/releases/tag/v0.5.0">download the grin binary</a> and join us in Floonet.</p>
+                            <p>Grin’s official testnet Floonet has been released! We need your help testing: either <a href="https://github.com/mimblewimble/grin/blob/master/doc/build.md">compile from the source</a> or <a href="https://github.com/mimblewimble/grin/releases/">download the grin binary</a> and join us.</p>
                           </div>
                         </div>
                       </div>
