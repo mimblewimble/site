@@ -24,11 +24,6 @@ layout: default
           <a href="https://github.com/mimblewimble/docs/wiki/Getting-Started-With-Grin%3A-Links-and-Resources" class="button is-medium is-outlined whatis">
             Getting started with Grin
           </a>
-          </p>
-          <p class="has-text-centered" style="margin-top: 0rem;">
-          <a href="https://github.com/mimblewimble/grin/blob/master/doc/intro.md" class="button is-medium is-outlined whatis">
-            What's Mimblewimble?
-          </a>
           <a href="https://github.com/mimblewimble/grin" class="button is-medium is-outlined whatis">
             <i class="fab fa-github"></i>
           </a>
