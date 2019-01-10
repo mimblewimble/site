@@ -25,7 +25,7 @@ layout: default
             Getting started with Grin
           </a>
           </p>
-          <p class="has-text-centered" style="margin-top: -1rem;">
+          <p class="has-text-centered" style="margin-top: 0rem;">
           <a href="https://github.com/mimblewimble/grin/blob/master/doc/intro.md" class="button is-medium is-outlined whatis">
             What's Mimblewimble?
           </a>
