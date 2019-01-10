@@ -128,12 +128,11 @@ ul li a {
 
 .hero-body .whatis {
   margin-bottom: 9px;
-  border: 3px solid $smiley-yellow; // TODO: refactor: remove is-warning is-outlined
-  color: $smiley-yellow;
-  background-color: $smiley-black;
+  border: 3px solid $smiley-black; // TODO: refactor: remove is-warning is-outlined
+  color: $smiley-black;
+  background-color: $smiley-yellow;
 }
 .hero-body .whatis:hover {
   border-color: $smiley-black;
-  background-color: $smiley-yellow;
-  color: $smiley-black;
+  background-color: #209cee;;
 }
