@@ -2,19 +2,19 @@
 layout: page
 ---
 
-# Developer Funding
+# Community Funding
 
-[Developer Funding - Yeastplume Mar-Aug 2019](yeastplume)
+## Current Campaigns
+
+### [Developer Funding - Yeastplume Mar-Aug 2019](yeastplume)
 
 Status: Open - €0 of €55,000 Target
 
-# Grin General Fund
-
-[General Funding for Grin's Development](general_funding)
+### [General Funding for Grin's Development](general_funding)
 
 Status: Always Open
 
-# Past campaigns
+## Past campaigns
 
 You can view all of our past campaigns [here](campaigns).
 
