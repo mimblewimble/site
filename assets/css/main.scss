@@ -130,6 +130,7 @@ ul li a {
   margin-bottom: 9px;
   border: 3px solid $smiley-yellow; // TODO: refactor: remove is-warning is-outlined
   color: $smiley-yellow;
+  background-color: $smiley-black;
 }
 .hero-body .whatis:hover {
   border-color: $smiley-black;
