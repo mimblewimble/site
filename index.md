@@ -21,7 +21,7 @@ layout: default
           </h2>
           <br>
           <p class="has-text-centered" style="margin-top: -1rem;">
-          <a href="https://github.com/mimblewimble/docs/wiki/Getting-Started-With-Grin%3A-Links-and-Resources" class="button is-medium is-outlined">
+          <a href="https://github.com/mimblewimble/docs/wiki/Getting-Started-With-Grin%3A-Links-and-Resources" class="button is-medium is-outlined whatis">
             Getting started with Grin
           </a>
           </p>
