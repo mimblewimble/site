@@ -2,37 +2,36 @@
 <html lang="en">
   <head>
     <title>{{ site.title }}</title>
-
-    {% include meta.html %}
-
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
     <!-- GoogleFonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> -->
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Bulma Version 0.7.2-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" /> -->
     <!-- CSS Main  -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css" />
   </head>
   <body>
-
+    <header>
+      {% include navigation.html %}
+    </header>
     {{ content }}
-
-    {% include footer.html %}
   </body>
   <script>
-
     var logo = document.getElementById("logo");
     var burger = document.querySelector('.burger');
-    var menu = document.querySelector('#'+burger.dataset.target);
+    var menu = document.querySelector('#' + burger.dataset.target);
 
     var endOfDocumentTop = 550;
     var isBigLogoVisible = true;
@@ -46,12 +45,12 @@
 
         if (isBigLogoVisible && scroll > endOfDocumentTop) {
           logo.parentElement.style.display = 'flex';
-          isBigLogoVisible = false
+          isBigLogoVisible = false;
         } else if(!isBigLogoVisible && scroll <= endOfDocumentTop){
           logo.parentElement.style.display = 'none';
-          isBigLogoVisible = true 
+          isBigLogoVisible = true;
         }
-      })
+      });
     {% endif %}
     // The following code is based off a toggle menu by @Bradcomp
     // source: https://gist.github.com/Bradcomp/a9ef2ef322a8e8017443b626208999c1
