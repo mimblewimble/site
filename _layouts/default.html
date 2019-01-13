@@ -11,6 +11,7 @@
 
     <!-- GoogleFonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> -->
 
     <!-- Font Awesome -->
@@ -23,10 +24,11 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css" />
   </head>
   <body>
-    <header>
+    <header class="container">
       {% include navigation.html %}
     </header>
     {{ content }}
+    {% include footer.html %}
   </body>
   <script>
     var logo = document.getElementById("logo");
