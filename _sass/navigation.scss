@@ -1,9 +1,3 @@
-@media (max-width: 767px) {
-  .nav-root {
-    visibility: hidden;
-  }
-}
-
 nav {
   display: flex;
   flex-direction: row;
@@ -19,7 +13,7 @@ nav a {
   align-items: center;
   display: flex;
   justify-content: center;
-  padding-left: $base;
+  padding: $base $small $base $base;
   // padding-right: $small;
 }
 .nav-root {
@@ -35,4 +29,10 @@ nav a {
 .nav-root li {
   padding: $base $small $base 0;
   z-index: 100;
+}
+
+@media (max-width: 767px) {
+  .nav-root {
+    display: none;
+  }
 }
