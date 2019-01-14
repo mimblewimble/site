@@ -1,0 +1,38 @@
+@media (max-width: 767px) {
+  .nav-root {
+    visibility: hidden;
+  }
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+nav a {
+}
+.nav-logo a {
+  border: 0 !important;
+}
+.nav-logo {
+  flex-grow: 0;
+  font-weight: 700;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-left: $base;
+  // padding-right: $small;
+}
+.nav-root {
+  flex-grow: 1;
+  align-items: stretch;
+  list-style: none;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  // padding-right: $base;
+}
+.nav-root li {
+  padding: $base $small $base 0;
+  z-index: 100;
+}

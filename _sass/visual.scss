@@ -1,0 +1,33 @@
+.visual-text {
+  display: block;
+  font-size: 56px;
+  font-weight: 800;
+  padding: $base;
+  // font-style: italic;
+}
+.visual-logos {
+  display: flex;
+  flex-direction: row;
+}
+.visual-box {
+  width: 200px;
+  height: 200px;
+  padding: 1px;
+  // border: 1px solid black;
+  // margin-right: $tiny;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.visual-box img {
+  height: 200px;
+  width: 200px;
+}
+.visual-box h1 {
+  margin-left: 32px;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

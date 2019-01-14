@@ -1,9 +1,13 @@
 ---
 ---
 
+@import 'reset';
 @import 'fonts';
 @import 'variables';
-@import 'reset';
+@import 'navigation';
+@import 'footer';
+@import 'landing';
+@import 'visual';
 @charset 'utf-8';
 html, body {
   font-family: 'Inter UI';
@@ -14,16 +18,20 @@ html, body {
   font-size: $small;
 }
 a {
-  color: black;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #000;
   text-decoration: none;
-  border-bottom: 1px solid black;
+  color: inherit;
   &:hover {
     border-color: transparent;
-    // text-decoration: underline;
   }
 }
 strong {
   font-weight: 700;
+}
+* {
+  box-sizing: border-box;
 }
 h1 {
   font-size: 56px;
@@ -44,13 +52,14 @@ h4 {
   margin-bottom: 8px;
 }
 p {
-  line-height: 1.55rem;
+  line-height: 1.6em;
   margin-bottom: $small;
   &:last-child {
     margin-bottom: 0;
   }
 }
 .fab {
+  font-size: 15px;
   font-family: "Font Awesome 5 Brands";
   padding-left: 2px;
 }
@@ -66,315 +75,4 @@ p {
   max-width: 900px;
   width: 100%;
   margin: 0 auto;
-}
-nav {
-  // position: absolute;
-}
-.nav-root {
-  align-items: stretch;
-  list-style: none;
-  text-align: right;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  padding-right: $base;
-}
-.nav-root li {
-  padding: $base $small $base 0;
-  z-index: 100;
-}
-main {
-  // // align-items: center;
-  // // justify-content: center;
-
-  // position: relative;
-  // top: -128px;
-  // align-items: stretch;
-
-  // justify-content: space-between;
-}
-main > header {
-  // position: relative;
-  // top: -128px;
-  flex-grow: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#intro {
-  min-height: 100vh;
-  margin-top: -64px;
-  display: flex;
-  flex-direction: column;
-}
-#splash {
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.intro {
-  justify-content: center;
-  flex-grow: 5;
-  // text-align: center;
-  justify-content: flex-start;
-  display: flex;
-  flex-direction: column;
-}
-.intro-logo {
-  justify-content: center;
-  flex-grow: 9;
-  display: flex;
-  align-items: center;
-}
-.intro h1 {
-  // padding-bottom: $tiny;
-}
-.intro-buttons {
-  margin-top: $small;
-  display: flex;
-  flex-direction: row;
-}
-.intro-button {
-  outline: 0;
-  background: black;
-  border-radius: 4px;
-  border: 0;
-  color: white;
-  font-family: "Inter UI";
-  font-size: 16px;
-  display: inline-block;
-  flex-grow: 0;
-  // width: 100px;
-  padding: $tiny 12px;
-  margin-right: $tiny;
-  cursor: pointer;
-  transition: all .15s ease;
-  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
-  &:hover {
-    // color: #7795f8;
-    -webkit-transform: translateY(-1px);
-    transform: translateY(-1px);
-    -webkit-box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3);
-    box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3);
-    -webkit-box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
-    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
-  }
-}
-.intro p {
-  font-size: 21px;
-  line-height: 28px;
-}
-.grin-logo {
-  width: 320px;
-}
-#status {
-  flex-wrap: wrap;
-  background-color: #222;
-  color: white;
-  padding: $base $small $small $small;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.status-text {
-  min-width: 100px;
-  padding: $tiny;
-  background: #ffdd57;
-  color: black;
-  border-radius: 4px;
-  font-family: monospace;
-  font-size: 13px;
-  font-weight: 700;
-  // margin-bottom: $tiny;
-  // margin-right: $tiny;
-}
-.status-message {
-  margin: $tiny $base;
-  font-size: 14px;
-}
-#primary {
-  background-color: #222;
-  color: white;
-  padding: $large;
-
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
-}
-#primary div {
-  max-width: 900px;
-}
-#primary p {
-  font-size: 17px;
-  margin-bottom: $small;
-}
-.pitch {
-  margin-bottom: $base;
-  border-bottom: 1px dotted grey;
-  padding-bottom: $tiny;
-}
-.properties {
-  display: flex;
-  flex-wrap: wrap;
-}
-.properties img {
-  width: 80px;
-  height: 80px;
-  margin-right: $tiny;
-}
-.property {
-  flex: 1;
-  min-width: 200px;
-  // display: inline-block;
-  // flex-grow: 1;
-  // display: flex;
-  // flex-direction: row;
-}
-.property-title {
-  display: flex;
-  align-items: center;
-}
-.property p {
-  padding: $tiny $small;
-}
-#secondary {
-  // background-color: #222;
-  // color: white;
-  padding: 28px $small;
-  max-width: 900px;
-  margin: 38px auto;
-  padding-bottom: $tiny;
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
-}
-.info {
-  display: flex;
-  padding-top: $tiny;
-  margin-bottom: $small;
-  flex-wrap: wrap;
-  // margin: $base;
-  // flex-direction: column;
-}
-.info-box {
-  border-radius: 4px;
-  min-width: 200px;
-  // cursor: pointer;
-  flex: 1;
-  border: 1px solid #f2f2f2;
-  padding: $small;
-  margin-right: $small;
-  box-shadow: 0 10px 45px -12px rgba(93, 90, 50, 0.25), 0 18px 36px -18px rgba(0, 0, 0, .3);
-  transition: all .15s ease;
-  margin-bottom: 28px;
-  // &:hover {
-  //   box-shadow: 0 15px 55px -12px rgba(93, 90, 50, 0.25), 0 18px 36px -18px rgba(0, 0, 0, .3);
-  //   transform: translateY(-2px);
-  // }
-}
-hr {
-  margin: $base 0;
-  border-bottom: 1px dotted #d0d0d0;
-  border-top: 0;
-  border-right: 0;
-  border-left: 0;
-  // border-style: dotted;
-  // border-color: #d0d0d0;
-}
-.funding-progress-container {
-  width: 100%;
-  border-radius: 10px;
-  height: 6px;
-  background-color: #eaeaea;
-  border:1px solid #eaeaea;
-  position: relative;
-  top: -8px;
-  z-index: 0;
-  margin-bottom: 10px;
-}
-.funding-progress {
-  margin-top: 10px;
-  position: relative;
-  width: 50%;
-  border-radius: 10px;
-  height: 6px;
-  background-color: #2d2d2d;
-  border:1px solid #2d2d2d;
-  z-index: 10;
-}
-.funding-amount {
-  // font-family: "Space Mono";
-  font-family: monospace;
-}
-.funding-button {
-  outline: 0;
-  background: #ffdd57;
-  border: 1px solid #ffdd57;
-  border-radius: 4px;
-  color: black;
-  font-family: "Inter UI";
-  font-size: 14px;
-  display: inline-block;
-  flex-grow: 0;
-  padding: 8px 12px;
-  margin-right: 8px;
-  cursor: pointer;
-  transition: all .15s ease;
-  font-weight: 700;
-  // box-shadow: 0 1px 4px rgba(113, 110, 75, 0.11), 0 1px 3px rgba(247, 255, 119, 0.08);
-  &:hover {
-    background: #222;
-    border: 1px solid #222;
-    color: white;
-    // background-color: #ffea94;
-    transform: translateY(-1px);
-  }
-}
-.funding-swag {
-  outline: 0;
-  background: white;
-  border-radius: 4px;
-  border: 1px solid #222;
-  color: black;
-  font-family: "Inter UI";
-  font-size: 14px;
-  display: inline-block;
-  flex-grow: 0;
-  padding: 8px 12px;
-  margin-right: 8px;
-  cursor: pointer;
-  transition: all .15s ease;
-  font-weight: 700;
-  // box-shadow: 0 4px 6px rgba(113, 110, 75, 0.11), 0 1px 3px rgba(247, 255, 119, 0.08);
-  &:hover {
-    color: white;
-    background-color: #222;
-    transform: translateY(-1px);
-  }
-}
-footer {
-  background-color: #f2f2f2;
-  padding: $base;
-  display: flex;
-}
-.footer-root {
-  display: flex;
-}
-.grin-logo-footer {
-  height: 64px;
-  display: flex;
-  margin-right: $base;
-}
-.footer-section {
-  display: flex;
-  flex: 10;
-  flex-direction: column;
-}
-.footer-section a {
-  // display: block;
-  display: inline-block;
-}
-.footer-section div {
-  margin-bottom: $tiny;
 }
