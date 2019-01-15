@@ -22,6 +22,7 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" /> -->
     <!-- CSS Main  -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css" />
+    <!-- <link href="dist/hamburgers.css" rel="stylesheet"> -->
   </head>
   <body>
     <header class="container">
@@ -31,34 +32,45 @@
     {% include footer.html %}
   </body>
   <script>
-    var logo = document.getElementById("logo");
-    var burger = document.querySelector('.burger');
-    var menu = document.querySelector('#' + burger.dataset.target);
-
-    var endOfDocumentTop = 550;
-    var isBigLogoVisible = true;
-
-    {% if page.url != '/' %}
-      logo.parentElement.style.display = 'flex';
-    {% else %}
-      logo.parentElement.style.display = 'none';
-      window.addEventListener('scroll', function() {
-        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-
-        if (isBigLogoVisible && scroll > endOfDocumentTop) {
-          logo.parentElement.style.display = 'flex';
-          isBigLogoVisible = false;
-        } else if(!isBigLogoVisible && scroll <= endOfDocumentTop){
-          logo.parentElement.style.display = 'none';
-          isBigLogoVisible = true;
-        }
-      });
-    {% endif %}
-    // The following code is based off a toggle menu by @Bradcomp
-    // source: https://gist.github.com/Bradcomp/a9ef2ef322a8e8017443b626208999c1
-    burger.addEventListener('click', function() {
-      burger.classList.toggle('is-active');
-      menu.classList.toggle('is-active');
+    // var logo = document.getElementById("logo");
+    // var burger = document.querySelector('.burger');
+    // var menu = document.querySelector('#' + burger.dataset.target);
+    //
+    // var endOfDocumentTop = 550;
+    // var isBigLogoVisible = true;
+    //
+    // {% if page.url != '/' %}
+    //   logo.parentElement.style.display = 'flex';
+    // {% else %}
+    //   logo.parentElement.style.display = 'none';
+    //   window.addEventListener('scroll', function() {
+    //     var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    //
+    //     if (isBigLogoVisible && scroll > endOfDocumentTop) {
+    //       logo.parentElement.style.display = 'flex';
+    //       isBigLogoVisible = false;
+    //     } else if(!isBigLogoVisible && scroll <= endOfDocumentTop){
+    //       logo.parentElement.style.display = 'none';
+    //       isBigLogoVisible = true;
+    //     }
+    //   });
+    // {% endif %}
+    // // The following code is based off a toggle menu by @Bradcomp
+    // // source: https://gist.github.com/Bradcomp/a9ef2ef322a8e8017443b626208999c1
+    // burger.addEventListener('click', function() {
+    //   burger.classList.toggle('is-active');
+    //   menu.classList.toggle('is-active');
+    // });
+    var hamburger = document.querySelector(".hamburger");
+    var navMobile = document.querySelector(".nav-mobile");
+    var navMobileA = document.querySelectorAll(".nav-mobile li a");
+    hamburger.addEventListener("click", function() {
+      hamburger.classList.toggle("is-active");
+      hamburger.classList.toggle("hamburger--slider");
+      navMobile.classList.toggle("is-active");
+      for (var i = 0; i < navMobileA.length; i++) {
+        navMobileA[i].classList.toggle("is-active");
+      }
     });
   </script>
 </html>
