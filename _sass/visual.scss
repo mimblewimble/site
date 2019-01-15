@@ -8,11 +8,15 @@
 .visual-logos {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .visual-box {
+  flex-grow: 1;
   width: 200px;
   height: 200px;
   padding: 1px;
+  // max-width: 250px;
   // border: 1px solid black;
   // margin-right: $tiny;
   display: flex;
@@ -24,7 +28,7 @@
   width: 200px;
 }
 .visual-box h1 {
-  margin-left: 32px;
+  // margin-left: 32px;
 }
 .banner {
   display: flex;

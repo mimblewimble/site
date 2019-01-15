@@ -16,6 +16,17 @@ main > header {
   align-items: center;
   justify-content: center;
 }
+hr {
+  margin: $base 0;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+#secondary hr {
+  border-bottom-color: #d0d0d0;
+}
 #intro {
   min-height: 100vh;
   margin-top: -64px;
@@ -91,7 +102,7 @@ main > header {
   flex-wrap: wrap;
   background-color: #151515;
   color: white;
-  padding: $base $small $base $small;
+  padding: $large $small $large $small;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -109,34 +120,41 @@ main > header {
   // margin-right: $tiny;
 }
 .status-message {
-  margin: $tiny $base;
+  margin: 12px 0 12px $small;
   font-size: 14px;
 }
 #primary {
   background-color: #151515;
   color: white;
-  padding: $base $large $large $large;
-
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
+  // padding: $small $large $large $large;
 }
 #primary div {
   max-width: 900px;
 }
 #primary p {
   font-size: 17px;
-  margin-bottom: $small;
+  // margin-bottom: $small;
+}
+#primary hr {
+  margin-bottom: 0 !important;
+  color: grey !important;
+  // padding: 0 $large;
+  // max-width: 900px;
+  // margin: 0 auto;
+}
+.primary-root {
+  padding: 0 $large $large $large;
+  margin: 0 auto;
 }
 .pitch {
   margin-bottom: $base;
-  border-bottom: 1px dotted grey;
-  padding-bottom: $tiny;
+  // border-bottom: 1px dotted grey;
+  // padding: $base $large $base $large;
 }
 .properties {
-  margin-top: $small !important;
   display: flex;
   flex-wrap: wrap;
+  // padding: 0 $large $large $large;
 }
 .properties img {
   width: 80px;
@@ -146,6 +164,7 @@ main > header {
 .property {
   flex: 1;
   min-width: 200px;
+  margin-top: $base;
   // display: inline-block;
   // flex-grow: 1;
   // display: flex;
@@ -156,15 +175,15 @@ main > header {
   align-items: center;
 }
 .property p {
-  padding: $tiny $small;
+  padding: $tiny $small 0 $small;
+  margin-bottom: 0 !important;
 }
 #secondary {
   // background-color: #222;
   // color: white;
-  padding: 28px $small;
+  padding: $large $large;
   max-width: 900px;
-  margin: 38px auto;
-  padding-bottom: $tiny;
+  margin: 0 auto;
   // display: flex;
   // align-items: center;
   // justify-content: center;
@@ -234,24 +253,16 @@ main > header {
 .info-banner-text {
   color: white;
   transition: all .15s ease;
-  padding: 0 $base;
+  padding: $small $base;
   text-align: center;
   line-height: 1.2em;
+  margin-bottom: 0 !important;
 }
 .info-grin-logo {
   position: absolute;
   height: 220px;
   opacity: .18;
   transition: all .15s ease;
-}
-hr {
-  margin: $base 0;
-  border-bottom: 1px dotted #d0d0d0;
-  border-top: 0;
-  border-right: 0;
-  border-left: 0;
-  // border-style: dotted;
-  // border-color: #d0d0d0;
 }
 .funding-progress-container {
   width: 100%;
@@ -270,8 +281,8 @@ hr {
   width: 50%;
   border-radius: 10px;
   height: 6px;
-  background-color: #2d2d2d;
-  border:1px solid #2d2d2d;
+  background-color: #151515;
+  border:1px solid #151515;
   z-index: 10;
 }
 .funding-amount {
@@ -356,6 +367,17 @@ hr {
   }
   .grin-logo {
     width: 280px;
+  }
+}
+@media (max-width: 768px) {
+  #status {
+    padding-bottom: 0;
+  }
+  .primary-root {
+    padding: $base;
+  }
+  #secondary {
+    padding: $base;
   }
 }
 @media (max-width: 480px) {

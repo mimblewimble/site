@@ -6,14 +6,13 @@
 @import 'variables';
 @import 'navigation';
 @import 'footer';
-@import 'landing';
+@import 'index';
 @import 'visual';
 @charset 'utf-8';
 html, body {
   font-family: 'Inter UI';
   background-color: white;
   color: block;
-  // max-width: 1040px;
   margin: 0 auto;
   font-size: $small;
 }

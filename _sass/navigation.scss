@@ -4,17 +4,25 @@ nav {
 }
 nav a {
 }
-.nav-logo a {
-  border: 0 !important;
-}
 .nav-logo {
-  flex-grow: 0;
+  // flex-grow: 0;
   font-weight: 700;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  padding: $base $small $base $base;
+  // align-items: center;
+  // display: flex;
+  // justify-content: center;
+  // padding: $base $small $base $base;
   // padding-right: $small;
+}
+.nav-logo li {
+  display: flex;
+  height: 64px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.nav-logo a {
+  font-size: 24px;
+  border: 0 !important;
 }
 .nav-root {
   flex-grow: 1;
@@ -31,7 +39,7 @@ nav a {
   z-index: 100;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .nav-root {
     display: none;
   }
