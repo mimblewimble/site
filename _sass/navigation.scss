@@ -2,6 +2,9 @@ nav {
   display: flex;
   flex-direction: row;
 }
+nav ul {
+  margin-bottom: 0;
+}
 nav a {
 }
 .nav-logo {

@@ -8,6 +8,7 @@
 @import 'footer';
 @import 'index';
 @import 'visual';
+@import 'friends';
 @charset 'utf-8';
 html, body {
   font-family: 'Inter UI';
@@ -57,6 +58,13 @@ p {
     margin-bottom: 0;
   }
 }
+li {
+  line-height: 1.5em;
+}
+ul {
+  list-style: disc outside;
+  margin-bottom: $small;
+}
 .fab {
   font-size: 15px;
   font-family: "Font Awesome 5 Brands";
@@ -73,5 +81,10 @@ p {
 .container-sm {
   max-width: 900px;
   width: 100%;
+  margin: 0 auto;
+}
+.main-root {
+  padding: 48px 48px;
+  max-width: 900px;
   margin: 0 auto;
 }
