@@ -48,6 +48,10 @@ nav a {
 .nav-hamburger.is-active {
   background-color: white;
 }
+.hamburger.is-active {
+  z-index: 1000;
+  position: fixed;
+}
 .hamburger.is-active .hamburger-inner {
   background-color: white;
 }
@@ -74,9 +78,10 @@ nav a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  z-index: 500;
 }
 .nav-mobile.is-active {
-  position: absolute;
+  position: fixed;
   opacity: 1;
   visibility: visible;
 }
@@ -84,7 +89,7 @@ nav a {
   position: relative;
   top: 15px;
   opacity: 0;
-  transition: top .3s ease, color .15s ease, opacity .3s ease;
+  transition: top .35s ease, color .15s ease, opacity .35s ease;
   border-bottom: 0;
   &:hover {
     color: #fef102;
@@ -104,5 +109,10 @@ nav a {
     justify-content: flex-end;
     align-items: center;
     flex-grow: 1;
+  }
+}
+@media (min-width: 768px) {
+  .nav-mobile {
+    visibility: hidden !important;
   }
 }
