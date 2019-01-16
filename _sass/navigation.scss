@@ -83,12 +83,18 @@ nav a {
   opacity: 1;
   visibility: visible;
 }
+.nav-mobile li {
+  text-align: center;
+  line-height: 1.1em;
+  padding-bottom: $tiny;
+}
 .nav-mobile li a {
   position: relative;
   top: 15px;
   opacity: 0;
   transition: top .35s ease, color .15s ease, opacity .35s ease;
   border-bottom: 0;
+  text-align: center;
   &:hover {
     color: #fef102;
   }
