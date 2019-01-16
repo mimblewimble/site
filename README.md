@@ -12,5 +12,5 @@ Ensure you have the requirements installed, then run the following commands
 to deploy the site on your host locally:
 ```sh
 bundle install --path vendor/bundle
-bundle exec jekyll serve
+bundle exec jekyll serve --incremental
 ```

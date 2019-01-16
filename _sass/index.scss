@@ -100,9 +100,9 @@ hr {
 }
 #status {
   flex-wrap: wrap;
-  background-color: #151515;
-  color: white;
-  padding: $large $small $large $small;
+  background-color: white;
+  color: black;
+  padding: $base $small $large $small;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,8 +110,8 @@ hr {
 .status-text {
   min-width: 100px;
   padding: $tiny;
-  background: #ffdd57;
-  color: black;
+  background: #22c335;
+  color: white;
   border-radius: 4px;
   font-family: monospace;
   font-size: 13px;
@@ -143,7 +143,7 @@ hr {
   // margin: 0 auto;
 }
 .primary-root {
-  padding: 0 $large $large $large;
+  padding: $large $large $large $large;
   margin: 0 auto;
 }
 .pitch {
