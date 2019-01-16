@@ -218,7 +218,18 @@ Some text to show that the reference links can follow later.
 <a name="images"/>
 ## Images
 
-```no-highlight
+```no-highlight}
+    });
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body, {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "\\[", right: "\\]", display: true },
+          { left: "$", right: "$", display: false },
+        ],
+        ignoredTags: [
+          "script", "noscript", "style", "textarea", "pre", "code",
+        ],
 Here's our logo (hover to see the title text):
 
 Inline-style:
