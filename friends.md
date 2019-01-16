@@ -55,6 +55,9 @@ The following companies, institutions, or individuals have generously donated fi
 	<a href="https://www.wings.ai/">
 		<img src="assets/images/logos/wingsai-grey.png" title="Wings">
 	</a>
+	<a href="https://www.wings.ai/">
+		<img src="assets/images/logos/cgs-logo-white.svg" title="CGS Group">
+	</a>
 </section>
 
 <article markdown="1" class="post-content">
