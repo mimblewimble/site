@@ -37,8 +37,8 @@ layout: default
     <!-- CTA BOX -->
     <div class="box cta">
       <p class="has-text-centered">
-      <span class="tag is-warning">
-        Currently Live: Floonet
+      <span class="tag is-success">
+        Currently Live: Main Net
       </span> 
       <span href="#" style="margin-left: 10px;">
         Grin is under development. Mainnet launch planned for Jan. 15th 2019.
