@@ -25,8 +25,8 @@ Raised (amounts as of Jan 11th, 2019):
 [0xeFC76886E5C50D1FD15addAbb59D2D3582A03A61](https://etherscan.io/address/0xeFC76886E5C50D1FD15addAbb59D2D3582A03A61)
 
 ## Grin Donations! (Experimental, let's see what happens!)
-Via [wallet713](https://github.com/vault713/wallet713) - Send to gVtiAMLJLHQB1HyjfoFKdkk2jHsRQ2uJC4zbhcVJWBKCii6ehoqq
-Or email a Slate to: yeastplume@protonmail.com
+* Via [wallet713](https://github.com/vault713/wallet713) - gVtiAMLJLHQB1HyjfoFKdkk2jHsRQ2uJC4zbhcVJWBKCii6ehoqq
+* Or send a Slate to: yeastplume@protonmail.com
 
 ## Source for this page (via https):
 
