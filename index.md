@@ -41,7 +41,7 @@ layout: default
         Currently Live: Main Net
       </span> 
       <span href="#" style="margin-left: 10px;">
-        Mainnet was launched on Jan. 15th 2019!
+        Grin was launched on Jan. 15th 2019!
       </span>
       </p>
     </div>
