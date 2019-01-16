@@ -99,6 +99,42 @@ nav a {
   opacity: 1;
   top: 0;
 }
+.dropdown {
+  display: block;
+  position: relative;
+  &:hover > nav {
+    display: block;
+  }
+}
+.dropdown nav {
+  display: none;
+  position: absolute;
+  top: $small;
+  right: 0;
+  margin-top: $small;
+  border-radius: 4px;
+  border: 1px solid #f2f2f2;
+  padding: $tiny $small $tiny $small;
+  box-shadow: 0 10px 45px -12px rgba(93, 90, 50, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3);
+  transition: all .15s ease;
+  min-width: 100px;
+  &::after {
+    content: "";
+    border-color: transparent;
+    border-width: .5rem;
+    top: -$small;
+    margin: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border-width: 12px;
+    border-style: solid;
+  }
+}
+.dropdown nav a {
+  display: block;
+  border-bottom: 0;
+}
 
 @media (max-width: 768px) {
   .nav-root {
