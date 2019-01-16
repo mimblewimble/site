@@ -69,5 +69,5 @@ We'd also like to explicitly thank everyone who's donated to one of Grin's campa
 
 ## Minimum amounts
 
-$100 in crypto-equivalent in order to be listed in the individuals section, $1,000 in the companies section.
+100 USD in crypto-equivalent in order to be listed in the individuals section, 1,000 USD in the companies section.
 </article>

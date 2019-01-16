@@ -120,8 +120,10 @@ hr {
   // margin-right: $tiny;
 }
 .status-message {
-  margin: 12px 0 12px $small;
+  margin: 12px $small 12px $small;
   font-size: 14px;
+  line-height: 1.6em;
+  text-align: center;
 }
 #primary {
   background-color: #151515;
