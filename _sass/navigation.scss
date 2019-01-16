@@ -106,6 +106,7 @@ nav a {
   }
 }
 .dropdown nav {
+  background-color: white;
   white-space: nowrap;
   display: none;
   position: absolute;
@@ -137,11 +138,11 @@ nav a {
   padding: 0 18px 4px $small;
 }
 .dropdown nav a {
+  background-color: white;
   word-break: break-all;
   display: block;
   border-bottom: 0;
   white-space: nowrap;
-  // min-width: 180px;
   padding: 4px $small 4px 18px;
   &:hover {
     background-color: #f2f2f2;
