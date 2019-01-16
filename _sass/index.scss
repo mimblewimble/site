@@ -143,7 +143,7 @@ hr {
   // margin: 0 auto;
 }
 .primary-root {
-  padding: $large $large $large $large;
+  padding: $large;
   margin: 0 auto;
 }
 .pitch {
@@ -370,13 +370,7 @@ hr {
 }
 @media (max-width: 768px) {
   #status {
-    padding-bottom: 0;
-  }
-  .primary-root {
-    padding: $base;
-  }
-  #secondary {
-    padding: $base;
+    padding-bottom: 18px;
   }
 }
 @media (max-width: 480px) {
@@ -384,3 +378,9 @@ hr {
     font-size: 44px;
   }
 }
+// .primary-root {
+//   padding: $base;
+// }
+// #secondary {
+//   padding: $base;
+// }

@@ -47,7 +47,10 @@ The following companies, institutions, or individuals have generously donated fi
 		<img src="assets/images/logos/hashrabbit.png" title="Cypher Capital">
 	</a>
 	<a href="https://lemniscap.com/">
-		<img src="assets/images/logos/lemniscap.png" title="Lemniscap"><img src="assets/images/logos/chanceventures.png" title="Chance Ventures">
+		<img src="assets/images/logos/lemniscap.png" title="Lemniscap">
+	</a>
+	<a href="https://lemniscap.com/">
+		<img src="assets/images/logos/chanceventures.png" title="Chance Ventures">
 	</a>
 	<a href="https://www.wings.ai/">
 		<img src="assets/images/logos/wingsai-grey.png" title="Wings">
@@ -66,5 +69,5 @@ We'd also like to explicitly thank everyone who's donated to one of Grin's campa
 
 ## Minimum amounts
 
-<!-- $100 in crypto-equivalent in order to be listed in the individuals section, $1,000 in the companies section. -->
+$100 in crypto-equivalent in order to be listed in the individuals section, $1,000 in the companies section.
 </article>

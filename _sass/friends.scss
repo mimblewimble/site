@@ -6,17 +6,26 @@
   margin-bottom: $small;
 }
 .companies a {
+  cursor: pointer;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0 10px 45px -12px rgba(93, 90, 50, 0.25), 0 18px 36px -18px rgba(0, 0, 0, .3);
+  transition: all .15s ease;
   border-radius: 4px;
   margin: 4px;
   display: block;
   border-bottom: 0;
-  // border: 1px solid black;
   background-color: #151515;
+  // border: 1px solid black;
+  box-shadow: 0 10px 45px -12px rgba(93, 90, 50, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3);
   // flex-grow: 1;
   display: flex;
   align-items: center;
   width: 150px;
   height: 150px;
+  &:hover {
+    box-shadow: 0 15px 55px -12px rgba(93, 90, 50, 0.25), 0 18px 36px -18px rgba(0, 0, 0, .3);
+    transform: translateY(-2px);
+  }
 }
 .companies a img {
   padding: $small;

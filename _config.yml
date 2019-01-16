@@ -1,3 +1,5 @@
 description: "Simple, privacy-focused, scalable MimbleWimble chain implementation"
 locale: "en-US"
 title: "Grin"
+kramdown:
+  math_engine: nil  # for katex (because kramdown defaults to mathjax)

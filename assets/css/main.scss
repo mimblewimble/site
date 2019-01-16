@@ -2,9 +2,10 @@
 ---
 
 @import 'reset';
-@import 'hamburger';
-@import 'fonts';
 @import 'variables';
+@import 'hamburger';
+@import 'markdown';
+@import 'fonts';
 @import 'navigation';
 @import 'footer';
 @import 'index';
@@ -16,7 +17,7 @@ html, body {
   background-color: white;
   color: block;
   margin: 0 auto;
-  font-size: $small;
+  font-size: $regular;
 }
 a {
   border-bottom-width: 2px;
@@ -34,31 +35,29 @@ strong {
 * {
   box-sizing: border-box;
 }
-h1 {
-  font-size: 56px;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-h2 {
-  font-size: 36px;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-h3 {
-  font-size: 28px;
-  margin-bottom: 8px;
-}
+// h1 {
+//   font-size: 56px;
+//   font-weight: 700;
+//   margin-bottom: 8px;
+// }
+// h2 {
+//   font-size: 36px;
+//   font-weight: 700;
+//   margin-bottom: 8px;
+// }
+// h3 {
+//   font-size: 28px;
+//   margin-bottom: 8px;
+// }
 h4 {
   font-size: 19px;
   margin-bottom: 8px;
 }
-p {
-  line-height: 1.6em;
-  margin-bottom: $small;
-  &:last-child {
-    margin-bottom: 0;
-  }
-}
+// p {
+//   line-height: 1.6em;
+//   margin-bottom: $small;
+//
+// }
 li {
   line-height: 1.6em;
   // margin-bottom: 2px;

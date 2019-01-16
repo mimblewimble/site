@@ -1,0 +1,154 @@
+h1 {
+  font-size: $h1;
+  font-family: 'Inter UI';
+  font-weight: 600;
+  // line-height: 56px;
+  margin-bottom: $tiny;
+}
+h2 {
+  font-size: $h2;
+  font-family: 'Inter UI';
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+h3 {
+  font-size: $h3;
+  font-family: 'Inter UI';
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+h4 {
+  font-size: $large;
+  margin-bottom: 8px;
+}
+p {
+  font-size: $regular;
+  line-height: 1.6em;
+  margin-bottom: 1.6em;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+em, i {
+  font-style: italic;
+}
+strong {
+  font-weight: bold;
+}
+table {
+  margin-bottom: 1.6em;
+}
+th {
+  border: 1px solid #222;
+  padding: 8px 12px;
+}
+td {
+  border: 1px solid #222;
+  padding: 8px 12px;
+}
+hr {
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #ddd;
+  border-left: 0;
+  display: block;
+  margin: 16px 0 16px 0;
+  width: 100%;
+}
+blockquote {
+  border-left: 1px solid black;
+  padding-left: 16px;
+  font-style: italic;
+  margin-bottom: 1.6em;
+}
+blockquote p:before {
+  content: '“';
+}
+blockquote p:after {
+  content: '”';
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+iframe {
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  max-height: 281px;
+  vertical-align: middle;
+}
+pre {
+  background-color: #222;
+  border-radius: 4px;
+  color: #eee;
+  font-family: monospace;
+  font-size: 13px;
+  margin-bottom: 1.6em;
+  padding: 8px;
+  overflow-x: auto;
+  /* overflow-x: hidden; */
+}
+pre > code {
+  position: inherit;
+  background-color: transparent;
+  border-radius: 0;
+  font-family: monospace;
+  font-size: 13px;
+  padding: 0;
+  top: 0;
+  line-height: 18px;
+}
+code {
+  position: relative;
+  background-color: #222;
+  border-radius: 4px;
+  color: #eee;
+  font-family: monospace;
+  font-size: 13px;
+  padding: 2px 4px;
+  top: -1px;
+}
+kbd {
+  background-color: #fafbfc;
+  border: solid 1px #d1d5da;
+  border-bottom-color: #c6cbd1;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #c6cbd1;
+  color: #444d56;
+  display: inline;
+  font-family: monospace;
+  font-size: 11px;
+  padding: 2px 4px;
+  vertical-align: middle;
+}
+ol {
+  list-style-type: decimal;
+  margin-bottom: 8px;
+  padding-left: 16px;
+  list-style-position: inside;
+  /* padding-top: 12px; */
+}
+ul {
+  list-style-type: lower-greek;
+  margin-bottom: 8px;
+  padding-left: 16px;
+  list-style-position: inside;
+  /* padding-top: 12px; */
+}
+li {
+  line-height: 26px;
+  margin-bottom: 4px;
+}
+p + ol {
+  margin-top: -8px;
+}
+p + ul {
+  margin-top: -8px;
+}
+.date {
+  font-family: "Space Mono";
+  font-size: 12px;
+}
+.katex-display {
+  margin: 1.6em 0 !important;
+}
