@@ -41,7 +41,7 @@ layout: default
         Currently Live: Main Net
       </span> 
       <span href="#" style="margin-left: 10px;">
-        Grin was launched on Jan. 15th 2019!
+        Grin was launched on Jan. 15th 2019. It's very young and experimental. Use at your own risk!
       </span>
       </p>
     </div>
