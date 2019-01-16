@@ -10,30 +10,14 @@ This is a general fund for the Grin project's ongoing and ever-expanding needs. 
 
 Status: Always Open
 
-## Current Identified Needs:
-
-- [Professional security audit](sec_audit)
-
-## Amounts
-
-- Total Raised: 17.28 BTC
-- Total Spent: 0.0 BTC
-- Current Balance: 17.28 BTC
-
-Last updated November 12th, 2018
-
-## Bitcoin donation address:
+## Bitcoin donation address
 
 - bitcoin legacy [3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs](https://live.blockcypher.com/btc/address/3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs/)
 - bitcoin segwit [bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65](https://blockchair.com/bitcoin/address/bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65).
 
 Please note the 2nd address is a [Bech32 address](https://en.bitcoin.it/wiki/Bech32_adoption), so please ensure your wallet supports sending to a Bech32 address to use it. Many wallets and exchanges now support this, and you can [check adoption here](https://en.bitcoin.it/wiki/Bech32_adoption).
 
-## Source for this page (via https):
-
-[https://github.com/mimblewimble/site/blob/master/general_funding.md](https://github.com/mimblewimble/site/blob/master/general_funding.md)
-
-#### Please verify the donation addresses as shown above in your browser matches the source for this page on [mimblewimble/site](https://github.com/mimblewimble/site).
+#### Please verify the donation addresses as shown above in your browser matches the source for this page on [mimblewimble/site](https://github.com/mimblewimble/site/blob/master/general_funding.md).
 
 ## What is this fund
 
