@@ -35,6 +35,9 @@ The following companies, institutions, or individuals have generously donated fi
 			<a href="https://kyokan.io/"><img src="assets/images/logos/kyokan_teal_white.png" title="BlockCypher"></a>
 		</div>
 		<div class="cell">
+			<a href="#"><img src="assets/images/logos/galleon.png" title="Galleon"></a>
+		</div>
+		<div class="cell">
 			<a href="https://beam-mw.com/"><img src="assets/images/logos/beam_logo.png" title="Beam"></a>
 		</div>
 		<div class="cell">
@@ -57,13 +60,16 @@ The following companies, institutions, or individuals have generously donated fi
 		<div class="cell">
 			<a href="https://www.wings.ai/"><img src="assets/images/logos/wingsai-grey.png" title="Wings"></a>
 		</div>
+		<div class="cell">
+			<a href="https://www.cgs.group/"><img src="assets/images/logos/cgs-logo-white.svg" title="CGS Group"></a>
+		</div>
 	</div>
 </div>
 
 ## Individuals
 
 _In alphabetical order:_
-Redouan Ahaloui - Aurel - Leonid Beder - Roy Blankman - Guy Corem - Chance Du - Michalis Kargakis - Jameson Lopp - Chris McCann - Jack Misteli Jean-Guillaume - Yan Pritzker - Niels de Ruiter - Max Tannahill - Aaron Ting - Alexander Zaidelson
+Redouan Ahaloui - Aurel - Leonid Beder - Roy Blankman - Ivan Brightly - Guy Corem - Chance Du - Michalis Kargakis - Jameson Lopp - Chris McCann - Jack Misteli Jean-Guillaume - Bart Mol - Yan Pritzker - Hendrik Richter - Niels de Ruiter - Max Tannahill - Aaron Ting - Alexander Zaidelson
 
 ## Anonymous Supporters
 

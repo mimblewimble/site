@@ -125,3 +125,15 @@ ul li a {
 	max-height: 100%;
 	vertical-align: middle;
 }
+
+.hero-body .whatis {
+  margin-bottom: 9px;
+  border: 1px solid $smiley-black; // TODO: refactor: remove is-warning is-outlined
+  color: $smiley-black;
+  background-color: $smiley-yellow;
+}
+
+.hero-body .whatis:hover {
+  border-color: $smiley-black;
+  background-color: #209cee;
+}

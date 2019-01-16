@@ -2,17 +2,19 @@
 layout: page
 ---
 
-## Grin General Fund
-
-[General Funding for Grin's Development](general_funding), currently fully directed toward the security audit.
-
-Status: Always Open
+# Community Funding
 
 ## Current Campaigns
 
-- [Grin Security Audit](sec_audit)
+### [Developer Funding - Yeastplume Mar-Aug 2019](yeastplume)
 
-  Status: Open - 9.1 BTC of 16 BTC Target
+Status: Open - €440 of €55,000 Target
+
+### [General Funding for Grin's Development](general_funding)
+
+Status: Always Open
+
+## Past campaigns
 
 You can view all of our past campaigns [here](campaigns).
 

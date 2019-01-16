@@ -16,9 +16,9 @@ Status: Always Open
 
 ## Amounts
 
-- Total Raised: 10.1 BTC
+- Total Raised: 17.28 BTC
 - Total Spent: 0.0 BTC
-- Current Balance: 10.1 BTC
+- Current Balance: 17.28 BTC
 
 Last updated November 12th, 2018
 
