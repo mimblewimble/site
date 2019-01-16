@@ -135,10 +135,9 @@ layout: default
                           <div class="tile is-child box">
                             <p class="subtitle">MainNet, Onwards!</p> <hr>
                             <p>
-                            We’re currently hard at work in stabilizing Grin for our
-														mainnet release, around Jan. 15th 2019.
+                            Grin mainnet was launched on Jan. 15 2019. 
                             <br><br>
-                            Check out our <a href="https://github.com/mimblewimble/grin/milestone/4">feature list</a> and jump in.
+                            <a href="https://github.com/mimblewimble/docs/wiki/Getting-Started-With-Grin%3A-Links-and-Resources">Get started here</a>.
                             </p>
                           </div>
                           <div class="tile is-child box">
