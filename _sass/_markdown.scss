@@ -2,7 +2,6 @@ h1 {
   font-size: $h1;
   font-family: 'Inter UI';
   font-weight: 600;
-  // line-height: 56px;
   margin-bottom: $tiny;
 }
 h2 {
@@ -108,6 +107,10 @@ code {
   padding: 2px 4px;
   top: -1px;
 }
+code.inverted {
+  background-color: #e9e9e9;
+  color: black;
+}
 kbd {
   background-color: #fafbfc;
   border: solid 1px #d1d5da;
@@ -125,13 +128,11 @@ ol {
   list-style-type: decimal;
   margin-bottom: 8px;
   padding-left: 2em;
-  // list-style-position: inside;
 }
 ul {
   list-style-type: disc;
   margin-bottom: 8px;
   padding-left: 2em;
-  // list-style-position: inside;
 }
 li {
   line-height: 26px;
@@ -142,10 +143,6 @@ p + ol {
 }
 p + ul {
   margin-top: -8px;
-}
-.date {
-  font-family: "Space Mono";
-  font-size: 12px;
 }
 .katex-display {
   margin: 1.6em 0 !important;

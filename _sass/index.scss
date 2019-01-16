@@ -1,52 +1,34 @@
 main {
-  // align-items: center;
-  // justify-content: center;
-
-  // position: relative;
-  // top: -128px;
-  // align-items: stretch;
-
-  // justify-content: space-between;
 }
 main > header {
-  // position: relative;
-  // top: -128px;
-  flex-grow: 1;
-  display: flex;
   align-items: center;
+  display: flex;
+  flex-grow: 1;
   justify-content: center;
 }
 hr {
-  margin: $base 0;
   border-bottom-width: 1px;
   border-bottom-style: dotted;
-  border-top: 0;
-  border-right: 0;
   border-left: 0;
-}
-#secondary hr {
-  border-bottom-color: #d0d0d0;
+  border-right: 0;
+  border-top: 0;
+  margin: $base 0;
 }
 #intro {
-  min-height: 100vh;
-  margin-top: -64px;
   display: flex;
   flex-direction: column;
+  margin-top: -77px;
+  min-height: 100vh;
 }
 #splash {
+  align-items: center;
+  display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
-  display: flex;
   justify-content: center;
-  align-items: center;
 }
 .intro {
-  flex-grow: 5;
-  // text-align: center;
-  // justify-content: flex-start;
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
+  flex-grow: 5
 }
 .intro-logo {
   justify-content: center;
@@ -55,7 +37,6 @@ hr {
   align-items: center;
 }
 .intro h1 {
-  // padding-bottom: $tiny;
 }
 .intro-buttons {
   margin-top: $small;
@@ -63,32 +44,28 @@ hr {
   flex-direction: row;
 }
 .intro-button {
-  // display: inline-block;
-  // vertical-align: middle;
-  // min-height: 40px;
-  outline: 0;
   background: black;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
   border-radius: 4px;
   border: 0;
   color: white;
+  cursor: pointer;
+  display: inline-block;
   font-family: "Inter UI";
   font-size: 16px;
-  display: inline-block;
   flex-grow: 0;
-  // width: 100px;
   padding: 10px 12px;
   margin-right: $tiny;
-  cursor: pointer;
+  outline: 0;
   transition: all .15s ease;
-  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  white-space: nowrap;
   &:hover {
-    // color: #7795f8;
     -webkit-transform: translateY(-1px);
-    transform: translateY(-1px);
     -webkit-box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3);
-    box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3);
     -webkit-box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+    box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3);
     box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+    transform: translateY(-1px);
   }
 }
 .intro p {
@@ -99,50 +76,43 @@ hr {
   width: 320px;
 }
 #status {
-  flex-wrap: wrap;
+  align-items: center;
   background-color: white;
   color: black;
-  padding: $base $small $large $small;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  padding: $base $small 28px $small;
   justify-content: center;
 }
 .status-text {
-  min-width: 100px;
-  padding: $tiny;
-  background: #22c335;
-  color: white;
+  background: $light-green;
   border-radius: 4px;
+  color: white;
   font-family: monospace;
   font-size: 13px;
   font-weight: 700;
-  // margin-bottom: $tiny;
-  // margin-right: $tiny;
+  min-width: 100px;
+  padding: $tiny;
 }
 .status-message {
-  margin: 12px $small 12px $small;
   font-size: 14px;
   line-height: 1.6em;
+  margin: 12px $small 12px $small;
   text-align: center;
 }
 #primary {
-  background-color: #151515;
+  background-color: #0b0b0b;
   color: white;
-  // padding: $small $large $large $large;
 }
 #primary div {
   max-width: 900px;
 }
 #primary p {
   font-size: 17px;
-  // margin-bottom: $small;
 }
 #primary hr {
+  border-color: grey !important;
   margin-bottom: 0 !important;
-  color: grey !important;
-  // padding: 0 $large;
-  // max-width: 900px;
-  // margin: 0 auto;
 }
 .primary-root {
   padding: $large;
@@ -150,66 +120,55 @@ hr {
 }
 .pitch {
   margin-bottom: $base;
-  // border-bottom: 1px dotted grey;
-  // padding: $base $large $base $large;
 }
 .properties {
   display: flex;
   flex-wrap: wrap;
-  // padding: 0 $large $large $large;
 }
 .properties img {
-  width: 80px;
   height: 80px;
   margin-right: $tiny;
+  width: 80px;
 }
 .property {
   flex: 1;
-  min-width: 200px;
   margin-top: $base;
-  // display: inline-block;
-  // flex-grow: 1;
-  // display: flex;
-  // flex-direction: row;
+  min-width: 200px;
 }
 .property-title {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 .property p {
-  padding: $tiny $small 0 $small;
   margin-bottom: 0 !important;
+  padding-top: $tiny;
 }
 #secondary {
-  // background-color: #222;
-  // color: white;
   padding: $large $large;
-  max-width: 900px;
   margin: 0 auto;
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
+  max-width: 900px;
+}
+#secondary hr {
+  border-bottom-color: #d0d0d0;
 }
 .info {
   display: flex;
-  padding-top: $tiny;
-  margin-bottom: 4px;
   flex-wrap: wrap;
+  margin-bottom: 4px;
+  padding-top: $tiny;
 }
 .info a {
   border: 0;
-  min-width: 200px;
+  display: flex;
   flex: 1;
   margin: 0 $tiny;
-  display: flex;
+  min-width: 200px;
 }
 .info-box {
   border-radius: 4px;
-  // cursor: pointer;
   border: 1px solid #f2f2f2;
-  padding: $small;
-  // margin-left: $small;
   box-shadow: 0 10px 45px -12px rgba(93, 90, 50, 0.25), 0 18px 36px -18px rgba(0, 0, 0, .3);
+  padding: $small;
   margin-bottom: $small;
   transition: all .15s ease;
   &:hover {
@@ -221,25 +180,23 @@ hr {
   }
 }
 .info-learn-more {
+  color: #151515;
   font-size: 14px;
   font-weight: 700;
-  color: #151515;
   &:after {
     content: "\2192";
-    transition: all .15s ease;
     margin-left: 6px;
+    transition: all .15s ease;
   }
 }
 .info-banner {
-  border-radius: 4px;
-  height: 220px;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  margin: 0 $tiny 4px $tiny;
-  // margin-right: $small;
-  // margin-left: $small;
+  border-radius: 4px;
   box-shadow: 0 10px 45px -12px rgba(93, 90, 50, 0.25), 0 18px 36px -18px rgba(0, 0, 0, .3);
+  display: flex;
+  height: 220px;
+  justify-content: center;
+  margin: 0 $tiny 4px $tiny;
   transition: all .15s ease;
   &:hover {
     box-shadow: 0 15px 55px -12px rgba(93, 90, 50, 0.25), 0 18px 36px -18px rgba(0, 0, 0, .3);
@@ -254,99 +211,97 @@ hr {
 }
 .info-banner-text {
   color: white;
-  transition: all .15s ease;
-  padding: $small $base;
-  text-align: center;
   line-height: 1.2em;
   margin-bottom: 0 !important;
-}
-.info-grin-logo {
-  position: absolute;
-  height: 220px;
-  opacity: .18;
+  padding: $small $base;
+  text-align: center;
   transition: all .15s ease;
 }
+.info-grin-logo {
+  height: 220px;
+  opacity: .18;
+  position: absolute;
+  transition: all .15s ease;
+}
+.funding p {
+  margin-bottom: 12px;
+}
 .funding-progress-container {
-  width: 100%;
-  border-radius: 10px;
-  height: 6px;
   background-color: #eaeaea;
   border:1px solid #eaeaea;
-  position: relative;
-  top: -6px;
-  z-index: 0;
-  margin-bottom: 10px;
-}
-.funding-progress {
-  margin-top: 10px;
-  position: relative;
   border-radius: 10px;
   height: 6px;
+  margin-bottom: 10px;
+  position: relative;
+  top: -6px;
+  width: 100%;
+  z-index: 0;
+}
+.funding-progress {
+  border-radius: 10px;
   background-color: #151515;
   border:1px solid #151515;
+  margin-top: 10px;
+  position: relative;
+  height: 6px;
   z-index: 10;
 }
 .funding-amount {
-  // font-family: "Space Mono";
   font-family: monospace;
 }
 .funding-button {
-  outline: 0;
-  background: #ffdd57;
-  border: 2px solid #ffdd57;
+  border: 2px solid $smiley-yellow;
   border-radius: 4px;
+  background: $smiley-yellow;
   color: black;
+  cursor: pointer;
+  display: inline-block;
   font-family: "Inter UI";
   font-size: 14px;
-  display: inline-block;
-  flex-grow: 0;
-  padding: 8px 12px;
-  margin-right: 8px;
-  cursor: pointer;
-  transition: all .15s ease;
   font-weight: 700;
-  // box-shadow: 0 1px 4px rgba(113, 110, 75, 0.11), 0 1px 3px rgba(247, 255, 119, 0.08);
+  flex-grow: 0;
+  margin-right: 8px;
+  outline: 0;
+  padding: 8px 12px;
+  transition: all .15s ease;
   &:hover {
-    background: #222;
-    border-color: #222;
-    color: white;
-    // background-color: #ffea94;
+    // background: $;
+    // border-color: #222;
+    color: black;
     transform: translateY(-1px);
   }
 }
 .funding-swag {
-  outline: 0;
   background: white;
-  border-radius: 4px;
   border: 2px solid #151515;
+  border-radius: 4px;
   color: black;
-  font-family: "Inter UI";
-  font-size: 14px;
+  cursor: pointer;
   display: inline-block;
   flex-grow: 0;
+  font-family: "Inter UI";
+  font-size: 14px;
+  font-weight: 700;
+  outline: 0;
   padding: 8px 12px;
   margin-right: 8px;
-  cursor: pointer;
   transition: all .15s ease;
-  font-weight: 700;
-  // box-shadow: 0 4px 6px rgba(113, 110, 75, 0.11), 0 1px 3px rgba(247, 255, 119, 0.08);
   &:hover {
-    color: white;
     background-color: #151515;
+    color: white;
     transform: translateY(-1px);
   }
 }
 .dev-intro {
-  // background-image: url("/assets/images/pillars.jpg");
+  align-items: center;
   background-color: black;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .dev-intro span {
+  color: white;
   flex-grow: 0;
   font-family: monospace;
-  color: white;
   font-weight: 700;
 }
 
@@ -355,12 +310,11 @@ hr {
     flex-direction: column;
   }
   .intro {
-    display: flex;
-    // justify-content: center;
     align-items: center;
+    display: flex;
     flex-direction: column;
-    text-align: center;
     flex-grow: 1;
+    text-align: center;
   }
   .intro-logo {
     align-items: flex-end;
@@ -374,15 +328,15 @@ hr {
   #status {
     padding-bottom: 18px;
   }
+  .primary-root {
+    padding: 32px;
+  }
+  #secondary {
+    padding: 32px;
+  }
 }
 @media (max-width: 480px) {
   .info-banner-text {
     font-size: 44px;
   }
 }
-// .primary-root {
-//   padding: $base;
-// }
-// #secondary {
-//   padding: $base;
-// }
