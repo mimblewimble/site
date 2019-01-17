@@ -38,6 +38,9 @@ The following companies, institutions, or individuals have generously donated fi
 			<a href="#"><img src="assets/images/logos/galleon.png" title="Galleon"></a>
 		</div>
 		<div class="cell">
+			<a href="#"><img src="assets/images/logos/luxor_logo.png" title="Luxor"></a>
+		</div>
+		<div class="cell">
 			<a href="https://beam-mw.com/"><img src="assets/images/logos/beam_logo.png" title="Beam"></a>
 		</div>
 		<div class="cell">
