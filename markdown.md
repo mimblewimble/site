@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-# GitHub Markdown fixture
+# Markdown
 
 ## Latex
 

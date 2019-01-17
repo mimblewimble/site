@@ -3,22 +3,26 @@ h1 {
   font-family: 'Inter UI';
   font-weight: 600;
   margin-bottom: $tiny;
+  line-height: 1.1em;
 }
 h2 {
   font-size: $h2;
   font-family: 'Inter UI';
   font-weight: 600;
   margin-bottom: 8px;
+  line-height: 1.1em;
 }
 h3 {
   font-size: $h3;
   font-family: 'Inter UI';
   font-weight: 600;
   margin-bottom: 8px;
+  line-height: 1.1em;
 }
 h4 {
   font-size: $large;
   margin-bottom: 8px;
+  line-height: 1.1em;
 }
 p {
   font-size: $regular;
@@ -82,7 +86,7 @@ pre {
   color: #eee;
   font-family: monospace;
   font-size: 13px;
-  margin-bottom: 1.6em;
+  margin-bottom: 1.9em;
   padding: $small;
   overflow-x: auto;
   /* overflow-x: hidden; */
