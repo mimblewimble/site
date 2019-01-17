@@ -8,10 +8,10 @@ title: "Contributing to these web pages"
 Ensure you have a [Github](https://github.com/) account. Then:
 
 1. Fork the website
-- On [https://github.com/mimblewimble/site](https://github.com/mimblewimble/site), click `Fork`
-- Once forking completes, click `Settings` and [enable Github pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
+- On [https://github.com/mimblewimble/site](https://github.com/mimblewimble/site), click `Fork`.
+- Once forking completes, click `Settings` and [enable Github pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/).
 - Verify that it works by visiting https://YOUR_GITHUB_USERNAME.github.io/site/
-  i.e. if your github name is `grinner` then replace `YOUR_GITHUB_USERNAME` with `grinner`
+  i.e. if your github name is `grinner` then replace `YOUR_GITHUB_USERNAME` with `grinner`.
 
 2. Edit your fork
 - The lazy/easy option: just open files in your fork and click `Edit`, then reload the page from your github.io page as above.
@@ -32,10 +32,10 @@ or [deploy the website locally on your host](README.md#local-run) and visit http
 
 3. Upstream your changes
 
-Open a [pull request](https://help.github.com/articles/about-pull-requests/) with your changes.
+- Open a [pull request](https://help.github.com/articles/about-pull-requests/) with your changes.
 
 # Organizing files
-Adding a new file? Follow the guidelines [here](https://github.com/mmistakes/so-simple-theme#structure)
+Adding a new file? Follow the guidelines [here](https://github.com/mmistakes/so-simple-theme#structure).
 
 # Design changes
 Please come discuss design here in the [design chat](https://gitter.im/grin_community/design).

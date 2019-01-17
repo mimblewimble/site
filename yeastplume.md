@@ -15,6 +15,7 @@ Raised (amounts as of Jan 11th, 2019):
 
 - 0.066 BTC (~€200)
 - 2.2 ETH (€240)
+- 0.0 Grin (???)
 - ~€440 Total
 
 ## Bitcoin donation address:
@@ -22,6 +23,10 @@ Raised (amounts as of Jan 11th, 2019):
 
 ## Ethereum donation address:
 [0xeFC76886E5C50D1FD15addAbb59D2D3582A03A61](https://etherscan.io/address/0xeFC76886E5C50D1FD15addAbb59D2D3582A03A61)
+
+## Grin Donations! (Experimental, let's see what happens!)
+* Via [wallet713](https://github.com/vault713/wallet713) - gVtiAMLJLHQB1HyjfoFKdkk2jHsRQ2uJC4zbhcVJWBKCii6ehoqq
+* Or send a Slate to: yeastplume@protonmail.com
 
 ## Source for this page (via https):
 
