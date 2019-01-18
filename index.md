@@ -17,7 +17,7 @@ layout: default
             Meet Grin
           </h1>
           <h2 class="subtitle is-3">
-            the private & lightweight<br> mimblewimble blockchain 
+            the private & lightweight<br> mimblewimble blockchain
           </h2>
           <br>
           <p class="has-text-centered" style="margin-top: -1rem;">
@@ -38,8 +38,8 @@ layout: default
     <div class="box cta">
       <p class="has-text-centered">
       <span class="tag is-success">
-        Currently Live: Main Net
-      </span> 
+        Currently Live: mainnet
+      </span>
       <span href="#" style="margin-left: 10px;">
         Grin was launched on Jan. 15th 2019. It's very young and experimental. Use at your own risk!
       </span>
@@ -133,16 +133,16 @@ layout: default
                       <div class="tile is-ancestor">
                         <div class="tile is-vertical is-parent">
                           <div class="tile is-child box">
-                            <p class="subtitle">MainNet, Onwards!</p> <hr>
+                            <p class="subtitle">mainnet, Onwards!</p> <hr>
                             <p>
-                            Grin mainnet was launched on Jan. 15 2019. 
+                            Grin mainnet was launched on Jan. 15 2019.
                             <br><br>
                             <a href="https://github.com/mimblewimble/docs/wiki/Getting-Started-With-Grin%3A-Links-and-Resources">Get started here</a>.
                             </p>
                           </div>
                           <div class="tile is-child box">
-                            <p class="subtitle">Floonet</p> <hr>
-                            <p>Grin’s official testnet Floonet has been released! We need your help testing: either <a href="https://github.com/mimblewimble/grin/blob/master/doc/build.md">compile from the source</a> or <a href="https://github.com/mimblewimble/grin/releases/">download the grin binary</a> and join us.</p>
+                            <p class="subtitle">floonet, Upwards!</p> <hr>
+                            <p>Grin’s official floonet (testnet) has been released! We need your help testing. Either <a href="https://github.com/mimblewimble/grin/blob/master/doc/build.md">compile from the source</a> or <a href="https://github.com/mimblewimble/grin/releases/">download the grin binary</a> and join us.</p>
                           </div>
                         </div>
                       </div>
