@@ -43,11 +43,11 @@ The following companies, institutions, or individuals have generously donated fi
 		<div class="cell">
 			<a href="https://beam-mw.com/"><img src="assets/images/logos/beam_logo.png" title="Beam"></a>
 		</div>
+	</div>
+	<div class="column">
 		<div class="cell">
 			<a href="https://continue.capital/"><img src="assets/images/logos/continuecapital.png" title="Continue Capital"></a>
 		</div>
-	</div>
-	<div class="column">
 		<div class="cell">
 			<a href="http://cyphercapital.net/"><img src="assets/images/logos/cypher_capital.png" title="Cypher Capital"></a>
 		</div>
@@ -60,6 +60,8 @@ The following companies, institutions, or individuals have generously donated fi
 		<div class="cell">
 			<img src="assets/images/logos/chanceventures.png" title="Chance Ventures">
 		</div>
+	</div>
+	<div class="column">
 		<div class="cell">
 			<a href="https://www.wings.ai/"><img src="assets/images/logos/wingsai-grey.png" title="Wings"></a>
 		</div>
