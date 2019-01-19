@@ -34,15 +34,15 @@ or [deploy the website locally on your host](README.md#local-run) and visit http
 
 - Open a [pull request](https://help.github.com/articles/about-pull-requests/) with your changes.
 
-# Organizing files
+## Organizing files
 Adding a new file? Follow the guidelines [here](https://github.com/mmistakes/so-simple-theme#structure).
 
-# Design changes
+## Design changes
 Please come discuss design here in the [design chat](https://gitter.im/grin_community/design).
 [It seems the logo is now finalized, at least for a while.](https://github.com/mimblewimble/site/issues/7)
 If your suggestion needs to be shown in context, create a separate page (like example-redesignX-YOUR_USERNAME.md and push to your github.io page, then share the link on the design chat etc.
 
-# Previous examples -- see here for content ideas:
+## Previous examples -- see here for content ideas:
 - [grin-tech.org, the initial black version](https://web.archive.org/web/20180917135841/http://grin-tech.org)
 - [https://grin.mw/up/](https://grin.mw/up/)
 - [https://sesam.github.io/grin-pages/](https://sesam.github.io/grin-pages/)

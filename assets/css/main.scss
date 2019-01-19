@@ -85,3 +85,9 @@ li {
   max-width: 900px;
   margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+  .main-root {
+    padding: 32px;
+  }
+}

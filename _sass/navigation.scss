@@ -10,11 +10,14 @@ nav a {
 .nav-logo {
   font-weight: 700;
 }
+.nav-logo {
+  padding-left: $base;
+}
 .nav-logo li {
   display: flex;
   height: 64px;
   width: 100px;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
 }
 .nav-logo a {
@@ -46,6 +49,9 @@ nav a {
 .nav-hamburger.is-active {
   background-color: white;
 }
+.hamburger {
+  padding: $base;
+}
 .hamburger.is-active {
   z-index: 1000;
   position: fixed;
@@ -63,45 +69,61 @@ nav a {
   right: 0;
   bottom: 0;
   background-color: black;
-  position: absolute;
-  opacity: 0;
+  position: fixed;
   color: white;
-  padding: $base;
+  padding: 26px;
   list-style: none;
   height: 100%;
   width: 100%;
-  font-size: 36px;
   font-weight: 700;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  overflow-y: scroll;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // flex-direction: column;
   z-index: 500;
 }
 .nav-mobile.is-active {
-  position: fixed;
-  opacity: 1;
   visibility: visible;
 }
+.nav-mobile-fade {
+  position: relative;
+  opacity: 0;
+  bottom: -15px;
+  transition: bottom .3s ease, color .15s ease, opacity .35s ease;
+}
+.nav-mobile-fade.is-active {
+  opacity: 1;
+  bottom: 0;
+}
 .nav-mobile li {
-  text-align: center;
-  line-height: 1.1em;
-  padding-bottom: $tiny;
+  display: block;
+  // text-align: center;
+  // line-height: 1.1em;
+  margin-bottom: $tiny;
 }
 .nav-mobile li a {
-  position: relative;
-  top: 15px;
-  opacity: 0;
-  transition: top .35s ease, color .15s ease, opacity .35s ease;
+  font-size: $h3;
+  line-height: 1.1em;
+  transition: bottom .35s ease, color .15s ease, opacity .35s ease;
   border-bottom: 0;
-  text-align: center;
   &:hover {
     color: #fef102;
   }
 }
-.nav-mobile li a.is-active {
-  opacity: 1;
-  top: 0;
+.nav-mobile-heading {
+  font-weight: 700;
+  display: block;
+  font-size: $h3;
+  color: $grey;
+  margin: 20px 0 $tiny 0;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+.nav-mobile-secondary {
+  list-style-type: circle;
+  padding-left: 0;
 }
 .dropdown {
   cursor: pointer;

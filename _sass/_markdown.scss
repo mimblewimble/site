@@ -1,28 +1,28 @@
 h1 {
-  font-size: $h1;
+  font-size: 44px;
   font-family: 'Inter UI';
   font-weight: 600;
   margin-bottom: $tiny;
   line-height: 1.1em;
 }
 h2 {
-  font-size: $h2;
+  font-size: 32px;
   font-family: 'Inter UI';
   font-weight: 600;
   margin-bottom: 8px;
   line-height: 1.1em;
 }
 h3 {
-  font-size: $h3;
+  font-size: 24px;
   font-family: 'Inter UI';
   font-weight: 600;
   margin-bottom: 8px;
-  line-height: 1.1em;
+  line-height: 1.3em;
 }
 h4 {
-  font-size: $large;
+  font-size: 19px;
   margin-bottom: 8px;
-  line-height: 1.1em;
+  line-height: 1.3em !important;
 }
 p {
   font-size: $regular;
@@ -130,13 +130,13 @@ kbd {
 }
 ol {
   list-style-type: decimal;
-  margin-bottom: 8px;
-  padding-left: 2em;
+  margin-bottom: 1.5em;
+  padding-left: 1.6em;
 }
 ul {
   list-style-type: disc;
-  margin-bottom: 8px;
-  padding-left: 2em;
+  margin-bottom: 1.5em;
+  padding-left: 1.6em;
 }
 li {
   line-height: 26px;
