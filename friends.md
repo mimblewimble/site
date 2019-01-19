@@ -66,6 +66,9 @@ The following companies, institutions, or individuals have generously donated fi
 		<div class="cell">
 			<a href="https://www.cgs.group/"><img src="assets/images/logos/cgs-logo-white.svg" title="CGS Group"></a>
 		</div>
+		<div class="cell">
+			<a href="https://www.coingecko.com/en/coins/grin"><img src="assets/images/logos/		CoinGecko-WhiteText-small.png" title="CoinGecko"></a>
+		</div>
 	</div>
 </div>
 
