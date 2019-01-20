@@ -10,7 +10,8 @@ layout: page
 {:.has-text-right}
 {{current_amount| divided_by: target_amount | times: 100.0 | round}}% Funded
 
-<progress class="progress is-large is-success" value="{{current_amount| divided_by: target_amount}}" max="1"></progress>
+<div class="funding-progress" style="width: 100%; background-color: green; border-color: green;"></div>
+<div class="funding-progress-container"></div>
 
 **The grin security audit funding campaign was completed on December 20th 2018. Thank you to all who generously donated!**
 

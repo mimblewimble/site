@@ -1,139 +1,93 @@
 ---
 ---
 
+@import 'reset';
 @import 'variables';
-@charset 'utf-8'; // wider columns
-html,
-img {
-  padding: 0.3125rem;
-}
-body {
-  font-family: 'Josefin Sans';
+@import 'hamburger';
+@import 'markdown';
+@import 'fonts';
+@import 'navigation';
+@import 'footer';
+@import 'index';
+@import 'visual';
+@import 'friends';
+@charset 'utf-8';
+html, body {
+  font-family: 'Inter UI';
   background-color: white;
   color: block;
+  margin: 0 auto;
+  font-size: $regular;
 }
-nav.navbar {
-  border-bottom: 1px solid rgba(10, 10, 10, 0.1);
-  .navbar-item img {
-    max-height: 2.25rem;
-    height: 2.25rem;
-    padding: 0;
+a {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #000;
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    border-color: transparent;
   }
 }
-.dots .column img {
-  margin-top: -10px;
-  height: 5rem;
-  display: inline-block;
-  vertical-align: middle;
+strong {
+  font-weight: 700;
 }
-/* fixing margins */
-.content blockquote:not(:last-child),
-.content dl:not(:last-child),
-.content ol:not(:last-child),
-.content p:not(:last-child),
-.content pre:not(:last-child),
-.content table:not(:last-child) {
-  margin-bottom: 0.1em;
+* {
+  box-sizing: border-box;
 }
-.page ul {
-  margin-bottom: 2rem;
+// h1 {
+//   font-size: 56px;
+//   font-weight: 700;
+//   margin-bottom: 8px;
+// }
+// h2 {
+//   font-size: 36px;
+//   font-weight: 700;
+//   margin-bottom: 8px;
+// }
+// h3 {
+//   font-size: 28px;
+//   margin-bottom: 8px;
+// }
+h4 {
+  font-size: 19px;
+  margin-bottom: 8px;
 }
-.companies div.inverted img {
-  filter: invert(100%);
-}
-.level .level-item img {
-  height: 2.5rem;
-  margin: 0.2rem;
-}
-.names .level-item {
-  font-size: 1.5rem;
-}
-.content section {
-  .title {
-    @include mobile {
-      font-size: 2.5rem;
-      margin-bottom: 3rem;
-      margin-top: 3rem;
-    }
-    font-size: 3.3rem;
-    margin-bottom: 4rem;
-    margin-top: 3rem;
-  }
-  .subtitle {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
-}
-p,
+// p {
+//   line-height: 1.6em;
+//   margin-bottom: $small;
+//
+// }
 li {
-  font-size: 1.5rem;
+  line-height: 1.6em;
+  // margin-bottom: 2px;
 }
-span {
-  font-size: 1.5rem;
+.fab {
+  font-size: 15px;
+  font-family: "Font Awesome 5 Brands";
+  padding-left: 2px;
 }
-.has-top-space {
-  margin-top: 5rem;
+.fa-github:before {
+  content: "\f09b";
+}
+.container {
+  max-width: 1040px;
+  width: 100%;
+  margin: 0 auto;
+}
+.container-sm {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+.main-root {
+  padding: 48px 48px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-ul li a {
-  font-size: 1.5rem;
-  i {
-    padding: 0.5rem;
+@media (max-width: 768px) {
+  .main-root {
+    padding: 32px;
   }
-}
-.footer-logo {
-  margin-top: -1rem;
-  height: 8rem;
-}
-.hero-logo {
-  max-width: 20rem;
-}
-.donate-button {
-  @include mobile {
-    display: block;
-    margin-bottom: 4rem;
-  }
-  @include tablet {
-    float: right;
-  }
-}
-.buy-swag-button {
-  @include mobile {
-    width: 100%;
-  }
-}
-.address-link {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  -ms-word-break: break-all;
-  word-break: break-all;
-  word-break: break-word;
-}
-
-#friend-logos .cell {
-	height: 120px;
-	line-height: 110px;
-	max-height: 120px;
-	text-align: center;
-	margin: 10px;
-	background: #303030;
-	padding: 5px;
-}
-
-#friend-logos img {
-	max-width: 100%;
-	max-height: 100%;
-	vertical-align: middle;
-}
-
-.hero-body .whatis {
-  margin-bottom: 9px;
-  border: 1px solid $smiley-black; // TODO: refactor: remove is-warning is-outlined
-  color: $smiley-black;
-  background-color: $smiley-yellow;
-}
-
-.hero-body .whatis:hover {
-  border-color: $smiley-black;
-  background-color: #209cee;
 }

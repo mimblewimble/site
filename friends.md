@@ -9,71 +9,64 @@ The following companies, institutions, or individuals have generously donated fi
 ## Companies
 
 <!-- Temporary black div until we convert to black on white logos -->
-<div id="friend-logos" class="columns">
-	<div class="column">
-		<div class="cell">
-			<a href="https://www.bitonic.nl/"><img src="assets/images/logos/bitonic-white.png" title="Bitonic"></a>
-		</div>
-		<div class="cell">
-			<a href="https://www.kryptonite1.co/"><img src="assets/images/logos/kr1_med.png" title="KR1"></a>
-		</div>
-		<div class="cell">
-			<a href="https://www.tmgox.com/"><img src="assets/images/logos/tmgox-logo.jpg" title="KR1"></a>
-		</div>
-		<div class="cell">
-			<a href="https://gpu.one/"><img src="assets/images/logos/gpuOne-white.png" title="GPU.one"></a>
-		</div>
-		<div class="cell">
-			<a href="https://www.megapool.info/"><img src="assets/images/logos/Mega-Pool-Logo-trans.png" title="Mega Pool"></a>
-		</div>
-	</div>
-	<div class="column">
-		<div class="cell">
-			<a href="https://www.blockcypher.com/"><img src="assets/images/logos/blockcypher_logo_white.svg" title="BlockCypher"></a>
-		</div>
-		<div class="cell">
-			<a href="https://kyokan.io/"><img src="assets/images/logos/kyokan_teal_white.png" title="BlockCypher"></a>
-		</div>
-		<div class="cell">
-			<a href="https://galleon.exchange/"><img src="assets/images/logos/galleon.png" title="Galleon"></a>
-		</div>
-		<div class="cell">
-			<a href="https://mining.luxor.tech"><img src="assets/images/logos/luxor_logo.png" title="Luxor"></a>
-		</div>
-		<div class="cell">
-			<a href="https://beam-mw.com/"><img src="assets/images/logos/beam_logo.png" title="Beam"></a>
-		</div>
-	</div>
-	<div class="column">
-		<div class="cell">
-			<a href="https://continue.capital/"><img src="assets/images/logos/continuecapital.png" title="Continue Capital"></a>
-		</div>
-		<div class="cell">
-			<a href="http://cyphercapital.net/"><img src="assets/images/logos/cypher_capital.png" title="Cypher Capital"></a>
-		</div>
-		<div class="cell">
-			<a href="https://hashrabbit.co/"><img src="assets/images/logos/hashrabbit.png" title="Cypher Capital"></a>
-		</div>
-		<div class="cell">
-			<a href="https://lemniscap.com/"><img src="assets/images/logos/lemniscap.png" title="Lemniscap"></a>
-		</div>
-		<div class="cell">
-			<img src="assets/images/logos/chanceventures.png" title="Chance Ventures">
-		</div>
-	</div>
-	<div class="column">
-		<div class="cell">
-			<a href="https://www.wings.ai/"><img src="assets/images/logos/wingsai-grey.png" title="Wings"></a>
-		</div>
-		<div class="cell">
-			<a href="https://www.cgs.group/"><img src="assets/images/logos/cgs-logo-white.svg" title="CGS Group"></a>
-		</div>
-		<div class="cell">
-			<a href="https://www.coingecko.com/en/coins/grin"><img src="assets/images/logos/		CoinGecko-WhiteText-small.png" title="CoinGecko"></a>
-		</div>
-	</div>
-</div>
+<section class="companies">
+	<a href="https://www.bitonic.nl/">
+		<img src="assets/images/logos/bitonic-white.png" title="Bitonic">
+	</a>
+	<a href="https://www.kryptonite1.co/">
+		<img src="assets/images/logos/kr1_med.png" title="KR1">
+	</a>
+	<a href="https://www.tmgox.com/">
+		<img src="assets/images/logos/tmgox-logo.jpg" title="KR1">
+	</a>
+	<a href="https://gpu.one/">
+		<img src="assets/images/logos/gpuOne-white.png" title="GPU.one">
+	</a>
+	<a href="https://www.megapool.info/">
+		<img src="assets/images/logos/Mega-Pool-Logo-trans.png" title="Mega Pool">
+	</a>
+	<a href="https://www.blockcypher.com/">
+		<img src="assets/images/logos/blockcypher_logo_white.svg" title="BlockCypher">
+	</a>
+	<a href="https://kyokan.io/">
+		<img src="assets/images/logos/kyokan_teal_white.png" title="BlockCypher">
+	</a>
+	<a href="https://galleon.exchange/">
+		<img src="assets/images/logos/galleon.png" title="Galleon">
+	</a>
+	<a href="https://mining.luxor.tech">
+		<img src="assets/images/logos/luxor_logo.png" title="Luxor">
+	</a>
+	<a href="https://beam-mw.com/">
+		<img src="assets/images/logos/beam_logo.png" title="Beam">
+	</a>
+	<a href="https://continue.capital/">
+		<img src="assets/images/logos/continuecapital.png" title="Continue Capital">
+	</a>
+	<a href="http://cyphercapital.net/">
+		<img src="assets/images/logos/cypher_capital.png" title="Cypher Capital">
+	</a>
+	<a href="https://hashrabbit.co/">
+		<img src="assets/images/logos/hashrabbit.png" title="Cypher Capital">
+	</a>
+	<a href="https://lemniscap.com/">
+		<img src="assets/images/logos/lemniscap.png" title="Lemniscap">
+	</a>
+	<a href="#">
+		<img src="assets/images/logos/chanceventures.png" title="Chance Ventures">
+	</a>
+	<a href="https://www.wings.ai/">
+		<img src="assets/images/logos/wingsai-grey.png" title="Wings">
+	</a>
+	<a href="https://www.cgs.group/">
+		<img src="assets/images/logos/cgs-logo-white.svg" title="CGS Group">
+	</a>
+	<a href="https://www.coingecko.com/en/coins/grin">
+		<img src="assets/images/logos/CoinGecko-WhiteText-small.png" title="CoinGecko">
+	</a>
+</section>
 
+<article markdown="1" class="post-content">
 ## Individuals
 
 _In alphabetical order:_
@@ -85,4 +78,5 @@ We'd also like to explicitly thank everyone who's donated to one of Grin's campa
 
 ## Minimum amounts
 
-$100 in crypto-equivalent in order to be listed in the individuals section, $1,000 in the companies section.
+100 USD in crypto-equivalent in order to be listed in the individuals section, 1,000 USD in the companies section.
+</article>

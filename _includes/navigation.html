@@ -1,124 +1,104 @@
-<nav class="navbar is-fixed-top has-background-white" role="navigation" aria-label="dropdown navigation">
-  <div class="container">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="/">
-        <img id="logo" class="largeLogo" src="assets/images/grin_mw_logo.svg" alt="Logo">
-      </a>
-      <span class="navbar-burger burger" data-target="navbarMenu">
-        <span></span>
-        <span></span>
-        <span></span>
+<nav>
+  <ul class="nav-logo">
+    <li><a href="/">Grin</a></li>
+  </ul>
+  <ul class="nav-root">
+    <li>
+      <a href="https://github.com/mimblewimble/grin/releases">Releases</a>
+    </li>
+    <li>
+      <a href="https://github.com/mimblewimble/docs/wiki">Wiki</a>
+    </li>
+    <li>
+      <span class="dropdown" href="https://www.grin-forum.org/">
+        Community
+        <nav>
+          <span class="dropdown-heading">Everyone.</span>
+          <a href="https://grinnews.substack.com/">News</a>
+          <a href="https://www.grin-forum.org/">Forum</a>
+          <a href="https://gitter.im/grin_community/Lobby">Gitter</a>
+        </nav>
       </span>
-    </div>
-    <div id="navbarMenu" class="navbar-menu">
-      <div class="navbar-end">
-        {% if page.url != '/' %}
-        <div class="navbar-item">
-          <a href="{{ site.url }}" class="navbar-item">
-            Home
-          </a>
-        </div>
-        <!-- //navbar item -->
-        {% endif %}
-        <!-- navbar item -->
-        <div class="navbar-item">
-          <a href="https://github.com/mimblewimble/grin/releases" class="navbar-item">
-            Download
-          </a>
-        </div>
-        <!-- //navbar item -->
-
-        <!-- navbar item -->
-        <div class="navbar-item">
-          <a href="https://github.com/mimblewimble/docs/wiki" class="navbar-item">
-           Wiki
-          </a>
-        </div>
-        <!-- //navbar item -->
-
-        <!-- navbar item -->
-        <div class="navbar-item">
-          <a href="https://www.grin-forum.org/" class="navbar-item">
-            Forum
-          </a>
-        </div>
-        <!-- //navbar item -->
-
-        <!-- dropdown -->
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            Chat
-          </a>
-          <div class="navbar-dropdown">
-            <a href="https://gitter.im/grin_community/Lobby" class="navbar-item">
-              Lobby
-            </a>
-            <a href="https://gitter.im/grin_community/support" class="navbar-item">
-              Support
-            </a>
-            <a href="https://keybase.io/team/grincoin" class="navbar-item">
-              Keybase chat
-            </a>
-          </div>
-        </div>
-        <!-- //dropdown -->
-
-        <!-- dropdown -->
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            Use grin
-          </a>
-
-          <div class="navbar-dropdown">
-            <a href="https://github.com/mimblewimble/grin/blob/master/doc/build.md" class="navbar-item">
-              Build grin
-            </a>
-            <a href="https://github.com/mimblewimble/docs/wiki/Getting-Started-With-Grin%3A-Links-and-Resources" class="navbar-item">
-              How to use grin
-            </a>
-            <a title="grin-miner is the officially supported grin mining software" href="https://github.com/mimblewimble/grin-miner" class="navbar-item">
-              Grin Miner
-            </a>
-            <hr class="navbar-divider">
-            <div class="navbar-item">
-              <span class="tag is-success">
-                Live!
-              </span>
-            </div>
-          </div>
-        </div>
-        <!-- //dropdown -->
-
-        <!-- dropdown -->
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            Learn more
-          </a>
-
-          <div class="navbar-dropdown">
-            <a href="https://github.com/mimblewimble/grin/blob/master/doc/grin4bitcoiners.md" class="navbar-item">
-              Grin for Bitcoiners
-            </a>
-            <a href="https://github.com/mimblewimble/grin/blob/master/doc/intro.md" class="navbar-item">
-              GrinMW Intro
-            </a>
-            <a href="https://github.com/mimblewimble/grin/blob/master/doc/pow/pow.md" class="navbar-item">
-              Cuckoo Cycle PoW
-            </a>
-            <a href="https://github.com/mimblewimble/docs/wiki/Community-projects" class="navbar-item">
-              Community Projects
-            </a>
-            <a href="funding" class="navbar-item">
-              Community Funding
-            </a>
-            <a href="friends" class="navbar-item">
-              Friends of Grin
-            </a>
-          </div>
-        </div>
-        <!-- //dropdown -->
-
-      </div>
-    </div>
+    </li>
+    <li>
+      <span class="dropdown" href="https://www.grin-forum.org/">
+        Guides
+        <nav>
+          <span class="dropdown-heading">Learn to use Grin</span>
+          <a href="https://github.com/mimblewimble/grin/blob/master/doc/build.md">Setup <code class="inverted">grin</code></a>
+          <a href="https://github.com/mimblewimble/grin-miner/blob/master/README.md">Setup <code class="inverted">grin-miner</code></a>
+        </nav>
+      </span>
+    </li>
+    <li>
+      <span class="dropdown" href="https://www.grin-forum.org/">
+        Learn more
+        <nav>
+          <span class="dropdown-heading">The Rabbit hole</span>
+          <a href="https://github.com/mimblewimble/grin/blob/master/doc/intro.md">Grin Introduction</a>
+          <a href="https://github.com/mimblewimble/grin/blob/master/doc/pow/pow.md">Cuckoo cycle</a>
+          <a href="https://github.com/mimblewimble/grin/blob/master/doc/grin4bitcoiners.md">Grin for Bitcoiners</a>
+          <a href="https://github.com/mimblewimble/docs/wiki/Community-projects">Community projects</a>
+          <a href="funding">Community funding</a>
+          <a href="friends">Friends of Grin</a>
+        </nav>
+      </span>
+    </li>
+    <!-- <li><a href="/dev">Documentation</a></li> -->
+  </ul>
+  <ul class="nav-hamburger">
+    <button class="hamburger" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+  </ul>
+  <div>
   </div>
+  <ul class="nav-mobile">
+    <div class="nav-mobile-fade">
+      <span class="nav-mobile-heading">Grin</span>
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="https://github.com/mimblewimble/grin/blob/master/doc/intro.md">Introduction</a>
+      </li>
+      <li>
+        <a href="https://github.com/mimblewimble/grin/releases">Releases</a>
+      </li>
+      <li>
+        <a href="https://github.com/mimblewimble/docs/wiki">Wiki</a>
+      </li>
+      <li>
+        <a href="https://www.grin-forum.org/">Forum</a>
+      </li>
+      <span class="nav-mobile-heading">Guides</span>
+      <li>
+        <a href="https://github.com/mimblewimble/grin/blob/master/doc/build.md">Setup Grin</a>
+      </li>
+      <li>
+        <a href="https://github.com/mimblewimble/grin-miner/blob/master/README.md">Setup Grin Miner</a>
+      </li>
+      <span class="nav-mobile-heading">Learn more</span>
+      <li>
+        <a href="https://github.com/mimblewimble/grin/blob/master/doc/intro.md">Grin Introduction</a>
+      </li>
+      <li>
+        <a href="https://github.com/mimblewimble/grin/blob/master/doc/pow/pow.md">Cuckoo cycle</a>
+      </li>
+      <li>
+        <a href="https://github.com/mimblewimble/grin/blob/master/doc/grin4bitcoiners.md">Grin for Bitcoiners</a>
+      </li>
+      <li>
+        <a href="/friends">Friends of Grin</a>
+      </li>
+      <li>
+        <a href="https://github.com/mimblewimble/docs/wiki/Community-projects">Community projects</a>
+      </li>
+      <li>
+        <a href="/funding">Community funding</a>
+      </li>
+    </div>
+  </ul>
 </nav>
