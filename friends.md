@@ -31,8 +31,11 @@ The following companies, institutions, or individuals have generously donated fi
 	<a href="https://kyokan.io/">
 		<img src="assets/images/logos/kyokan_teal_white.png" title="BlockCypher">
 	</a>
-	<a href="#">
+	<a href="https://galleon.exchange/">
 		<img src="assets/images/logos/galleon.png" title="Galleon">
+	</a>
+	<a href="https://mining.luxor.tech">
+		<img src="assets/images/logos/luxor_logo.png" title="Luxor">
 	</a>
 	<a href="https://beam-mw.com/">
 		<img src="assets/images/logos/beam_logo.png" title="Beam">
@@ -49,14 +52,17 @@ The following companies, institutions, or individuals have generously donated fi
 	<a href="https://lemniscap.com/">
 		<img src="assets/images/logos/lemniscap.png" title="Lemniscap">
 	</a>
-	<a href="https://lemniscap.com/">
+	<a href="#">
 		<img src="assets/images/logos/chanceventures.png" title="Chance Ventures">
 	</a>
 	<a href="https://www.wings.ai/">
 		<img src="assets/images/logos/wingsai-grey.png" title="Wings">
 	</a>
-	<a href="https://www.wings.ai/">
+	<a href="https://www.cgs.group/">
 		<img src="assets/images/logos/cgs-logo-white.svg" title="CGS Group">
+	</a>
+	<a href="https://www.coingecko.com/en/coins/grin">
+		<img src="assets/images/logos/CoinGecko-WhiteText-small.png" title="CoinGecko">
 	</a>
 </section>
 
@@ -64,7 +70,7 @@ The following companies, institutions, or individuals have generously donated fi
 ## Individuals
 
 _In alphabetical order:_
-Redouan Ahaloui - Aurel - Leonid Beder - Roy Blankman - Ivan Brightly - Guy Corem - Chance Du - Michalis Kargakis - Jameson Lopp - Chris McCann - Jack Misteli Jean-Guillaume - Bart Mol - Yan Pritzker - Hendrik Richter - Niels de Ruiter - Max Tannahill - Aaron Ting - Alexander Zaidelson
+Redouan Ahaloui - Aurel - Leonid Beder - Roy Blankman - Ivan Brightly - Guy Corem - Chance Du - Adonis Ferreira - Michalis Kargakis - Mitchell Krawiec-Thayer Ph.D. (Isthmus) - Jameson Lopp - Chris McCann - Jack Misteli Jean-Guillaume - Bart Mol - Yan Pritzker - Hendrik Richter - Niels de Ruiter - Max Tannahill - Aaron Ting - Alexander Zaidelson
 
 ## Anonymous Supporters
 
