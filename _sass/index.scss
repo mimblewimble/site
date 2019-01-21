@@ -348,9 +348,21 @@ hr {
     margin-top: -77px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #intro {
     margin-top: -36px;
+  }
+  #status {
+    padding-bottom: $small;
+  }
+  .intro-button {
+    margin: 0 10px;
+  }
+  .primary-root {
+    padding: 32px;
+  }
+  #secondary {
+    padding: 32px;
   }
   #splash {
     flex-direction: column;
@@ -374,20 +386,6 @@ hr {
   }
   .info a {
     margin: 0 0 20px 0;
-  }
-}
-@media (max-width: 768px) {
-  #status {
-    padding-bottom: $small;
-  }
-  .intro-button {
-    margin: 0 10px;
-  }
-  .primary-root {
-    padding: 32px;
-  }
-  #secondary {
-    padding: 32px;
   }
 }
 @media (max-width: 480px) {
