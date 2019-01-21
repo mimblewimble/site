@@ -36,6 +36,9 @@ nav a {
 .nav-root li {
   padding: $base $small $base 0;
   z-index: 100;
+  &:last-child {
+    padding: $base 26px $base 0;
+  }
 }
 .nav-root li > a {
   border-bottom: 0;
@@ -177,7 +180,7 @@ nav a {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .nav-root {
     display: none;
   }
