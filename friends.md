@@ -64,13 +64,16 @@ The following companies, institutions, or individuals have generously donated fi
 	<a href="https://www.coingecko.com/en/coins/grin">
 		<img src="assets/images/logos/CoinGecko-WhiteText-small.png" title="CoinGecko">
 	</a>
+	<a href="https://hashoutliers.com">
+		<img src="assets/images/logos/Outliers-256x.png" title="Outliers">
+	</a>
 </section>
 
 <article markdown="1" class="post-content">
 ## Individuals
 
 _In alphabetical order:_
-Redouan Ahaloui - Aurel - Leonid Beder - Roy Blankman - Ivan Brightly - Guy Corem - Chance Du - Adonis Ferreira - Michalis Kargakis - Baek Kyoum Kim - Mitchell Krawiec-Thayer Ph.D. (Isthmus) - Jameson Lopp - Chris McCann - Jack Misteli Jean-Guillaume - Bart Mol - Yan Pritzker - Hendrik Richter - Niels de Ruiter - Max Tannahill - Aaron Ting - Alexander Zaidelson
+Redouan Ahaloui - Aurel - Leonid Beder - Roy Blankman - Ivan Brightly - Guy Corem - Chance Du - Adonis Ferreira - Poseidon Ho - Michalis Kargakis - Baek Kyoum Kim - Mitchell Krawiec-Thayer Ph.D. (Isthmus) - Jameson Lopp - Chris McCann - Jack Misteli Jean-Guillaume - Bart Mol - Yan Pritzker - Hendrik Richter - Niels de Ruiter - Max Tannahill - Aaron Ting - Alexander Zaidelson
 
 ## Anonymous Supporters
 
