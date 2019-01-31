@@ -8,7 +8,7 @@ layout: page
 
 ### [Developer Funding - Yeastplume Mar-Aug 2019](yeastplume)
 
-Status: Open - €1,440 of €55,000 Target
+Status: Open - €1,570 of €55,000 Target
 
 ### [General Funding for Grin's Development](general_funding)
 
