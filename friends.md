@@ -75,6 +75,7 @@ The following companies, institutions, or individuals have generously donated fi
 	</a>
 	<a href="https://qtum.org/">
 		<img src="assets/images/logos/qtum.png" title="Qtum">
+	</a>
 	<a href="https://bit.fish/">
 		<img src="assets/images/logos/bitfish.png" title="bitfish">
 	</a>
@@ -84,7 +85,7 @@ The following companies, institutions, or individuals have generously donated fi
 ## Individuals
 
 _In alphabetical order:_
-Redouan Ahaloui - Aurel - Leonid Beder - Roy Blankman - Ivan Brightly - Guy Corem - Chance Du - Adonis Ferreira - Poseidon Ho - Michalis Kargakis - Baek Kyoum Kim - Mitchell Krawiec-Thayer Ph.D. (Isthmus) - Jameson Lopp - Chris McCann - Jack Misteli Jean-Guillaume - Bart Mol - Yan Pritzker - Hendrik Richter - Niels de Ruiter - Max Tannahill - Aaron Ting - Alexander Zaidelson
+Redouan Ahaloui - Aurel - Leonid Beder - Roy Blankman - Ivan Brightly - Guy Corem - Chance Du - Adonis Ferreira - Poseidon Ho - Michalis Kargakis - Baek Kyoum Kim - Mitchell Krawiec-Thayer Ph.D. (Isthmus) - Jameson Lopp - juelianshana - Chris McCann - Jack Misteli Jean-Guillaume - Bart Mol - Yan Pritzker - Hendrik Richter - Niels de Ruiter - Max Tannahill - Aaron Ting - Alexander Zaidelson
 
 ## Anonymous Supporters
 
