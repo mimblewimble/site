@@ -85,6 +85,9 @@ The following companies, institutions, or individuals have generously donated fi
 	<a href="https://prokapi.com/">
 		<img src="assets/images/logos/prokapi-white.png" title="Prokapi">
 	</a>
+	<a href="https://www.f2pool.com/">
+		<img src="assets/images/logos/f2pool.png" title="F2Pool">
+	</a>
 </section>
 
 <article markdown="1" class="post-content">
