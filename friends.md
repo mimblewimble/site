@@ -73,6 +73,17 @@ The following companies, institutions, or individuals have generously donated fi
 	<a href="https://www.sparkpool.com/">
 		<img src="assets/images/logos/Sparkpool-660x.png" title="SparkPool">
 	</a>
+	<a href="https://qtum.org/">
+		<img src="assets/images/logos/qtum.png" title="Qtum">
+	</a>
+	<a href="https://bit.fish/">
+		<img src="assets/images/logos/bitfish.png" title="bitfish">
+	</a>
+	<a href="https://bminer.me/">
+		<img src="assets/images/logos/bminer.png" title="bminer">
+	</a>
+	<a href="https://prokapi.com/">
+		<img src="assets/images/logos/prokapi-white.png" title="Prokapi">
 	<a href="https://hashtagchain.com/">
 		<img src="assets/images/logos/hashtag-capital.png" title="Hashtag Capital">
 	</a>
@@ -82,7 +93,7 @@ The following companies, institutions, or individuals have generously donated fi
 ## Individuals
 
 _In alphabetical order:_
-Redouan Ahaloui - Aurel - Leonid Beder - Roy Blankman - Ivan Brightly - Guy Corem - Chance Du - Adonis Ferreira - Poseidon Ho - Michalis Kargakis - Baek Kyoum Kim - Mitchell Krawiec-Thayer Ph.D. (Isthmus) - Jameson Lopp - Chris McCann - Jack Misteli Jean-Guillaume - Bart Mol - Yan Pritzker - Hendrik Richter - Niels de Ruiter - Max Tannahill - Aaron Ting - Alexander Zaidelson
+Redouan Ahaloui - Aurel - Leonid Beder - Roy Blankman - Ivan Brightly - Guy Corem - Chance Du - Adonis Ferreira - Poseidon Ho - Michalis Kargakis - Baek Kyoum Kim - Mitchell Krawiec-Thayer Ph.D. (Isthmus) - Jameson Lopp - juelianshana - Chris McCann - Jack Misteli Jean-Guillaume - Bart Mol - Yan Pritzker - Hendrik Richter - Niels de Ruiter - Max Tannahill - Aaron Ting - Alexander Zaidelson
 
 ## Anonymous Supporters
 
