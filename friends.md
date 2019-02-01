@@ -84,6 +84,8 @@ The following companies, institutions, or individuals have generously donated fi
 	</a>
 	<a href="https://prokapi.com/">
 		<img src="assets/images/logos/prokapi-white.png" title="Prokapi">
+	<a href="https://hashtagchain.com/">
+		<img src="assets/images/logos/hashtag-capital.png" title="Hashtag Capital">
 	</a>
 	<a href="https://www.f2pool.com/">
 		<img src="assets/images/logos/f2pool.png" title="F2Pool">
