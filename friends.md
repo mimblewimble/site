@@ -65,13 +65,13 @@ The following companies, institutions, or individuals have generously donated fi
 		<img src="assets/images/logos/CoinGecko-WhiteText-small.png" title="CoinGecko">
 	</a>
 	<a href="https://hashoutliers.com">
-		<img src="assets/images/logos/Outliers-256x.png" title="Outliers">
+		<img class="no-frame" src="assets/images/logos/Outliers-256x.png" title="Outliers">
 	</a>
 	<a href="https://www.bhex.com/">
-		<img src="assets/images/logos/bhex-384x.png" title="Blue Helix Exchange(BHEX)">
+		<img class="no-frame" src="assets/images/logos/bhex-384x.png" title="Blue Helix Exchange(BHEX)">
 	</a>
 	<a href="https://www.sparkpool.com/">
-		<img src="assets/images/logos/Sparkpool-660x.png" title="SparkPool">
+		<img class="no-frame" src="assets/images/logos/Sparkpool-660x.png" title="SparkPool">
 	</a>
 	<a href="https://qtum.org/">
 		<img src="assets/images/logos/qtum.png" title="Qtum">
