@@ -70,6 +70,9 @@ The following companies, institutions, or individuals have generously donated fi
 	<a href="https://www.bhex.com/">
 		<img src="assets/images/logos/bhex-384x.png" title="Blue Helix Exchange(BHEX)">
 	</a>
+	<a href="https://www.sparkpool.com/">
+		<img src="assets/images/logos/Sparkpool-660x.png" title="SparkPool">
+	</a>
 </section>
 
 <article markdown="1" class="post-content">
