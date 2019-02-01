@@ -73,6 +73,8 @@ The following companies, institutions, or individuals have generously donated fi
 	<a href="https://www.sparkpool.com/">
 		<img src="assets/images/logos/Sparkpool-660x.png" title="SparkPool">
 	</a>
+	<a href="https://qtum.org/">
+		<img src="assets/images/logos/qtum.png" title="Qtum">
 	<a href="https://bit.fish/">
 		<img src="assets/images/logos/bitfish.png" title="bitfish">
 	</a>
