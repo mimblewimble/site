@@ -11,58 +11,58 @@ The following companies, institutions, or individuals have generously donated fi
 <!-- Temporary black div until we convert to black on white logos -->
 <section class="companies">
 	<a href="https://www.bitonic.nl/">
-		<img src="assets/images/logos/bitonic-white.png" title="Bitonic">
+		<img class="no-frame" src="assets/images/logos/bitonic-white.png" title="Bitonic">
 	</a>
 	<a href="https://www.kryptonite1.co/">
 		<img src="assets/images/logos/kr1_med.png" title="KR1">
 	</a>
 	<a href="https://www.tmgox.com/">
-		<img src="assets/images/logos/tmgox-logo.jpg" title="KR1">
+		<img class="no-frame" src="assets/images/logos/tmgox-logo.jpg" title="KR1">
 	</a>
 	<a href="https://gpu.one/">
-		<img src="assets/images/logos/gpuOne-white.png" title="GPU.one">
+		<img class="no-frame" src="assets/images/logos/gpuOne-white.png" title="GPU.one">
 	</a>
 	<a href="https://www.megapool.info/">
-		<img src="assets/images/logos/Mega-Pool-Logo-trans.png" title="Mega Pool">
+		<img class="no-frame" src="assets/images/logos/Mega-Pool-Logo-trans.png" title="Mega Pool">
 	</a>
 	<a href="https://www.blockcypher.com/">
-		<img src="assets/images/logos/blockcypher_logo_white.svg" title="BlockCypher">
+		<img class="no-frame" src="assets/images/logos/blockcypher_logo_white.svg" title="BlockCypher">
 	</a>
 	<a href="https://kyokan.io/">
-		<img src="assets/images/logos/kyokan_teal_white.png" title="BlockCypher">
+		<img class="no-frame" src="assets/images/logos/kyokan_teal_white.png" title="Kyokan">
 	</a>
 	<a href="https://galleon.exchange/">
-		<img src="assets/images/logos/galleon.png" title="Galleon">
+		<img class="no-frame" src="assets/images/logos/galleon.png" title="Galleon">
 	</a>
 	<a href="https://mining.luxor.tech">
-		<img src="assets/images/logos/luxor_logo.png" title="Luxor">
+		<img class="no-frame" src="assets/images/logos/luxor_logo.png" title="Luxor">
 	</a>
 	<a href="https://beam-mw.com/">
 		<img src="assets/images/logos/beam_logo.png" title="Beam">
 	</a>
 	<a href="https://continue.capital/">
-		<img src="assets/images/logos/continuecapital.png" title="Continue Capital">
+		<img class="no-frame" src="assets/images/logos/continuecapital.png" title="Continue Capital">
 	</a>
 	<a href="http://cyphercapital.net/">
-		<img src="assets/images/logos/cypher_capital.png" title="Cypher Capital">
+		<img class="no-frame" src="assets/images/logos/cypher_capital.png" title="Cypher Capital">
 	</a>
 	<a href="https://hashrabbit.co/">
-		<img src="assets/images/logos/hashrabbit.png" title="Cypher Capital">
+		<img class="no-frame" src="assets/images/logos/hashrabbit.png" title="Cypher Capital">
 	</a>
 	<a href="https://lemniscap.com/">
-		<img src="assets/images/logos/lemniscap.png" title="Lemniscap">
+		<img class="no-frame" src="assets/images/logos/lemniscap.png" title="Lemniscap">
 	</a>
 	<a href="#">
-		<img src="assets/images/logos/chanceventures.png" title="Chance Ventures">
+		<img class="no-frame" src="assets/images/logos/chanceventures.png" title="Chance Ventures">
 	</a>
 	<a href="https://www.wings.ai/">
-		<img src="assets/images/logos/wingsai-grey.png" title="Wings">
+		<img class="no-frame" src="assets/images/logos/wingsai-grey.png" title="Wings">
 	</a>
 	<a href="https://www.cgs.group/">
 		<img src="assets/images/logos/cgs-logo-white.svg" title="CGS Group">
 	</a>
 	<a href="https://www.coingecko.com/en/coins/grin">
-		<img src="assets/images/logos/CoinGecko-WhiteText-small.png" title="CoinGecko">
+		<img class="no-frame" src="assets/images/logos/CoinGecko-WhiteText-small.png" title="CoinGecko">
 	</a>
 	<a href="https://hashoutliers.com">
 		<img class="no-frame" src="assets/images/logos/Outliers-256x.png" title="Outliers">
@@ -74,21 +74,22 @@ The following companies, institutions, or individuals have generously donated fi
 		<img class="no-frame" src="assets/images/logos/Sparkpool-660x.png" title="SparkPool">
 	</a>
 	<a href="https://qtum.org/">
-		<img src="assets/images/logos/qtum.png" title="Qtum">
+		<img class="no-frame" src="assets/images/logos/qtum.png" title="Qtum">
 	</a>
 	<a href="https://bit.fish/">
 		<img src="assets/images/logos/bitfish.png" title="bitfish">
 	</a>
 	<a href="https://bminer.me/">
-		<img src="assets/images/logos/bminer.png" title="bminer">
+		<img class="no-frame" src="assets/images/logos/bminer.png" title="bminer">
 	</a>
 	<a href="https://prokapi.com/">
-		<img src="assets/images/logos/prokapi-white.png" title="Prokapi">
+		<img class="no-frame" src="assets/images/logos/prokapi-white.png" title="Prokapi">
+	</a>
 	<a href="https://hashtagchain.com/">
-		<img src="assets/images/logos/hashtag-capital.png" title="Hashtag Capital">
+		<img class="no-frame" src="assets/images/logos/hashtag-capital.png" title="Hashtag Capital">
 	</a>
 	<a href="https://www.f2pool.com/">
-		<img src="assets/images/logos/f2pool.png" title="F2Pool">
+		<img class="no-frame" src="assets/images/logos/f2pool.png" title="F2Pool">
 	</a>
 </section>
 
