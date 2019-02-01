@@ -71,8 +71,8 @@ I've been working on Grin part-time since about May of 2017. Some of the things 
 
 - Much work on refactoring the wallet code to support further wallet usability and security features.
 - Begun work on an [embedded wallet web-interface](https://github.com/mimblewimble/grin-web-wallet), which will hopefully greatly increase grin's usability.
-- Developing the [Grin-Miner](https://github.com/mimblewimble/grin-miner) application and the [Cuckoo Miner](https://github.com/mimblewimble/cuckoo-miner) library, which is what drives all of the mining support currently in Grin. It uses a plugin architecture which will hopefully allow any and all mining plugins to be included as part of the main Grin package, as well as support standalone mining clients.
-- Adapting and maintaining a set of mining plugins from [John Tromp's cuckoo cycle implementations](https://github.com/mimblewimble/cuckoo) for use in Cuckoo Miner. (Ensuring the latest and greatest updates are always in Grin)
+- Developing the [Grin-Miner](https://github.com/mimblewimble/grin-miner) application, which is what drives all of the mining support currently in Grin. It uses a plugin architecture which will hopefully allow any and all mining plugins to be included as part of the main Grin package, as well as support standalone mining clients.
+- Adapting and maintaining a set of mining plugins from [John Tromp's cuckoo cycle implementations](https://github.com/tromp/cuckoo) for use in Cuckoo Miner. (Ensuring the latest and greatest updates are always in Grin)
 - Updating [our fork of secp256k1](https://github.com/mimblewimble/secp256k1-zkp) to support switch commitments, (which will provide optional quantum-hardness as well as allows for wallet reconstruction from seed).
 - Core work to implement switch commitments and provide a wallet restoration function.
 - Implementing Aggregated (Schnorr) Signatures within our secp256k1 fork and within the Grin wallet.
