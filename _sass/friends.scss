@@ -1,32 +1,35 @@
 .companies {
+  align-items: stretch;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: stretch;
   margin-bottom: $small;
 }
 .companies a {
-  cursor: pointer;
-  border: 1px solid #f2f2f2;
-  box-shadow: 0 10px 45px -12px rgba(93, 90, 50, 0.25), 0 18px 36px -18px rgba(0, 0, 0, .3);
-  transition: all .15s ease;
-  border-radius: 4px;
-  margin: 4px;
-  display: block;
-  border-bottom: 0;
-  background-color: #151515;
-  box-shadow: 0 10px 45px -12px rgba(93, 90, 50, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3);
-  display: flex;
   align-items: center;
-  width: 150px;
+  background-color: #000;
+  border: 1px solid #f2f2f2;
+  border-bottom: 0;
+  box-shadow: 0 10px 45px -12px rgba(93, 90, 50, 0.25), 0 18px 36px -18px rgba(0, 0, 0, .3);
+  box-shadow: 0 10px 45px -12px rgba(93, 90, 50, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
   height: 150px;
+  margin: 4px;
+  transition: all .15s ease;
+  width: 150px;
   &:hover {
     box-shadow: 0 15px 55px -12px rgba(93, 90, 50, 0.25), 0 18px 36px -18px rgba(0, 0, 0, .3);
     transform: translateY(-2px);
   }
 }
 .companies a img {
+  border-radius: 4px;
   padding: $small;
   vertical-align: top;
   width: 150px;
+}
+.companies a img.no-frame {
+  padding: 0;
 }
