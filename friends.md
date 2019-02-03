@@ -80,7 +80,7 @@ The following companies, institutions, or individuals have generously donated fi
 		<img src="assets/images/logos/bitfish.png" title="bitfish">
 	</a>
 	<a href="https://bminer.me/">
-		<img class="no-frame" src="assets/images/logos/bminer.png" title="bminer">
+		<img class="no-frame" src="assets/images/logos/bminer-white-only.png" title="bminer">
 	</a>
 	<a href="https://prokapi.com/">
 		<img src="assets/images/logos/prokapi-white.png" title="Prokapi">
