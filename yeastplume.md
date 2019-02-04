@@ -8,7 +8,7 @@ Funding to allow Yeastplume to give full-time attention to Grin from March-Aug 2
 
 ## Funding status (March 2018 - Aug 2019)
 
-Status: Open - €66,580 of €55,000 Target
+Status: Goal Met - €66,580 of €55,000 Target
 Goal: Crypto equivalent of €55,000
 
 Raised (amounts as of Feb 3rd, 2019):
