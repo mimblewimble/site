@@ -23,6 +23,13 @@ Please note the 2nd address is a [Bech32 address](https://en.bitcoin.it/wiki/Bec
 
 #### Please verify the donation addresses as shown above in your browser matches the source for this page on [mimblewimble/site](https://github.com/mimblewimble/site/blob/master/general_funding.md).
 
+## Current Funds
+
+As of Feb. 3rd 2019
+
+* 676.85 ツ from the grinmint donation account
+* 8.22 BTC (excess on above BTC addresses are earmarked for security audits)
+
 ## What is this fund
 
 This is the general development fund intended to cover costs related to Grin's ongoing development. While the team may not have visibility on every particular need that will arise, all donated funds will be used towards Grin's development or promotion.
