@@ -10,6 +10,10 @@ This is a general fund for the Grin project's ongoing and ever-expanding needs. 
 
 Status: Always Open
 
+## Grin donation address
+
+- Direct HTTPS sends: [https://donations.grin-tech.org/](https://donations.grin-tech.org/)
+
 ## Bitcoin donation address
 
 - bitcoin legacy [3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs](https://live.blockcypher.com/btc/address/3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs/)
