@@ -12,7 +12,7 @@ Status: Always Open
 
 ## Grin donation address
 
-- Direct HTTPS sends: [https://donations.grin-tech.org/](https://donations.grin-tech.org/)
+- Direct HTTPS sends: [https://donations.grin-tech.org](https://donations.grin-tech.org)
 
 ## Bitcoin donation address
 
