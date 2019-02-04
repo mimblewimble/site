@@ -10,6 +10,11 @@ This is a general fund for the Grin project's ongoing and ever-expanding needs. 
 
 Status: Always Open
 
+As of Feb. 3rd 2019
+
+* 676.85 ツ from the grinmint donation account
+* 8.22 BTC (excess on above BTC addresses are earmarked for security audits)
+
 ## Grin donation address
 
 - Direct HTTPS sends: [https://donations.grin-tech.org](https://donations.grin-tech.org)
@@ -22,13 +27,6 @@ Status: Always Open
 Please note the 2nd address is a [Bech32 address](https://en.bitcoin.it/wiki/Bech32_adoption), so please ensure your wallet supports sending to a Bech32 address to use it. Many wallets and exchanges now support this, and you can [check adoption here](https://en.bitcoin.it/wiki/Bech32_adoption).
 
 #### Please verify the donation addresses as shown above in your browser matches the source for this page on [mimblewimble/site](https://github.com/mimblewimble/site/blob/master/general_funding.md).
-
-## Current Funds
-
-As of Feb. 3rd 2019
-
-* 676.85 ツ from the grinmint donation account
-* 8.22 BTC (excess on above BTC addresses are earmarked for security audits)
 
 ## What is this fund
 
