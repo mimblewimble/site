@@ -31,6 +31,9 @@ The following companies, institutions, or individuals have generously donated fi
 	<a href="https://kyokan.io/">
 		<img src="assets/images/logos/kyokan_teal_white.png" title="Kyokan">
 	</a>
+	<a href="http://innosilicon.com/">
+		<img src="assets/images/logos/Innosilicon.png" title="Innosilicon">
+	</a>
 	<a href="https://galleon.exchange/">
 		<img src="assets/images/logos/galleon.png" title="Galleon">
 	</a>
