@@ -322,6 +322,7 @@ page-break-after: avoid;
 <p>The audit was carried out in limited time (7 hours, including reporting), and consisted in manual code review, and dynamic analysis based on the unit tests included.</p>
 <h1 id="potential-security-issues"><span class="header-section-number">2</span> Potential security issues</h1>
 <h2 id="optimized-out-dead-assignment-may-leak-sensitive-data"><span class="header-section-number">2.1</span> Optimized out dead assignment may leak sensitive data</h2>
+<h4>Status: No changes due to impossibility of enforcing this compiler-side. Binary still needs to be reviewed manually.</h4>
 <p>At ./src/ecmult_gen_impl.h:153, the line <code>bits = 0</code> aims to overwrite the value of private exponent bits. However compilers may remove the corresponding instructions, since the variable <code>bits</code> is no longer used.</p>
 <p>Likewise, the subsequent “clear” functions could be optimized out:</p>
 <pre><code>    bits = 0;
