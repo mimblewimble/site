@@ -333,10 +333,12 @@ page-break-after: avoid;
 <pre><code>    memset(data, 0, 32);  /* TODO proper clear */</code></pre>
 <p>There is no simple solution guaranteed to work, the best is to review the binaries generated and check that those operations haven’t been removed by the compiler.</p>
 <h2 id="missing-null-pointers-checks"><span class="header-section-number">2.2</span> Missing null pointers checks</h2>
+<h4>Status: Addressed by <a href="https://github.com/mimblewimble/secp256k1-zkp/pull/37">#37</a>.</h4>
 <p><code>secp256k1_aggsig_sign_single()</code> checks some but not all pointers’ nullity. Is this on purpose?</p>
 <p>Likewise for <code>secp256k1_aggsig_verify_single()</code> and <code>secp256k1_aggsig_add_signatures_single(()</code>(where <code>sigs</code> is checked but not the <code>sigs[i]</code>).</p>
 <h1 id="other-observations"><span class="header-section-number">3</span> Other observations</h1>
 <h2 id="unfreed-heap-allocations"><span class="header-section-number">3.1</span> Unfreed heap allocations</h2>
+<h4>Status: Addressed by <a href="https://github.com/mimblewimble/secp256k1-zkp/pull/37">#37</a>.</h4>
 <p>In <code>secp256k1_aggsig_verify_single()</code>, if <code>secp256k1_ecmult_multi_var()</code> fails then the <code>scratch</code> buffer will not be freed:</p>
 <pre><code>    scratch = secp256k1_scratch_space_create(ctx, 1024*4096);
     /* Compute sG - eP, which should be R */
@@ -347,10 +349,12 @@ page-break-after: avoid;
     secp256k1_scratch_space_destroy(scratch);</code></pre>
 <p>Too, in <code>secp256k1_bulletproof_rangeproof_prove()</code>, <code>secp256k1_scratch_deallocate_frame()</code> is only called if the function succeeds, hence it may return 0 without deallocating the scratch frame.</p>
 <h2 id="unchecked-heap-allocation"><span class="header-section-number">3.2</span> Unchecked heap allocation</h2>
+<h4>Status: Outstanding.</h4>
 <p>The value of <code>secp256k1_scratch_space_create(ctx, 1024*4096)</code> in <code>secp256k1_aggsig_verify_single()</code> and in <code>secp256k1_aggsig_build_scratch_and_verify()</code> is not verified. The <code>checked_malloc()</code> would display an error, but would still return NULL to the caller.</p>
 <p>Too, in <code>secp256k1_bulletproof_rangeproof_prove()</code>, the <code>tge = malloc(2*sizeof(secp256k1_ge));</code> are not checked.</p>
 <p>These mallocs are unlikely to fail but it’s still a bit safer to check them.</p>
 <h2 id="secp256k1_compute_sighash_single-always-returns-1-with-scalar_low_impl.h"><span class="header-section-number">3.3</span> <code>secp256k1_compute_sighash_single()</code> always returns 1 with scalar_low_impl.h</h2>
+<h4>Status: Addressed by <a href="https://github.com/mimblewimble/secp256k1-zkp/pull/37">#37</a>.</h4>
 <p>Probably a non-issue, just</p>
 <p><code>secp256k1_compute_sighash_single()</code> returns the following, given an uninitialized <code>int overflow</code>:</p>
 <pre><code>   secp256k1_scalar_set_b32(r, output, &amp;overflow);
@@ -369,6 +373,7 @@ page-break-after: avoid;
 <p>Hence <code>secp256k1_compute_sighash_single()</code> always returns 1 in this case. This does not happen with the 8x32 nor 4x64 implementations.</p>
 <p>The same behavior occurs in <code>secp256k1_computer_sighash()</code>.</p>
 <h2 id="unnecessary-operations"><span class="header-section-number">3.4</span> Unnecessary operations?</h2>
+<h4>Status: Should be a non-issue. See comments regarding short circuiting behaviour in <a href="https://github.com/mimblewimble/secp256k1-zkp/pull/37">#37</a>.</h4>
 <p>At the end of <code>secp256k1_bulletproof_rangeproof_prove()</code>:</p>
 <pre><code>    ret = secp256k1_bulletproof_rangeproof_prove_impl(&amp;ctx-&gt;ecmult_ctx, scratch, proof, plen, tau_x, tge, nbits, value, min_value, blinds, commitp, n_commits, &amp;value_genp, gens, nonce, secondary_nonce, extra_commit, extra_commit_len, message);
 
@@ -384,6 +389,7 @@ page-break-after: avoid;
 <li><p>Why isn’t there an additional check <code>t_two != NULL</code>?</p></li>
 </ul>
 <h2 id="unnecessary-operation"><span class="header-section-number">3.5</span> Unnecessary operation?</h2>
+<h4>Status: Addressed by <a href="https://github.com/mimblewimble/secp256k1-zkp/pull/37">#37</a>.</h4>
 <p>I didn’t get why the HMAC finalize is done here:</p>
 <pre><code>void secp256k1_aggsig_context_destroy(secp256k1_aggsig_context *aggctx) {
     if (aggctx == NULL) {
@@ -399,6 +405,7 @@ page-break-after: avoid;
     free(aggctx);
 }</code></pre>
 <h2 id="faster-rejection-of-invalid-parameters"><span class="header-section-number">3.6</span> Faster rejection of invalid parameters</h2>
+<h4>Status: Outstanding</a>.</h4>
 <p>In <code>secp256k1_bulletproof_rangeproof_prove()</code> the only valid values of <code>nbits</code> are <code>&lt; 64</code> and have a Hamming weight of 1 bit. This may be checked during the <code>ARG_CHECK()</code> sequence to avoid doing costly arithmetic operations before <code>nbits</code> is eventually rejected in <code>secp256k1_bulletproof_rangeproof_prove_impl()</code>.</p>
 </body>
 </html>
