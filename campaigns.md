@@ -4,7 +4,7 @@ layout: page
 
 # Past funding campaigns
 
-- [Mar - Aug 2019 Yeastplume Developer Funding](yeastplume)
+- [Mar 2019 - Aug 2019 Yeastplume Developer Funding](yeastplume)
 
   Status: Goal Met - €66,580 of €55,000 Target
 
@@ -12,14 +12,14 @@ layout: page
 
   Status: Goal Met - 17.28 BTC of 16 BTC
 
-- [Feb 2018 - April 2018 Yeastplume Developer Funding](yeastplume)
+- [Oct 2018 - Feb 2019 Yeastplume Developer Funding](yeastplume)
 
-  Status: Goal Met - 3.12775707 of 2.5 BTC Target
+  Status: Goal Met - ~€48,300 of €45,000 Target
 
 - [May 2018 - Sept 2018 Yeastplume Developer Funding](yeastplume)
 
   Status: Goal Met - ~€47,000 of €36,000 Target
 
-- [Oct 2018 - Feb 2019 Yeastplume Developer Funding](yeastplume)
+- [Feb 2018 - April 2018 Yeastplume Developer Funding](yeastplume)
 
-  Status: Goal Met - ~€48,300 of €45,000 Target
+  Status: Goal Met - 3.12775707 of 2.5 BTC Target
