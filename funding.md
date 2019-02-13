@@ -10,10 +10,6 @@ layout: page
 
 Status: Always Open
 
-### [Developer Funding - Yeastplume Mar-Aug 2019](yeastplume)
-
-Status: Goal Met - €66,580 of €55,000 Target
-
 ## Past campaigns
 
 You can view all of our past campaigns [here](campaigns).
