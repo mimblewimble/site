@@ -94,6 +94,9 @@ The following companies, institutions, or individuals have generously donated fi
 	<a href="https://www.f2pool.com/">
 		<img src="assets/images/logos/f2pool.png" title="F2Pool">
 	</a>
+  <a href="https://0301.farm/">
+    <img src="assets/images/logos/0301.jpg" title="0301">
+  </a>
 </section>
 
 <article markdown="1" class="post-content">
