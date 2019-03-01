@@ -94,6 +94,9 @@ The following companies, institutions, or individuals have generously donated fi
 	<a href="https://www.f2pool.com/">
 		<img src="assets/images/logos/f2pool.png" title="F2Pool">
 	</a>
+	<a href="https://www.minerbabe.com/">
+		<img class="no-frame" src="assets/images/logos/minerbabe-white.png" title="Minerbabe">
+	</a>
 </section>
 
 <article markdown="1" class="post-content">
