@@ -12,8 +12,8 @@ Status: Always Open
 
 As of Feb. 3rd 2019
 
-* 676.85 ツ from the grinmint donation account
-* 8.22 BTC (excess on above BTC addresses are earmarked for security audits)
+* 8961.33 ツ from donations.grin-tech.org
+* 8.22 BTC (excess on below BTC addresses are earmarked for security audits)
 
 ## Grin donation address
 
