@@ -248,10 +248,10 @@ layout: page
 
 
 <script crossorigin src="https://unpkg.com/papaparse@4.6.3/papaparse.min.js"></script>
-<!-- <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script> -->
-<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<!-- <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script> -->
 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 <script type="text/babel">
   function numberWithCommas(x) {
@@ -294,7 +294,7 @@ layout: page
         const lb = res[1];
 
         donations.forEach((donation) => {
-          const index = lb.findIndex((o) => (o.name === donation.source));
+          const index = lb.findIndex((o) => (o.name.toLowerCase() === donation.source.toLowerCase()));
           (lb[index].donations)
           ? lb[index].donations.push(donation)
           : lb[index].donations = [donation];
@@ -306,9 +306,13 @@ layout: page
             numberOfDonations: (o.donations) ? o.donations.length : 0,
             lastDonation: (o.donations) ? Math.max.apply(null, o.donations.map((d) => d.date)).toString() : null,
           });
-        }).filter((o) => o.total >= 25000).sort(function(a, b) { return a.total - b.total }).reverse().map(function(o, i) { o.rank = i + 1; return o; });
+        }).filter((o) => o.total >= 5000).sort(function(a, b) { return a.total - b.total }).reverse().map(function(o, i) { o.rank = i + 1; return o; });
       }).then((res) => {
-        setLeaderboard(res);
+        if (res.length) {
+          setLeaderboard(res);
+        } else {
+          setLeaderboard([null]);
+        }
       });
     }, []);
 
@@ -352,31 +356,39 @@ layout: page
     );
   }
 
-  function Leaderboard(prop) {
+  function Leaderboard(props) {
     const [itemsToShow, setItemsToShow] = React.useState(10);
 
     return (
       <React.Fragment>
         <div className="leaderboard-content">
-          {prop.leaderboard.slice(0, itemsToShow).map((data, i) => {
-            return (
-              <LeaderboardRow key={data.id} data={data} i={i} />
-            )
-          })}
-          {(prop.leaderboard.length < 10)
-          ? (
-            Array.apply(null, Array(10 - prop.leaderboard.length)).map((_, i) => {
+          {(props.leaderboard[0] === null) ? (
+            Array.apply(null, Array(10)).map((_, i) => {
               return (
                 <a key={i} className="empty" href="/funding">
-                  {prop.leaderboard.length + i + 1}. Donate to take this spot!
+                  {i + 1}. Donate to take this spot!
                 </a>
               );
             })
-          )
-          : null}
+          ) : null}
+          {(props.leaderboard[0] !== null) ? (
+            props.leaderboard.slice(0, itemsToShow).map((data, i) => {
+              return (
+                <LeaderboardRow key={data.id} data={data} i={i} />
+              )
+            })
+          ) : null}
+          {(props.leaderboard[0] !== null && props.leaderboard.length < 10) ? (
+            Array.apply(null, Array(10 - props.leaderboard.length)).map((_, i) => {
+              return (
+                <a key={i} className="empty" href="/funding">
+                  {props.leaderboard.length + i + 1}. Donate to take this spot!
+                </a>
+              );
+            })
+          ) : null}
         </div>
-        {(prop.leaderboard.length > itemsToShow)
-          ? (
+        {(props.leaderboard.length > itemsToShow) ? (
           <div className="friends-show-more">
             <button
               id="friends-show-more-btn"
@@ -385,8 +397,7 @@ layout: page
               Show more
             </button>
           </div>
-        )
-        : null}
+        ) : null}
       </React.Fragment>
     );
 
