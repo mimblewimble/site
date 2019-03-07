@@ -306,7 +306,7 @@ layout: page
             numberOfDonations: (o.donations) ? o.donations.length : 0,
             lastDonation: (o.donations) ? Math.max.apply(null, o.donations.map((d) => d.date)).toString() : null,
           });
-        }).filter((o) => o.total >= 5000).sort(function(a, b) { return a.total - b.total }).reverse().map(function(o, i) { o.rank = i + 1; return o; });
+        }).filter((o) => o.total >= 25000).sort(function(a, b) { return a.total - b.total }).reverse().map(function(o, i) { o.rank = i + 1; return o; });
       }).then((res) => {
         if (res.length) {
           setLeaderboard(res);
