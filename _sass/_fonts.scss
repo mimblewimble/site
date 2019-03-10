@@ -11,6 +11,16 @@
 }
 @font-face {
   font-family: "Inter UI";
+  src: url("../fonts/Inter-UI-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Inter UI";
+  src: url("../fonts/Inter-UI-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Inter UI";
   src: url("../fonts/Inter-UI-Bold.woff2") format("woff2");
   font-weight: 700;
 }
