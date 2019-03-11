@@ -12,10 +12,10 @@ layout: page
 
 <h2>Hall of Fame</h2>
 <p>
-  Please note: This section has just been introduced and is a <b></b><em>work in progress</em></b>.
+  Please note: This section has just been introduced and is a <b><em>work in progress</em></b>.
   Data to populate donation amounts is obtained from our recently created <a href="https://github.com/mimblewimble/grin-pm/blob/master/financials/income_log.csv">income log</a>.
   We are trying to retroactively populate this log with your donations, but this might take us some time.
-  We welcome help from supporters and the wider community to achieve this. 
+  We welcome help from supporters and the wider community to achieve this.
 </p>
 <section id="leaderboard">
   <div class="leaderboard-content">
@@ -253,8 +253,7 @@ layout: page
 
   <h2>See something wrong?</h2>
   <p>This page is a work in progress. We are doing our best to keep information up to date, but there's a good chance bugs will slip in. For any corrections, please contact daniel.lehnberg@protonmail.com.</p>
-  
-  </article>
+</article>
 
 
 <script crossorigin src="https://unpkg.com/papaparse@4.6.3/papaparse.min.js"></script>
@@ -288,6 +287,7 @@ layout: page
     const [leaderboard, setLeaderboard] = React.useState([]);
 
     React.useEffect(() => {
+      // Fetch data
       Promise.all([
         fetch('https://raw.githubusercontent.com/mimblewimble/grin-pm/master/financials/income_log.csv').then((res) => {
           return res.text();
@@ -303,19 +303,27 @@ layout: page
         const donations = res[0];
         const lb = res[1];
 
+        // Append donations to the correct company/individual
         donations.forEach((donation) => {
           const index = lb.findIndex((o) => (o.name.toLowerCase() === donation.source.toLowerCase()));
-          (lb[index].donations)
-          ? lb[index].donations.push(donation)
-          : lb[index].donations = [donation];
+          try {
+            (lb[index].donations)
+            ? lb[index].donations.push(donation)
+            : lb[index].donations = [donation];
+          } catch (e) {
+            console.error('Missing entity in \`entities.csv\`: ' + donation.source);
+          }
         });
 
+        // Add helper properties `total`, `numberOfDonations`, `lastDonation`
+        // that are displayed on leaderboard
         return lb.map((o) => {
           return Object.assign({}, o, {
-            total: (o.donations && o.donations.reduce((acc, cur) => acc + parseFloat(cur.USD_equivalent), 0)) || 0,
+            total: (o.donations && o.donations.reduce((acc, cur) => acc + parseInt(cur.USD_equivalent), 0)) || 0,
             numberOfDonations: (o.donations) ? o.donations.length : 0,
             lastDonation: (o.donations) ? Math.max.apply(null, o.donations.map((d) => d.date)).toString() : null,
           });
+          // Threshold for leaderboard is set here
         }).filter((o) => o.total >= 25000).sort(function(a, b) { return a.total - b.total }).reverse().map(function(o, i) { o.rank = i + 1; return o; });
       }).then((res) => {
         if (res.length) {
@@ -455,8 +463,8 @@ layout: page
           {(props.data.donations && showDonations) ? (
             <div className="donations">
               {props.data.donations.map((donation) => (
-                <div className="donation">
-                  <strong>{'$' + numberWithCommas(donation.amount) + ' '}</strong>
+                <div className="donation" key={donation.income_id + donation.source}>
+                  <strong>{'$' + numberWithCommas(parseInt(donation.USD_equivalent)) + ' '}</strong>
                   ({donation.amount + ' ' + donation.currency}){': '}
                   <span>{donation.comment}</span>
                 </div>
