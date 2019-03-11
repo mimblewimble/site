@@ -20,7 +20,7 @@ id,name,href,profile_src,description
 19,CoinGecko,https://www.coingecko.com/en/coins/grin,assets/images/logos/CoinGecko-WhiteText-small.png,
 20,Outliers,https://hashoutliers.com,assets/images/logos/Outliers-256x.png,
 21,Blue Helix Exchange (BHEX),https://www.bhex.com,assets/images/logos/bhex-384x.png,
-22,SparkPool,https://www.sparkpool.com,assets/images/logos/Sparkpool-660x.png,
+22,SparkPool,https://www.sparkpool.com,assets/images/logos/Sparkpool-660x.png,Grin is awesome!
 23,Qtum,https://qtum.org,assets/images/logos/qtum.png,
 24,bitfish,https://bit.fish,assets/images/logos/bitfish.png,
 25,bminer,https://bminer.me,assets/images/logos/bminer-white-only.png,
@@ -28,6 +28,5 @@ id,name,href,profile_src,description
 27,Hashtag Capital,https://hashtagchain.com,assets/images/logos/hashtag-capital.png,
 28,F2Pool,https://www.f2pool.com,assets/images/logos/f2pool.png,
 29,Minerbabe,https://www.minerbabe.com,assets/images/logos/minerbabe-white.png,
-30,Sparkpool,https://www.sparkpool.com,assets/images/logos/Sparkpool-660x.png,
-31,Aurel,https://keybase.io/aurel,assets/images/logos/aurel.jpg,I am a strong supporter of privacy and human rights.
-32,Grin-pool.org,https://grin-pool.org/,,
+30,Aurel,https://keybase.io/aurel,assets/images/logos/aurel.jpg,I am a strong supporter of privacy and human rights.
+31,Grin-pool.org,https://grin-pool.org/,,
