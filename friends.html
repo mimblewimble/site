@@ -268,7 +268,9 @@ layout: page
   }
 
   function parseCsv(csv) {
+    // Use trimHeaders <5.0.0, and transformHeader >=5.0.0
     return Papa.parse(csv, {
+      trimHeaders: true,
       header: true,
       skipEmptyLines: true,
     }).data;
@@ -466,7 +468,9 @@ layout: page
                 <div className="donation" key={donation.income_id + donation.source}>
                   <strong>{'$' + numberWithCommas(parseInt(donation.USD_equivalent)) + ' '}</strong>
                   ({donation.amount + ' ' + donation.currency}){': '}
-                  <span>{donation.comment}</span>
+                  {(donation.url && donation.url !== '-') ? (
+                    <a href={donation.url}>{donation.comment}</a>
+                  ) : <span>{donation.comment}</span>}
                 </div>
               ))}
             </div>
