@@ -12,7 +12,7 @@ Status: Always Open
 
 As of Feb. 3rd 2019
 
-* 8961.33 ツ from donations.grin-tech.org
+* 0.29 ツ on donations.grin-tech.org
 * 8.22 BTC (excess on below BTC addresses are earmarked for security audits)
 
 ## Grin donation address
