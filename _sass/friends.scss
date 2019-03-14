@@ -147,10 +147,16 @@
   }
 }
 .leaderboard-row .donation {
-  padding-bottom: 4px;
-  line-height: 1.6em;
+  padding-bottom: $tiny;
+  line-height: 1.4em;
   &:last-child {
     padding-bottom: 0;
+  }
+  & a {
+    border-bottom: 1px solid black !important;
+  }
+  & a:hover {
+    border-bottom: 0 !important;
   }
 }
 .leaderboard-row .subheading {
@@ -162,7 +168,6 @@
 .leaderboard-row .data {
   flex: 1;
   padding-right: $small;
-  // flex-grow: 9;
 }
 .leaderboard-row .donation-number {
   font-weight: 600;
