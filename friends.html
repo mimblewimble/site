@@ -303,30 +303,29 @@ layout: page
   function App() {
     const [leaderboard, setLeaderboard] = React.useState([]);
 
+    // Url to .csv files
+    const incomeUrl = 'https://raw.githubusercontent.com/mimblewimble/grin-pm/master/financials/income_log.csv';
+    const entitiesUrl = '/assets/csv/entities.csv';
+    const miscUrl = 'https://raw.githubusercontent.com/mimblewimble/grin-pm/master/financials/misc_support.csv';
+
     React.useEffect(() => {
-      // Fetch data
+      // Fetch data on mount
       Promise.all([
-        fetch('https://raw.githubusercontent.com/mimblewimble/grin-pm/master/financials/income_log.csv').then((res) => {
-          return res.text();
-        }).then((res) => {
-          return parseCsv(res);
-        }),
-        fetch('/assets/csv/entities.csv').then((res) => {
-          return res.text();
-        }).then((res) => {
-          return parseCsv(res);
-        })
+        fetch(incomeUrl).then((res) => res.text()).then((res) => parseCsv(res)),
+        fetch(entitiesUrl).then((res) => res.text()).then((res) => parseCsv(res)),
+        fetch(miscUrl).then((res) =>  res.text()).then((res) =>  parseCsv(res)),
       ]).then((res) => {
         const donations = res[0];
-        const lb = res[1];
+        const entities = res[1];
+        const misc = res[2];
 
         // Append donations to the correct company/individual
-        donations.forEach((donation) => {
-          const index = lb.findIndex((o) => (o.name.toLowerCase() === donation.source.toLowerCase()));
+        donations.concat(misc).forEach((donation) => {
+          const index = entities.findIndex((o) => (o.name.toLowerCase() === donation.source.toLowerCase()));
           try {
-            (lb[index].donations)
-            ? lb[index].donations.push(donation)
-            : lb[index].donations = [donation];
+            (entities[index].donations)
+            ? entities[index].donations.push(donation)
+            : entities[index].donations = [donation];
           } catch (e) {
             console.error('Missing entity in \`entities.csv\`: ' + donation.source);
           }
@@ -334,7 +333,7 @@ layout: page
 
         // Add helper properties `total`, `numberOfDonations`, `lastDonation`
         // that are displayed on leaderboard
-        return lb.map((o) => {
+        return entities.map((o) => {
           return Object.assign({}, o, {
             total: (o.donations && o.donations.reduce((acc, cur) => acc + parseInt(cur.USD_equivalent), 0)) || 0,
             numberOfDonations: (o.donations) ? o.donations.length : 0,
