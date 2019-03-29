@@ -28,6 +28,12 @@ Please note the 2nd address is a [Bech32 address](https://en.bitcoin.it/wiki/Bec
 
 #### Please verify the donation addresses as shown above in your browser matches the source for this page on [mimblewimble/site](https://github.com/mimblewimble/site/blob/master/general_funding.md).
 
+## Ethereum donation address
+
+- 0x16726940eCEBdfb3c352C29bF2620f59EF919a3b
+
+Funds donated in Ethereum will be converted to Bitcoin shortly after for simplicity of accounting.
+
 ## What is this fund
 
 This is the general development fund intended to cover costs related to Grin's ongoing development. While the team may not have visibility on every particular need that will arise, all donated funds will be used towards Grin's development or promotion.
