@@ -34,6 +34,12 @@ Please note the 2nd address is a [Bech32 address](https://en.bitcoin.it/wiki/Bec
 
 Funds donated in Ethereum will be converted to Bitcoin shortly after for simplicity of accounting.
 
+## Zcash donation address
+
+- t-address [t1QGYYXan3HHEuiPEfccKnUuWEP4CsVvPA5](https://explorer.zcha.in/accounts/t1QGYYXan3HHEuiPEfccKnUuWEP4CsVvPA5){:.address-link}
+
+Funds donated in Zcash will be converted to Bitcoin shortly after for simplicity of accounting.
+
 ## What is this fund
 
 This is the general development fund intended to cover costs related to Grin's ongoing development. While the team may not have visibility on every particular need that will arise, all donated funds will be used towards Grin's development or promotion.
