@@ -30,7 +30,7 @@ Please note the 2nd address is a [Bech32 address](https://en.bitcoin.it/wiki/Bec
 
 ## Ethereum donation address
 
-- 0x16726940eCEBdfb3c352C29bF2620f59EF919a3b
+- eth address [0x16726940eCEBdfb3c352C29bF2620f59EF919a3b](https://etherscan.io/address/0x16726940eCEBdfb3c352C29bF2620f59EF919a3b)
 
 Funds donated in Ethereum will be converted to Bitcoin shortly after for simplicity of accounting.
 
