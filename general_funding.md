@@ -10,7 +10,7 @@ This is a general fund for the Grin project's ongoing and ever-expanding needs. 
 
 Status: Always Open
 
-As of July 19th 2019
+As of July 19th, 2019
 
 [//]: <> * 0.29 ツ on donations.grin-tech.org
 * 70.77 BTC
@@ -28,7 +28,7 @@ _Grin donations are suspended temporarily, and will be operational again ASAP._
 
 Please note the 2nd address is a [Bech32 address](https://en.bitcoin.it/wiki/Bech32_adoption), so please ensure your wallet supports sending to a Bech32 address to use it. Many wallets and exchanges now support this, and you can [check adoption here](https://en.bitcoin.it/wiki/Bech32_adoption).
 
-#### Please verify the donation addresses as shown above in your browser matches the source for this page on [mimblewimble/site](https://github.com/mimblewimble/site/blob/master/general_funding.md).
+### Please verify the donation addresses as shown above in your browser matches the source for this page on [mimblewimble/site](https://github.com/mimblewimble/site/blob/master/general_funding.md).
 
 ## Ethereum donation address
 
