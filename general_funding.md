@@ -10,14 +10,16 @@ This is a general fund for the Grin project's ongoing and ever-expanding needs. 
 
 Status: Always Open
 
-As of Feb. 3rd 2019
+As of July 19th 2019
 
-* 0.29 ツ on donations.grin-tech.org
-* 8.22 BTC (excess on below BTC addresses are earmarked for security audits)
+[//]: <> * 0.29 ツ on donations.grin-tech.org
+* 70.77 BTC
 
 ## Grin donation address
 
-- Direct HTTPS sends: [https://donations.grin-tech.org](https://donations.grin-tech.org)
+_Grin donations are suspended temporarily, and will be operational again ASAP._
+
+[//]: <> - Direct HTTPS sends: [https://donations.grin-tech.org](https://donations.grin-tech.org)
 
 ## Bitcoin donation address
 
@@ -30,13 +32,17 @@ Please note the 2nd address is a [Bech32 address](https://en.bitcoin.it/wiki/Bec
 
 ## Ethereum donation address
 
-- eth address [0x16726940eCEBdfb3c352C29bF2620f59EF919a3b](https://etherscan.io/address/0x16726940eCEBdfb3c352C29bF2620f59EF919a3b)
+_Ethereum donations are suspended temporarily, and will be operational again ASAP._
+
+[//]: <> - eth address [0x16726940eCEBdfb3c352C29bF2620f59EF919a3b](https://etherscan.io/address/0x16726940eCEBdfb3c352C29bF2620f59EF919a3b)
 
 Funds donated in Ethereum will be converted to Bitcoin shortly after for simplicity of accounting.
 
 ## Zcash donation address
 
-- t-address [t1QGYYXan3HHEuiPEfccKnUuWEP4CsVvPA5](https://explorer.zcha.in/accounts/t1QGYYXan3HHEuiPEfccKnUuWEP4CsVvPA5){:.address-link}
+_Zcash donations are suspended temporarily, and will be operational again ASAP._
+
+[//]: <> - t-address [t1QGYYXan3HHEuiPEfccKnUuWEP4CsVvPA5](https://explorer.zcha.in/accounts/t1QGYYXan3HHEuiPEfccKnUuWEP4CsVvPA5){:.address-link}
 
 Funds donated in Zcash will be converted to Bitcoin shortly after for simplicity of accounting.
 
