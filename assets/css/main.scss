@@ -101,9 +101,14 @@ li {
   justify-content: center;
 }
 
-.warning-banner a {
+.warning-banner > a {
   border-bottom: 1px solid #e74c3c;
   color: white;
-  margin-left: 10px;
-  margin-right:10px;
+  margin: 10px;
+}
+
+.warning-banner a object a {
+  border-bottom: 1px solid white;
+  margin-left: 0px;
+  margin-right:0px;
 }
