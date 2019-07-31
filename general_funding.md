@@ -12,14 +12,12 @@ Status: Always Open
 
 As of July 19th, 2019
 
-[//]: <> * 0.29 ツ on donations.grin-tech.org
+* 0.00 ツ on council-donations.yeastplume.org
 * 70.77 BTC
 
 ## Grin donation address
 
-_Grin donations are suspended temporarily, and will be operational again ASAP._
-
-[//]: <> - Direct HTTPS sends: [https://donations.grin-tech.org](https://donations.grin-tech.org)
+- Direct HTTPS sends: [https://council-donations.yeastplume.org](https://council-donations.yeastplume.org)
 
 ## Bitcoin donation address
 
