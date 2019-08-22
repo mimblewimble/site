@@ -10,10 +10,10 @@ This is a general fund for the Grin project's ongoing and ever-expanding needs. 
 
 Status: Always Open
 
-As of July 19th, 2019
+As of Aug 22, 2019
 
-* 0.00 ツ on council-donations.yeastplume.org
-* 70.77 BTC
+* 3156.702362010 ツ on council-donations.yeastplume.org
+* 71.78869617 BTC
 
 ## Grin donation address
 
