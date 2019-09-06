@@ -91,24 +91,3 @@ li {
     padding: 32px;
   }
 }
-.warning-banner {
-  align-items: center;
-  border-radius: 4px;
-  background-color: #e74c3c;
-  box-shadow: 0 10px 45px -12px rgba(93, 90, 50, 0.25), 0 18px 36px -18px rgba(0, 0, 0, .3);
-  display: flex;
-  height: 50px;
-  justify-content: center;
-}
-
-.warning-banner > a {
-  border-bottom: 1px solid #e74c3c;
-  color: white;
-  margin: 10px;
-}
-
-.warning-banner a object a {
-  border-bottom: 1px solid white;
-  margin-left: 0px;
-  margin-right:0px;
-}
