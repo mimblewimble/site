@@ -1,0 +1,318 @@
+---
+layout: page
+---
+
+<h1>Friends of Grin</h1>
+<p>
+  The following companies, institutions, or individuals have generously donated
+  financial resources to the Grin project under our
+  <a href="/funding">community funding model</a>. We're grateful for their
+  support, and are proud to display their logos or names as supporters of Grin.
+</p>
+
+<h2>Hall of Fame</h2>
+<p>
+  Please note: This section has just been introduced and is a <b><em>work in progress</em></b>.
+  Data to populate donation amounts is obtained from our recently created <a
+    href="https://github.com/mimblewimble/grin-pm/blob/master/financials/income_log.csv">income log</a>.
+  We are trying to retroactively populate this log with your donations, but this might take us some time.
+  We welcome help from supporters and the wider community to achieve this.
+</p>
+<section id="leaderboard">
+  <div class="leaderboard-content">
+    <div class="leaderboard-row">
+      <div class="leaderboard-loading">
+      </div>
+    </div>
+    <br />
+    <div class="leaderboard-row">
+      <div class="leaderboard-loading">
+      </div>
+    </div>
+    <br />
+    <div class="leaderboard-row">
+      <div class="leaderboard-loading">
+      </div>
+    </div>
+    <br />
+    <div class="leaderboard-row">
+      <div class="leaderboard-loading">
+      </div>
+    </div>
+    <br />
+    <div class="leaderboard-row">
+      <div class="leaderboard-loading">
+      </div>
+    </div>
+  </div>
+</section>
+
+<h2>Companies</h2>
+<!-- Temporary black div until we convert to black on white logos -->
+<section class="companies">
+  <a href="https://www.bitonic.nl/">
+    <img src="assets/images/logos/bitonic-white.png" title="Bitonic">
+  </a>
+  <a href="https://www.kryptonite1.co/">
+    <img src="assets/images/logos/kr1_med.png" title="KR1">
+  </a>
+  <a href="https://www.tmgox.com/">
+    <img src="assets/images/logos/tmgox-logo.jpg" title="TMGOX">
+  </a>
+  <a href="https://gpu.one/">
+    <img src="assets/images/logos/gpuOne-white.png" title="GPU.one">
+  </a>
+  <a href="https://www.megapool.info/">
+    <img class="no-frame" src="assets/images/logos/Mega-Pool-Logo-trans.png" title="Mega Pool">
+  </a>
+  <a href="https://www.grinmint.com/">
+    <img src="assets/images/logos/grinmint_logo_square.svg" title="Grinmint by BlockCypher">
+  </a>
+  <a href="https://kyokan.io/">
+    <img src="assets/images/logos/kyokan_teal_white.png" title="Kyokan">
+  </a>
+  <a href="http://innosilicon.com/">
+    <img src="assets/images/logos/Innosilicon.png" title="Innosilicon">
+  </a>
+  <a href="https://galleon.exchange/">
+    <img src="assets/images/logos/galleon.png" title="Galleon">
+  </a>
+  <a href="https://mining.luxor.tech">
+    <img class="no-frame" src="assets/images/logos/luxor_logo.png" title="Luxor">
+  </a>
+  <a href="https://beam-mw.com/">
+    <img src="assets/images/logos/beam_logo.png" title="Beam">
+  </a>
+  <a href="https://continue.capital/">
+    <img src="assets/images/logos/continuecapital.png" title="Continue Capital">
+  </a>
+  <a href="http://cyphercapital.net/">
+    <img src="assets/images/logos/cypher_capital.png" title="Cypher Capital">
+  </a>
+  <a href="https://hashrabbit.co/">
+    <img src="assets/images/logos/hashrabbit.png" title="Cypher Capital">
+  </a>
+  <a href="https://lemniscap.com/">
+    <img src="assets/images/logos/lemniscap.png" title="Lemniscap">
+  </a>
+  <a href="#">
+    <img class="no-frame" src="assets/images/logos/chanceventures.png" title="Chance Ventures">
+  </a>
+  <a href="https://www.wings.ai/">
+    <img class="no-frame" src="assets/images/logos/wingsai-grey.png" title="Wings">
+  </a>
+  <a href="https://www.cgs.group/">
+    <img src="assets/images/logos/cgs-logo-white.svg" title="CGS Group">
+  </a>
+  <a href="https://www.coingecko.com/en/coins/grin">
+    <img class="no-frame" src="assets/images/logos/CoinGecko-WhiteText-small.png" title="CoinGecko">
+  </a>
+  <a href="https://hashoutliers.com">
+    <img class="no-frame" src="assets/images/logos/Outliers-256x.png" title="Outliers">
+  </a>
+  <a href="https://www.bhex.com/">
+    <img class="no-frame" src="assets/images/logos/bhex-384x.png" title="Blue Helix Exchange(BHEX)">
+  </a>
+  <a href="https://www.sparkpool.com/">
+    <img class="no-frame" src="assets/images/logos/Sparkpool-660x.png" title="SparkPool">
+  </a>
+  <a href="https://qtum.org/">
+    <img class="no-frame" src="assets/images/logos/qtum.png" title="Qtum">
+  </a>
+  <a href="https://bit.fish/">
+    <img src="assets/images/logos/bitfish.png" title="bitfish">
+  </a>
+  <a href="https://bminer.me/">
+    <img class="no-frame" src="assets/images/logos/bminer-white-only.png" title="bminer">
+  </a>
+  <a href="https://prokapi.com/">
+    <img src="assets/images/logos/prokapi-white.png" title="Prokapi">
+  </a>
+  <a href="https://hashtagchain.com/">
+    <img class="no-frame" src="assets/images/logos/hashtag-capital.png" title="Hashtag Capital">
+  </a>
+  <a href="https://www.f2pool.com/">
+    <img src="assets/images/logos/f2pool.png" title="F2Pool">
+  </a>
+  <a href="https://www.minerbabe.com/">
+    <img class="no-frame" src="assets/images/logos/minerbabe-white.png" title="Minerbabe">
+  </a>
+  <a href="https://0301.farm/">
+    <img class="no-frame" src="assets/images/logos/0301-transparent.png" title="0301 - Mining Farm">
+  </a>
+  <a href="https://2miners.com">
+    <img class="no-frame" src="assets/images/logos/logo-2miners-red.svg" title="2Miners">
+  </a>
+  <a href="https://poloniex.com">
+    <img class="no-frame" src="assets/images/logos/poloniex.png" title="Poloniex">
+  </a>
+  <a href="https://www.grinamsterdam.com/">
+    <img class="no-frame" src="assets/images/logos/grin_amsterdam_logo_white.png" title="Grin Amsterdam">
+  </a>
+  <a href="https://www.exsilico.com/">
+    <img class="no-frame" src="assets/images/logos/exsilico.png" title="exsilico">
+  </a>
+  <a href="https://www.gate.io/">
+    <img class="no-frame" src="assets/images/logos/gateio_logo.png" title="Gate.io">
+  </a>
+</section>
+
+<!-- TODO: add default profile image -->
+<article markdown="1" class="post-content">
+  <h2>Individuals</h2>
+  <em>In alphabetical order:</em><br /><br />
+  <div class="individuals">
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Redouan Ahaloui</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Aurel</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Leonid Beder</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Roy Blankman</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Ivan Brightly</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Guy Corem</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Chance Du</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Adonis Ferreira</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>fengqingyang</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Roderik van der Graaf</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>PANDA</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Poseidon Ho</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>hwph</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Michalis Kargakis</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Baek Kyoum Kim</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Sehwan Kim (misskiwi)</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Mitchell Krawiec-Thayer Ph.D. (Isthmus)</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Jie Liu</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Jameson Lopp</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>juelianshana</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Chris McCann</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Jack Misteli Jean-Guillaume</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Bart Mol</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Yan Pritzker</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Hendrik Richter</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Niels de Ruiter</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Alex (X) Sherman</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Daisuke Shosaki</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Max Tannahill</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Tensor Turbulence</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Qi Tian</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Aaron Ting</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Shaishav Todi</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Xiake Coin</span>
+    </div>
+    <div class="individual">
+      <img src="assets/images/grin-logo.png" />
+      <span>Alexander Zaidelson</span>
+    </div>
+  </div>
+
+  <h2>Anonymous Supporters</h2>
+  <p>We'd also like to explicitly thank everyone who's donated to one of Grin's campaigns but chosen to remain
+    anonymous. We're working to protect that choice!</p>
+
+  <h2>Minimum amounts</h2>
+  <p>100 USD in crypto-equivalent in order to be listed in the individuals section, 1,000 USD in the companies section,
+    and 25,000 USD in the Hall of Fame.</p>
+
+  <h2>See something wrong?</h2>
+  <p>This page is a work in progress. We are doing our best to keep information up to date, but there's a good chance
+    bugs will slip in. For any corrections, please contact daniel.lehnberg@protonmail.com.</p>
+</article>

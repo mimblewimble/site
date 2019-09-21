@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ site.title }}</title>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- GoogleFonts -->
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono|Work+Sans:400,700,800,900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS Main  -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css" />
+  </head>
+  <body class="black">
+    <header>
+      {% include navigation.html %}
+    </header>
+    {{ content }}
+    {% include footer.html %}
+    <script type="text/javascript">
+    var logo = document.getElementById('grin-logo');
+    window.addEventListener('scroll', () => {
+      logo.style.transform = `rotate(${window.scrollY / 2.5}deg)`;
+    });
+    </script>
+  </body>
+</html>

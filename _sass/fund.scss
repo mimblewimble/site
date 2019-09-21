@@ -1,0 +1,55 @@
+.fund {
+  padding: 128px 16px 0 16px;
+  max-width: 700px;
+  margin: 0 auto;
+  a {
+    border-bottom: 1px solid white;
+  }
+}
+.fund-heading {
+  display: block;
+  span {
+    display: block;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 800;
+    margin: 4px 0 16px 0;
+  }
+  small {
+    display: block;
+    text-align: center;
+    opacity: 0.65;
+  }
+}
+.fund-donation-type {
+  font-weight: 900;
+  font-size: 11px;
+  display: block;
+  margin-bottom: 3px;
+}
+.fund-address {
+  display: inline-block;
+  margin-bottom: 16px;
+  border-bottom: 1px solid white;
+  padding-bottom: 2px;
+  font-family: 'Courier', monospace;
+}
+.fund-closed {
+  display: inline-block;
+  margin-bottom: 16px;
+  line-height: 1.4em;
+}
+
+@media (max-width: 768px) {
+  .fund-heading {
+    h1 {
+      text-align: center;
+      font-size: 56px;
+      font-weight: 800;
+      margin: 4px 0 16px 0;
+    }
+  }
+}

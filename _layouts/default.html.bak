@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ site.title }}</title>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- GoogleFonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet"> -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS Main  -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css" />
+
+    <!-- Katex -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    {% include banner.html %}
+    <header class="container">
+      {% include navigation.html %}
+    </header>
+    {{ content }}
+    {% include footer.html %}
+  </body>
+  <script>
+    var hamburger = document.querySelector(".hamburger");
+    var navMobile = document.querySelector(".nav-mobile");
+    var navMobileFade = document.querySelector(".nav-mobile-fade");
+    hamburger.addEventListener("click", function() {
+      hamburger.classList.toggle("is-active");
+      hamburger.classList.toggle("hamburger--slider");
+      navMobile.classList.toggle("is-active");
+      navMobileFade.classList.toggle("is-active");
+    });
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body, {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "\\[", right: "\\]", display: true },
+          { left: "$", right: "$", display: false },
+        ],
+        ignoredTags: [
+          "script", "noscript", "style", "textarea", "pre", "code",
+        ],
+      });
+      var nodes = document.querySelectorAll('script[type="math/tex; mode=display"]');
+      for (var i = 0; i < nodes.length; i++) {
+        var tex = nodes[i].innerHTML;
+        var markup = "<div class=\"equation\">" +
+          katex.renderToString(tex, { displayMode: true }) +
+          "</div>";
+        nodes[i].outerHTML = markup;
+      }
+    });
+  </script>
+</html>
