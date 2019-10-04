@@ -106,7 +106,7 @@ nav {
   z-index: 1;
   position: fixed;
   overflow: hidden;
-  transition: all .25s;
+  transition: opacity .25s;
   display: flex;
   flex-direction: column;
   // justify-content: center;
