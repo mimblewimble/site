@@ -16,6 +16,14 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css" />
   </head>
   <body>
+    <div id="fullscreen-menu" class="nav-hamburger-fullscreen">
+      <a href="/"><h2>Index</h2></a>
+      <a href="/"><h2>Introduction</h2></a>
+      <a href="/fund"><h2>The Genral Fund</h2></a>
+      <a href="/community"><h2>Community Projects</h2></a>
+      <a href="/friends"><h2>Friends of Grin</h2></a>
+      <a href="https://github.com/mimblewimble/grin"><h2>GitHub</h2></a>
+    </div>
     <div class="full-header">
       <div class="full-nav">
         <a href="/" id="grin-logo-full">
@@ -33,18 +41,26 @@
     {{ content }}
     {% include footer.html %}
     <script type="text/javascript">
-    var logo = document.getElementById('grin-logo-bare');
-    var fullLogo = document.getElementById('grin-logo-full-svg');
-    logo.addEventListener('mouseover', () => {
-      document.getElementById('grin-logo-full').style.opacity = '1';
-    });
-    logo.addEventListener('mouseout', () => {
-      document.getElementById('grin-logo-full').style.opacity = '0';
-    });
-    window.addEventListener('scroll', () => {
-      logo.style.transform = `rotate(${window.scrollY / 3}deg)`;
-      fullLogo.style.transform = `rotate(${window.scrollY / 3}deg)`;
-    });
+      var logo = document.getElementById('grin-logo-bare');
+      var fullLogo = document.getElementById('grin-logo-full-svg');
+      logo.addEventListener('mouseover', () => {
+        document.getElementById('grin-logo-full').style.opacity = '1';
+      });
+      logo.addEventListener('mouseout', () => {
+        document.getElementById('grin-logo-full').style.opacity = '0';
+      });
+      window.addEventListener('scroll', () => {
+        logo.style.transform = `rotate(${window.scrollY / 3}deg)`;
+        fullLogo.style.transform = `rotate(${window.scrollY / 3}deg)`;
+      });
+    </script>
+    <script type="text/javascript">
+      var hamburger = document.getElementById('hamburger');
+      var fullscreen = document.getElementById('fullscreen-menu');
+      hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        fullscreen.classList.toggle('active');
+      });
     </script>
   </body>
 </html>

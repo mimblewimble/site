@@ -12,10 +12,12 @@
 @import 'community';
 @charset 'utf-8';
 html, body {
+  display: flex;
+  flex-direction: column;
   font-family: 'Inter';
   background-color: white;
   width: 100%;
-  min-height: 100%;
+  min-height: 100vh;
   font-size: 13px;
   font-feature-settings: 'cv10' 1, 'zero' 1, 'ss01' 1;
   &.black {
@@ -93,6 +95,7 @@ li {
   width: 100%;
   min-height: 100%;
   background-color: white;
+  flex-grow: 1;
   &.pad {
     padding-top: 80px;
   }
