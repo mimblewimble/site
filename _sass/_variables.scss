@@ -1,32 +1,32 @@
+// //
+// // VARIABLES
+// //
 //
-// VARIABLES
+// // Mobile breakpoints
+// @mixin mobile {
+//   @media screen and (max-width: 767px) {
+//     @content;
+//   }
+// }
+// @mixin tablet {
+//   @media screen and (min-width: 768px) {
+//     @content;
+//   }
+// }
 //
-
-// Mobile breakpoints
-@mixin mobile {
-  @media screen and (max-width: 767px) {
-    @content;
-  }
-}
-@mixin tablet {
-  @media screen and (min-width: 768px) {
-    @content;
-  }
-}
-
-$smiley-yellow: #fef102;
-$smiley-black: black;
-$almost-black: #0b0b0b;
-$grey: #6d6d6d;
-$light-green: #22c335;
-$tiny: 8px;
-$small: 16px;
-$base: 24px;
-$large: 48px;
-$xlarge: 64px;
-
-$h1: 56px;
-$h2: 36px;
-$h3: 28px;
-$flarge: 24px;
-$regular: 16px;
+// $smiley-yellow: #fef102;
+// $smiley-black: black;
+// $almost-black: #0b0b0b;
+// $grey: #6d6d6d;
+// $light-green: #22c335;
+// $tiny: 8px;
+// $small: 16px;
+// $base: 24px;
+// $large: 48px;
+// $xlarge: 64px;
+//
+// $h1: 56px;
+// $h2: 36px;
+// $h3: 28px;
+// $flarge: 24px;
+// $regular: 16px;
