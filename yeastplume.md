@@ -6,7 +6,7 @@ layout: page
 
 Funding to allow Yeastplume to give full-time attention to Grin from March-Aug 2019
 
-## Funding status (March - Aug 2019)
+## Funding status (March - Aug 2019) - CLOSED
 
 Status: Goal Met - €66,580 of €55,000 Target
 Goal: Crypto equivalent of €55,000
@@ -19,14 +19,13 @@ Raised (amounts as of Feb 3rd, 2019):
 - ~€66,580 Total
 
 ## Bitcoin donation address:
-[3B3qq3EAPtpkSoGHSDfY6rxpK5Bqh7zmij](https://blockchain.info/address/3B3qq3EAPtpkSoGHSDfY6rxpK5Bqh7zmij)
+`no longer active`
 
 ## Ethereum donation address:
-[0xeFC76886E5C50D1FD15addAbb59D2D3582A03A61](https://etherscan.io/address/0xeFC76886E5C50D1FD15addAbb59D2D3582A03A61)
+`no longer active`
 
 ## Grin Donations! (Experimental, let's see what happens!)
-* Via [wallet713](https://github.com/vault713/wallet713) - gVtiAMLJLHQB1HyjfoFKdkk2jHsRQ2uJC4zbhcVJWBKCii6ehoqq
-* Or send a Slate to: yeastplume@protonmail.com
+`no longer active`
 
 ## Source for this page (via https):
 
