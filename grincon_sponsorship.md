@@ -2,11 +2,11 @@
 layout: page
 ---
 
-# Sponsor Grincon0
+# Sponsor Grincon1
 
-[Grincon0](https://grincon.org) is the first ever conference on Grin and the Mimblewimble protocol, taking place in Berlin on November 9.
+[Grincon1](https://grincon.org) is the second annual Grin developer conference, taking place in Berlin on November 22 2019.
 
-There is an opportunity to be a sponsor of the event and get valuable exposure for your organisation and brand in front of an audience that's interested in bleeding edge cryptographic protocols, Rust development, and privacy preserving technology. Funds raised will go towards funding Grin's [Security Audit](sec_audit) and the Grin General Fund.
+There is an opportunity to be a sponsor of the event and get valuable exposure for your organisation and brand in front of an audience that's interested in bleeding edge cryptographic protocols, Rust development, and privacy preserving technology. Funds raised will go towards the [Grin General Fund](fund.html).
 
 - Only 16 packages available.
 - Conference held at the historic [c-base Raumstation](https://www.c-base.org) in Berlin. Founded in 1995, it's recognized as one of the first hackerspaces in the world.
@@ -14,15 +14,17 @@ There is an opportunity to be a sponsor of the event and get valuable exposure f
 
 ## Packages
 
-|                             | Silver                           | Gold                           | Grin                                                    |
-| --------------------------- | -------------------------------- | ------------------------------ | ------------------------------------------------------- |
-| **Fee (crypto equivalent)** | $3k                              | $15k                           | $30k                                                    |
-| **Available packages**      | 10                               | 5                              | 1                                                       |
-| **Package includes**        | Silver-sized logo on grincon.org | Gold-sized logo on grincon.org | Grin-sized logo on grincon.org                          |
-|                             |                                  | Logo on Grincon0 presentations | Logo on Grincon0 presentations                          |
-|                             |                                  |                                | Dinner with Grin council during Grincon0                |
-|                             |                                  |                                | Logo (on the left arm) on the official Grincon0 t-shirt |
-|                             |                                  |                                | Mention on the event email to meetup attendees</ul>     |
+| | Silver | Gold | Grin |
+|---|---|---|---|
+| **Fee (BTC equivalent)** | \$3.5k | \$5k | \$15k |
+| **Available packages**   | 10 | 5 | 1 |
+| **Package includes**     | Acknowledged in [Friends of Grin](friends.html) | Acknowledged in [Friends of Grin](friends.html) | Acknowledged in [Friends of Grin](friends.html) |
+|| Logo on grincon.org |  Logo on grincon.org |  Logo on grincon.org |
+| | | Logo on presentation slides | Logo on presentation slides |
+| | | Mention in the Youtube videos description | Mention in the Youtube videos description |
+| | | Grin newsletter mention | Grin newsletter mention |
+| | | | Official conference sponsor on all materials |
+| | | | Opportunity to present a talk or get a 3 min speaking slot |
 
 ## Application process
 
@@ -30,5 +32,5 @@ There is an opportunity to be a sponsor of the event and get valuable exposure f
    - Information about you / your org.
    - What package you wish to apply for.
    - Any special requests or requirements.
-1. Grin's technocratic council reviews applications on a first-come first-served basis.
-1. Approved applicants will receive a wallet address to send their sponsorship fee to. **Only payments in crypto is accepted.**
+2. Grin's core team reviews applications on a first-come first-served basis.
+3. Approved applicants will receive a wallet address to send their sponsorship fee to. **Only payments in crypto is accepted.**
