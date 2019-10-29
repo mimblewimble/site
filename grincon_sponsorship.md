@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Sponsor Grincon0
+# Sponsor Grincon1
 
 [Grincon1](https://grincon.org) is the second annual Grin developer conference, taking place in Berlin on November 22 2019.
 
