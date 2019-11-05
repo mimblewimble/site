@@ -1,0 +1,194 @@
+.get-started {
+    background-color: #f2f2f2;
+}
+
+.get-started-heading {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #dadada;
+    background-color: white;
+    p {
+      max-width: 600px;
+      color: #666;
+      font-size: 15px;
+      margin: 0 auto;
+    }
+}
+
+
+.start{
+    position: relative;
+    padding: 50px 30px 150px 30px;
+    max-width: 1230px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.start-block{
+    position: relative;
+}
+.start-block:not(:last-child)::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    background: url(../images/getting-started/start-path.svg?1528322191) no-repeat;
+}
+.start-block::after{
+    content: '';
+    max-width: 200px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    -webkit-transform: translate(-50%, -9px);
+            transform: translate(-50%, -9px);
+    z-index: 10;
+}
+.start-block:nth-child(1)::after{
+    background: url(../images/getting-started/number-1.svg?1528322191) no-repeat;
+}
+.start-block:nth-child(2)::after{
+    background: url(../images/getting-started/number-2.svg?1528322191) no-repeat;
+}
+.start-block:nth-child(3)::after{
+    background: url(../images/getting-started/number-3.svg?1528322191) no-repeat;
+}
+.start-block:nth-child(4)::after{
+    background: url(../images/getting-started/number-4.svg?1528322191) no-repeat;
+}
+.start:nth-child(2){
+    border-bottom: 1px solid #DADADA;
+}
+.start-content::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 70px;
+    height: 3px;
+    background: black;
+}
+.start-block:nth-child(odd) .start-content::after{
+    left: 50%;
+    -webkit-transform: translate(-100%, 13px);
+            transform: translate(-100%, 13px);
+}
+.start-block:nth-child(even) .start-content::after{
+    right: 50%;
+    -webkit-transform: translate(100%, 13px);
+            transform: translate(100%, 13px);
+}
+.left-column,
+.right-column {
+    max-width: 40%;
+    position: relative;
+}
+.left-column{
+    margin-right: auto;
+    text-align: right;
+}
+.left-column h2{
+    text-align: right;
+}
+.left-column div{
+    position: absolute;
+    bottom: -70px;
+    right: 0;
+    z-index: 10;
+}
+.right-column{
+    margin-left: auto;
+    text-align: left;
+}
+.right-column div{
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+    z-index: 10;
+}
+.start-content div div a,
+.start-content div div a:link{
+    display:inline-block;
+    padding: 15px 30px;
+    font-size:100%;
+    font-weight: 600;
+    color:#fff;
+    border-radius:1px;
+}
+.start div div div a:hover{
+    background-image:none;
+}
+.start h2 {
+    margin: 0 0 20px;
+    font-size: 137.5%;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #13161F;
+}
+.start p {
+    margin: 0;
+    font-size: 110%;
+    line-height: 1.7;
+    color: #4D5060;
+}
+
+.starttitle a{
+    margin:0 20px auto;
+}
+
+
+
+@media handheld, only screen and ( max-width: 48em ), only screen and ( max-device-width: 48em ){
+    code {
+        white-space: pre-wrap;
+    }
+    .start {
+        padding: 40px 30px 70px 30px;
+    }
+  
+    .start h2 {
+        margin-bottom: 10px;
+        font-size: 125%;
+    }
+    .start p {
+        margin-bottom: 25px;
+        font-size: 112.5%;
+    }
+    .start-content::after {
+        display: none;
+    }
+    .start-block {
+        padding-left: 30px;
+    }
+    .start-block:not(:last-child) {
+        padding-bottom: 50px;
+    }
+    .start-block:not(:last-child)::before {
+        left: 0;
+    }
+    .start .start-block::after {
+        left: 0;
+        width: 40px;
+        height: 40px;
+        background-size: 40px;
+        -webkit-transform: translate(-50%, -4px);
+                transform: translate(-50%, -4px);
+    }
+    .left-column,
+    .right-column {
+        max-width: 100%;
+    }
+    .left-column div,
+    .right-column div {
+        position: static;
+    }
+    .left-column, .left-column h2 {
+        text-align: left;
+    }
+}

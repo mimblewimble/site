@@ -1,6 +1,43 @@
+
+
+
+.download-heading {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #dadada;
+  background-color: white;
+  p {
+    max-width: 600px;
+    color: #666;
+    font-size: 12px;
+    margin: 0 auto;
+  }
+}
+
+.download-section {
+  width: 600px;
+  max-width: 100%;
+  margin: 0 auto;
+  p {
+    font-family: 'Inter';
+    font-size: 15px;
+    line-height: 1.5em;
+  }
+  h3 {
+    margin-top: 20px;
+  }
+}
+
+
+.site.pad.community-pad {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .community {
   background-color: #f2f2f2;
-  padding: 128px 16px 64px 16px;
+  padding: -10px 16px 64px 16px;
   max-width: 700px;
   margin: 0 auto;
   a {
