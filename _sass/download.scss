@@ -1,10 +1,6 @@
-
-
-
 .download-heading {
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding :20px;
   border-bottom: 1px solid #dadada;
   background-color: white;
   p {
@@ -16,8 +12,7 @@
 }
 
 .download-section {
-  width: 600px;
-  max-width: 100%;
+  max-width: 700px;
   margin: 0 auto;
   p {
     font-family: 'Inter';
@@ -25,7 +20,8 @@
     line-height: 1.5em;
   }
   h3 {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom:20px;
   }
 }
 
@@ -61,6 +57,7 @@
   border-bottom: 1px solid #DADADA;
 }
 .community-row-img {
+  height: 80px;
   width: 80px;
   margin-right: 16px;
 }
@@ -79,4 +76,65 @@
 .community-row-category {
   color: #6F6F6F;
   font-size: 12px;
+}
+
+
+/* Style the tab */
+.tab {
+  margin-top: 10px;
+  overflow: hidden;
+  display: inline-block;
+
+  background-color:  #f2f2f2;
+  margin-bottom: 10px;
+}
+
+.tab-container{
+  text-align: center;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  border: 1px solid #ccc;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  padding-bottom: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  a {
+    margin-bottom:10px;
+  }
+}
+
+.codebox {
+  padding: 15px;
+  height: auto;
+  background: #2a2827;
+  color: #f7f7f7;
+  line-height: 1.5;
+}
+
+.codebox-heading {
+  margin-top: 10px;
+  margin-bottom:10px;
 }
