@@ -14,3 +14,6 @@ to deploy the site on your host locally:
 bundle install --path vendor/bundle
 bundle exec jekyll serve --incremental
 ```
+
+## Additional Licenses
+MIT License for the getting started page: Copyright (c) 2009-2019 Bitcoin.org.

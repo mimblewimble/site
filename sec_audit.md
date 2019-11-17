@@ -15,15 +15,13 @@ layout: page
 
 **The grin security audit funding campaign was completed on December 20th 2018. Thank you to all who generously donated!**
 
+**UPDATE 2019-10-23: The report and findings have now been published: https://www.grin-forum.org/t/grin-security-audit-2-results/6264**
+
 TL;DR Grin is nearing its final phases of development before the release of
 its cryptocurrency network (mainnet). To do so safely, the Grin codebase needs
-to undergo a security audit. We're soliciting donations:
+to undergo a security audit.
 
-- bitcoin legacy [3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs](https://live.blockcypher.com/btc/address/3ChVP627KU5w4zu2rieFPF3wGXWQgmhvrs/){:.address-link}
-- bitcoin segwit [bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65](https://blockchair.com/bitcoin/address/bc1qdgs8vkpzr256qjlzlfht72z3mhcrdrt6wj2rfjw39j8us24gz8uq78qj65){:.address-link}
-- zcash t-address [t1QGYYXan3HHEuiPEfccKnUuWEP4CsVvPA5](https://explorer.zcha.in/accounts/t1QGYYXan3HHEuiPEfccKnUuWEP4CsVvPA5){:.address-link}
-
-Status: Open
+Status: Closed
 
 Goal: {{target_amount | round}} BTC
 

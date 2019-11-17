@@ -1,0 +1,146 @@
+.download-heading {
+  text-align: center;
+  padding :20px;
+  border-bottom: 1px solid #dadada;
+  background-color: white;
+  p {
+    max-width: 600px;
+    color: #666;
+    font-size: 12px;
+    margin: 0 auto;
+  }
+}
+.download-subheading {
+  line-height: 1.4em;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+.download-section {
+  max-width: 700px;
+  margin: 0 auto;
+  p {
+    font-family: 'Inter';
+    font-size: 15px;
+    line-height: 1.5em;
+  }
+  h3 {
+    margin-top: 10px;
+    margin-bottom:20px;
+  }
+}
+
+
+.site.pad.community-pad {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.community {
+  background-color: #f2f2f2;
+  padding: -10px 16px 64px 16px;
+  max-width: 700px;
+  margin: 0 auto;
+  a {
+    border-bottom: 1px solid white;
+  }
+  h2 {
+    text-align: center;
+  }
+}
+.community-subheading {
+  line-height: 1.4em;
+  text-align: center;
+}
+.community-content {
+  margin-top: 24px;
+  background-color: white;
+}
+.community-row {
+  padding: 20px;
+  display: flex;
+  border-bottom: 1px solid #DADADA;
+}
+.community-row-img {
+  height: 80px;
+  width: 80px;
+  margin-right: 16px;
+}
+.community-row-content {
+  margin-top: 4px;
+}
+.community-row-heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.community-row-desc {
+  line-height: 1.4em;
+  margin-bottom: 8px;
+}
+.community-row-category {
+  color: #6F6F6F;
+  font-size: 12px;
+}
+
+
+/* Style the tab */
+.tab {
+  margin-top: 10px;
+  overflow: hidden;
+  display: inline-block;
+
+  background-color:  #f2f2f2;
+  margin-bottom: 10px;
+}
+
+.tab-container{
+  text-align: center;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  border: 1px solid #ccc;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  padding-bottom: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  a {
+    margin-bottom:10px;
+  }
+}
+
+.codebox {
+  padding: 15px;
+  height: auto;
+  background: #2a2827;
+  color: #f7f7f7;
+  line-height: 1.5;
+}
+
+.codebox-heading {
+  margin-top: 10px;
+  margin-bottom:10px;
+}

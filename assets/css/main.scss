@@ -3,13 +3,14 @@
 
 @import 'reset';
 @import 'fonts';
+@import 'get-started';
+@import 'download';
 @import 'index';
 @import 'navigation';
 @import 'footer';
 @import 'fund';
 @import 'friends';
 @import 'markdown';
-@import 'community';
 @charset 'utf-8';
 html, body {
   display: flex;
@@ -114,6 +115,27 @@ li {
   padding: 128px 16px 64px 16px;
   max-width: 700px;
   margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  max-width: 100%;
+  padding: 16px 25px;
+  box-sizing: border-box;
+  font-weight: 600;
+  font-size: 100%;
+}
+
+.btn-light {
+  color: #000000;
+  background: #fff;
+  border: 1px solid #ffffff;
+}
+
+.btn-bright {
+  background: #0f0f0f;
+  color: #fff;
+  border: 1px solid #ffffff;
 }
 
 @media (max-width: 768px) {
