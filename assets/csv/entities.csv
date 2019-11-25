@@ -21,7 +21,7 @@ id,name,href,profile_src,description
 20,Outliers,https://hashoutliers.com,assets/images/logos/Outliers-256x.png,
 21,Blue Helix Exchange (BHEX),https://www.bhex.com,assets/images/logos/bhex-384x.png,
 22,SparkPool,https://www.sparkpool.com,assets/images/logos/Sparkpool-660x.png,Grin is awesome!
-23,Qtum,https://qtum.org,assets/images/logos/qtum.png,
+23,Qtum,https://qtum.org,assets/images/logos/qtum.png,We are the Cypherpunks.
 24,bitfish,https://bit.fish,assets/images/logos/bitfish.png,
 25,bminer,https://bminer.me,assets/images/logos/bminer-white-only.png,
 26,Prokapi,https://prokapi.com,assets/images/logos/prokapi-white.png,
@@ -33,3 +33,4 @@ id,name,href,profile_src,description
 32,Anonymous,https://www.blockchain.com/btc/tx/491ee02543c25d729616de43685d837aa8461b453fd63da8eed88487db4176b7,assets/images/grin-logo.png,
 33,Gate.io,https://www.gate.io/,assets/images/logos/gateio_logo.png,We are one of the top 10 exchanges in the world
 34,Poloniex,https://poloniex.com,assets/images/logos/poloniex.png,
+35,Anonymous II,https://www.grin-forum.org/t/donation-to-the-grin-general-fund-nov-11/6446,assets/images/logos/blocks-not-bombs.png,use Blocks not Bombs
