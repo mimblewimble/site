@@ -93,30 +93,30 @@ hr {
 //   overflow-x: auto;
 //   /* overflow-x: hidden; */
 // }
-// pre > code {
-//   position: inherit;
-//   background-color: transparent;
-//   border-radius: 0;
-//   font-family: monospace;
-//   font-size: 13px;
-//   padding: 0;
-//   top: 0;
-//   line-height: 18px;
-// }
-// code {
-//   position: relative;
-//   background-color: #222;
-//   border-radius: 4px;
-//   color: #eee;
-//   font-family: monospace;
-//   font-size: 13px;
-//   padding: 2px 4px;
-//   top: -1px;
-// }
-// code.inverted {
-//   background-color: #e9e9e9;
-//   color: black;
-// }
+pre > code {
+  position: inherit;
+  background-color: transparent;
+  border-radius: 0;
+  font-family: monospace;
+  font-size: 13px;
+  padding: 0;
+  top: 0;
+  line-height: 18px;
+}
+code {
+  position: relative;
+  background-color: #222;
+  border-radius: 4px;
+  color: #eee;
+  font-family: monospace;
+  font-size: 13px;
+  padding: 2px 4px;
+  top: -1px;
+}
+code.inverted {
+  background-color: #e9e9e9;
+  color: black;
+}
 // kbd {
 //   background-color: #fafbfc;
 //   border: solid 1px #d1d5da;
