@@ -43,11 +43,11 @@ Project direction, sub-teams, security, general fund, cross-cutting concerns.
         </div>
     </div>
     <div class="team-table-member">
-        <a href="http://github.com/ignopeverell" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/ignopeverell" class="team-table-avatar"></a>
+        <img src="https://avatars.githubusercontent.com/ignopeverell" class="team-table-avatar inactive">
         <div class="team-table-details">
-            <p class="team-table-title">Ignotus Peverell</p>
-            <p class="team-table-text">github: <a href="http://github.com/ignopeverell">ignopeverell↗</a></p>
-            <p class="team-table-text">keybase: <a href="https://keybase.io/ignotus">@ignotus↗</a></p>
+            <p class="team-table-title inactive">Ignotus Peverell</p>
+            <p class="team-table-text inactive">github: ignopeverell</p>
+            <p class="team-table-text inactive">keybase: @ignotus</p>
         </div>
     </div>
     <div class="team-table-member">

@@ -21,9 +21,10 @@
     border-width: 0.2rem;
 }
 
-.team-table-avatar-link {
-    border-bottom: 0px;
-    
+.team-table-avatar.inactive {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    border-color: #757575;
 }
 
 .team-table-details {
@@ -44,6 +45,14 @@
 .team-table-text {
     padding: 0rem;
     margin: 0rem;
+}
+
+.team-table-title.inactive {
+    color: #757575;
+}
+
+.team-table-text.inactive {
+    color: #757575;
 }
 
 .codebox {
