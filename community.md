@@ -26,7 +26,7 @@ The main place for real time and asynch communication. End to end encrypted, wor
 
 ## Grin Forum
 
-Longer form writing in the forum with the most comprehensive list of Grin & Mimblewimble related topics and thoughts: [https://grin-forum.org](https://grin-forum.org)
+Longer form writing in the forum with the most comprehensive list of Grin & Mimblewimble related topics and thoughts: [https://www.grin-forum.org](https://www.grin-forum.org)
 <br>
 
 ## Mailing List
