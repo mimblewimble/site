@@ -38,7 +38,7 @@ or [deploy the website locally on your host](README.md#local-run) and visit http
 Adding a new file? Follow the guidelines [here](https://github.com/mmistakes/so-simple-theme#structure).
 
 ## Design changes
-Please come discuss design here in the [design chat](https://gitter.im/grin_community/design).
+Please come discuss design here in the [Keybase chat](https://keybase.io/team/grincoin).
 [It seems the logo is now finalized, at least for a while.](https://github.com/mimblewimble/site/issues/7)
 If your suggestion needs to be shown in context, create a separate page (like example-redesignX-YOUR_USERNAME.md and push to your github.io page, then share the link on the design chat etc.
 

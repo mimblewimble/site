@@ -5,7 +5,7 @@ layout: page
 # Open Research Problems
 
 This document summarizes several open research problems related to Grin.
-Feel free to join us on [Gitter](https://gitter.im/grin_community/Dev) to discuss them. Funding available.
+Feel free to join us on [Keybase](https://keybase.io/team/grincoin) to discuss them. Funding available.
 
 ## Table of Contents
 
