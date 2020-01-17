@@ -156,7 +156,7 @@ https://arxiv.org/pdf/1905.10518.pdf
 https://github.com/mimblewimble/grin/issues/2857
 
 ### Forum thread
-https://www.grin-forum.org/t/erlay-bandwidth-efficient-transaction-relay-in-bitcoin/5081
+https://forum.grin.mw/t/erlay-bandwidth-efficient-transaction-relay-in-bitcoin/5081
 
 ## 9. Payment Channel Hubs
 
