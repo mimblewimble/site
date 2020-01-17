@@ -15,7 +15,7 @@ layout: page
 
 **The grin security audit funding campaign was completed on December 20th 2018. Thank you to all who generously donated!**
 
-**UPDATE 2019-10-23: The report and findings have now been published: https://www.grin-forum.org/t/grin-security-audit-2-results/6264**
+**UPDATE 2019-10-23: The report and findings have now been published: https://forum.grin.mw/t/grin-security-audit-2-results/6264**
 
 TL;DR Grin is nearing its final phases of development before the release of
 its cryptocurrency network (mainnet). To do so safely, the Grin codebase needs
