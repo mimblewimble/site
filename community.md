@@ -8,6 +8,9 @@ layout: page
 ## Keybase Chat
 The main place for real time and asynch communication. End to end encrypted, works over TOR, and supports command line. [Grincoin team on keybase↗](https://keybase.io/team/grincoin)
 
+<div id="root-chat"></div>
+<script defer type="text/javascript" src="assets/js/bundle.min.js"></script>
+
 ### Bi-weekly meetings
 * every tuesday, at 15:00 [UTC](http://www.timebie.com/std/utc.php).
 * **development** topics one week, in the **grincoin#dev** channel.
