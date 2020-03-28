@@ -67,6 +67,14 @@ Project direction, sub-teams, security, general fund, cross-cutting concerns.
         </div>
     </div>
     <div class="team-table-member">
+        <a href="http://github.com/j01tz" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/j01tz" class="team-table-avatar"></a>
+        <div class="team-table-details">
+            <p class="team-table-title">John Woeltz</p>
+            <p class="team-table-text">github: <a href="http://github.com/j01tz">j01tz↗</a></p>
+            <p class="team-table-text">keybase: <a href="https://keybase.io/joltz">@joltz↗</a></p>
+        </div>
+    </div>
+    <div class="team-table-member">
         <a href="http://github.com/yeastplume" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/yeastplume" class="team-table-avatar"></a>
         <div class="team-table-details">
             <p class="team-table-title">Michael Cordner</p>
