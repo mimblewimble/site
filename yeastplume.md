@@ -35,9 +35,9 @@ Raised (amounts as of Feb 3rd, 2019):
 
 I've been an active contributor to Grin since about May of 2017, and thanks to the generosity of the community Grin has been my full-time job since February of 2018. I hope my performance so far has been satisfactory to the community as well as beneficial to Grin and MimbleWimble development. I've left detailed information on my activities so far (as well as a few other random musings) in my Forum Progress update threads:
 
-- [Feb 2018 - April 2018](https://www.grin-forum.org/t/yeastplume-progress-update-thread-feb-april-2018/93)
-- [May 2018 - Sept 2018](https://www.grin-forum.org/t/yeastplume-progress-update-thread-may-sept-2018/361)
-- [Oct 2018 - Feb 2019](https://www.grin-forum.org/t/yeastplume-progress-update-thread-oct-18-feb-19/933)
+- [Feb 2018 - April 2018](https://forum.grin.mw/t/yeastplume-progress-update-thread-feb-april-2018/93)
+- [May 2018 - Sept 2018](https://forum.grin.mw/t/yeastplume-progress-update-thread-may-sept-2018/361)
+- [Oct 2018 - Feb 2019](https://forum.grin.mw/t/yeastplume-progress-update-thread-oct-18-feb-19/933)
 
 I invite you to have a look through there for precise information about what the previous funds have been used for, as well as information on my future development plans.
 
