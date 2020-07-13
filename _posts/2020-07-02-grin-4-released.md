@@ -38,7 +38,7 @@ Full release notes for both the Node and wallet are linked below:
 
 **Further Details**
 
-https://github.com/mimblewimble/grin/issues/3341
+[mimblewimble/grin#3341](https://github.com/mimblewimble/grin/issues/3341)
 
 **Wallet**
 
@@ -47,4 +47,4 @@ https://github.com/mimblewimble/grin/issues/3341
 
 **Futher Details**
 
-https://github.com/mimblewimble/grin-wallet/issues/456
+[mimblewimble/grin-wallet#456](https://github.com/mimblewimble/grin-wallet/issues/456)
