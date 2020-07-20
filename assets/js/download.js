@@ -26,10 +26,10 @@ function getOS() {
     if (macosPlatforms.indexOf(platform) !== -1) {
         os = 'macos';
     } else if (!os && /Linux/.test(platform)) {
-        os = 'Linux';
+        os = 'linux';
     } else {
         // show Windows by default
-        os = "Windows"
+        os = "windows"
     }
     return os;
 }
