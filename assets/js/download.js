@@ -23,11 +23,10 @@ function getOS() {
     var platform = window.navigator.platform,
         macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
         os = null;
-
     if (macosPlatforms.indexOf(platform) !== -1) {
         os = 'macos';
     } else if (!os && /Linux/.test(platform)) {
-        os = 'linux';
+        os = 'Linux';
     } else {
         // show Windows by default
         os = "Windows"
@@ -37,6 +36,5 @@ function getOS() {
 
 window.onload = function () {
     os = getOS();
-    console.log(os);
-    document.getElementById("macos").click();
+    document.getElementById(os).click();
 }
