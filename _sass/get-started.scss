@@ -49,7 +49,6 @@
     height: 50px;
     -webkit-transform: translate(-50%, -9px);
             transform: translate(-50%, -9px);
-    z-index: 10;
 }
 .start-block:nth-child(1)::after{
     background: url(../images/getting-started/number-1.svg?1528322191) no-repeat;
@@ -100,7 +99,6 @@
     position: absolute;
     bottom: -70px;
     right: 0;
-    z-index: 10;
 }
 .right-column{
     margin-left: auto;
@@ -110,7 +108,6 @@
     position: absolute;
     bottom: -70px;
     left: 0;
-    z-index: 10;
 }
 .start-content div div a,
 .start-content div div a:link{
