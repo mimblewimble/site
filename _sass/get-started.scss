@@ -96,14 +96,20 @@
     text-align: right;
 }
 .left-column div{
-    margin-top: 25px;
+    position: absolute;
+    bottom: -70px;
+    right: 0;
+    z-index: 10;
 }
 .right-column{
     margin-left: auto;
     text-align: left;
 }
 .right-column div{
-    margin-top: 25px;
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+    z-index: 10;
 }
 .start-content div div a,
 .start-content div div a:link{
