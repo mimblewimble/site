@@ -35,3 +35,15 @@ Longer form writing in the forum with the most comprehensive list of Grin & Mimb
 ## Mailing List
 
 Focused on development, the [Mimblewimble mailing list↗](https://lists.launchpad.net/mimblewimble/) offers insight into the evolution of the protocol and some of the motivations behind the project's design decisions.
+
+## Community standards
+
+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status,
+nationality, personal appearance, race, religion, or sexual identity and orientation.
+
+We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
+
+<div>
+   <a class="btn btn-bright" href="{{ 'policies/code_of_conduct' | relative_url }}">Read the code of conduct</a>
+   <a class="btn btn-bright" href="mailto:grinmods@googlegroups.com">Make a complaint</a>
+</div>
