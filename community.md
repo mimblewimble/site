@@ -24,7 +24,7 @@ The main place for real time and asynch communication. End to end encrypted, wor
 1. Install and setup keybase.
 2. Join the grin community:
    * **From the app:** Select "Teams" >> "Join a team" and then type "grincoin"
-   * **From the command line:** `keybase team request-access grincoin`   
+   * **From the command line:** `keybase team request-access grincoin`
 <br>
 
 ## Grin Forum
@@ -35,3 +35,8 @@ Longer form writing in the forum with the most comprehensive list of Grin & Mimb
 ## Mailing List
 
 Focused on development, the [Mimblewimble mailing list↗](https://lists.launchpad.net/mimblewimble/) offers insight into the evolution of the protocol and some of the motivations behind the project's design decisions.
+<br>
+
+## Channels
+
+[Discord↗](https://discord.com/invite/wH6uj7z) and [Telegram↗](https://telegram.me/GrinCoin) channels maintained by independant community members.
