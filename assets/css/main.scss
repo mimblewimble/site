@@ -141,27 +141,3 @@ li {
 
 @media (max-width: 768px) {
 }
-
-
-.warning-footer a {
-  border-bottom: 1px solid #e74c3c;
-  color: white;
-  margin-left: 10px;
-  margin-right:10px;
-}
-
-.warning-footer {
-  position: fixed;
-  justify-content: center;
-  box-shadow: 0 10px 45px -12px rgba(93, 90, 50, 0.25), 0 18px 36px -18px rgba(0, 0, 0, .3);
-  left: 0;
-  align-items: center;
-  display: flex;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-  background-color: #e74c3c;
-  color: white;
-  text-align: center;
-  z-index: 20;
-}
