@@ -19,14 +19,6 @@ Project direction, sub-teams, security, general fund, cross-cutting concerns.
 
 <div class="team-table">
     <div class="team-table-member">
-        <a href="http://github.com/hashmap" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/hashmap" class="team-table-avatar"></a>
-        <div class="team-table-details">
-            <p class="team-table-title">Alexey Miroshkin</p>
-            <p class="team-table-text">github: <a href="http://github.com/hashmap">hashmap↗</a></p>
-            <p class="team-table-text">keybase: <a href="https://keybase.io/hashmap">@hashmap↗</a></p>
-        </div>
-    </div>
-    <div class="team-table-member">
         <a href="http://github.com/antiochp" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/antiochp" class="team-table-avatar"></a>
         <div class="team-table-details">
             <p class="team-table-title">Antioch Peverell</p>
@@ -40,14 +32,6 @@ Project direction, sub-teams, security, general fund, cross-cutting concerns.
             <p class="team-table-title">Daniel Lehnberg</p>
             <p class="team-table-text">github: <a href="http://github.com/lehnberg">lehnberg↗</a></p>
             <p class="team-table-text">keybase: <a href="https://keybase.io/lehnberg">@lehnberg↗</a></p>
-        </div>
-    </div>
-    <div class="team-table-member">
-        <img src="https://avatars.githubusercontent.com/ignopeverell" class="team-table-avatar inactive">
-        <div class="team-table-details">
-            <p class="team-table-title inactive">Ignotus Peverell</p>
-            <p class="team-table-text inactive">github: ignopeverell</p>
-            <p class="team-table-text inactive">keybase: @ignotus</p>
         </div>
     </div>
     <div class="team-table-member">
