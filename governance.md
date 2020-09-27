@@ -19,7 +19,7 @@ Project direction, sub-teams, security, general fund, cross-cutting concerns.
 
 <div class="team-table">
     <div class="team-table-member">
-        <a href="http://github.com/antiochp" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/antiochp" class="team-table-avatar"></a>
+        <a href="http://github.com/antiochp" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/antiochp" alt="Antioch Peverell" class="team-table-avatar"></a>
         <div class="team-table-details">
             <p class="team-table-title">Antioch Peverell</p>
             <p class="team-table-text">github: <a href="http://github.com/antiochp">antiochp↗</a></p>
@@ -27,7 +27,7 @@ Project direction, sub-teams, security, general fund, cross-cutting concerns.
         </div>
     </div>
     <div class="team-table-member">
-        <a href="http://github.com/lehnberg" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/lehnberg" class="team-table-avatar"></a>
+        <a href="http://github.com/lehnberg" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/lehnberg" alt="Daniel Lehnberg" class="team-table-avatar"></a>
         <div class="team-table-details">
             <p class="team-table-title">Daniel Lehnberg</p>
             <p class="team-table-text">github: <a href="http://github.com/lehnberg">lehnberg↗</a></p>
@@ -35,7 +35,7 @@ Project direction, sub-teams, security, general fund, cross-cutting concerns.
         </div>
     </div>
     <div class="team-table-member">
-        <a href="http://github.com/jaspervdm" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/jaspervdm" class="team-table-avatar"></a>
+        <a href="http://github.com/jaspervdm" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/jaspervdm" alt="Jasper van der Maarel" class="team-table-avatar"></a>
         <div class="team-table-details">
             <p class="team-table-title">Jasper van der Maarel</p>
             <p class="team-table-text">github: <a href="http://github.com/jaspervdm">jaspervdm↗</a></p>
@@ -43,7 +43,7 @@ Project direction, sub-teams, security, general fund, cross-cutting concerns.
         </div>
     </div>
     <div class="team-table-member">
-        <a href="http://github.com/tromp" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/tromp" class="team-table-avatar"></a>
+        <a href="http://github.com/tromp" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/tromp" alt="John Tromp" class="team-table-avatar"></a>
         <div class="team-table-details">
             <p class="team-table-title">John Tromp</p>
             <p class="team-table-text">github: <a href="http://github.com/tromp">tromp↗</a></p>
@@ -51,7 +51,7 @@ Project direction, sub-teams, security, general fund, cross-cutting concerns.
         </div>
     </div>
     <div class="team-table-member">
-        <a href="http://github.com/j01tz" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/j01tz" class="team-table-avatar"></a>
+        <a href="http://github.com/j01tz" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/j01tz" alt="John Woeltz" class="team-table-avatar"></a>
         <div class="team-table-details">
             <p class="team-table-title">John Woeltz</p>
             <p class="team-table-text">github: <a href="http://github.com/j01tz">j01tz↗</a></p>
@@ -59,7 +59,7 @@ Project direction, sub-teams, security, general fund, cross-cutting concerns.
         </div>
     </div>
     <div class="team-table-member">
-        <a href="http://github.com/yeastplume" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/yeastplume" class="team-table-avatar"></a>
+        <a href="http://github.com/yeastplume" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/yeastplume" alt="Michael Cordner" class="team-table-avatar"></a>
         <div class="team-table-details">
             <p class="team-table-title">Michael Cordner</p>
             <p class="team-table-text">github: <a href="http://github.com/yeastplume">yeastplume↗</a></p>
@@ -67,7 +67,7 @@ Project direction, sub-teams, security, general fund, cross-cutting concerns.
         </div>
     </div>
     <div class="team-table-member">
-        <a href="http://github.com/quentinlesceller" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/quentinlesceller" class="team-table-avatar"></a>
+        <a href="http://github.com/quentinlesceller" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/quentinlesceller" alt="Quentin Le Scellerr" class="team-table-avatar"></a>
         <div class="team-table-details">
             <p class="team-table-title">Quentin Le Sceller</p>
             <p class="team-table-text">github: <a href="http://github.com/quentinlesceller">quentinlesceller↗</a></p>
