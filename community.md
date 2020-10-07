@@ -24,7 +24,7 @@ The main place for real time and asynch communication. End to end encrypted, wor
 1. Install and setup keybase.
 2. Join the grin community:
    * **From the app:** Select "Teams" >> "Join a team" and then type "grincoin"
-   * **From the command line:** `keybase team request-access grincoin`   
+   * **From the command line:** `keybase team request-access grincoin`
 <br>
 
 ## Grin Forum
