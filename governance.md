@@ -67,7 +67,7 @@ Project direction, sub-teams, security, general fund, cross-cutting concerns.
         </div>
     </div>
     <div class="team-table-member">
-        <a href="http://github.com/quentinlesceller" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/quentinlesceller" alt="Quentin Le Scellerr" class="team-table-avatar"></a>
+        <a href="http://github.com/quentinlesceller" style="border-bottom: 0px ! important;"><img src="https://avatars.githubusercontent.com/quentinlesceller" alt="Quentin Le Sceller" class="team-table-avatar"></a>
         <div class="team-table-details">
             <p class="team-table-title">Quentin Le Sceller</p>
             <p class="team-table-text">github: <a href="http://github.com/quentinlesceller">quentinlesceller↗</a></p>
