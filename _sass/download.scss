@@ -1,6 +1,6 @@
 .download-heading {
   text-align: center;
-  padding: 40px 20px 30px 20px;
+  padding: 40px 20px 0px 20px;
   background-color: white;
   p {
     max-width: 600px;
@@ -9,6 +9,12 @@
     margin: 0 auto;
   }
 }
+
+.download-quickstart {
+  padding: 10px;
+  text-align: center;
+}
+
 .download-subheading {
   line-height: 1.4em;
   font-weight: 500;
