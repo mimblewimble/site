@@ -35,6 +35,15 @@ Longer form writing in the forum with the most comprehensive list of Grin & Mimb
 ## Mailing List
 
 Focused on development, the [Mimblewimble mailing list↗](https://lists.launchpad.net/mimblewimble/) offers insight into the evolution of the protocol and some of the motivations behind the project's design decisions.
+<br>
+
+## RFC process
+
+Grin's [Request For Comments (RFC) process↗](https://github.com/mimblewimble/grin-rfcs/blob/master/text/0001-rfc-process.md) provides a consistent and controlled path for introducing substantial improvements. Smaller changes, such as bug fixes and documentation improvements, can be implemented and reviewed via the normal GitHub pull request workflow. Major or complex changes benefit from a more formalized process to build consensus among Grin's community participants.
+
+The [grin-rfcs repo↗](https://github.com/mimblewimble/grin-rfcs) contains all active RFCs.
+<br>
+
 
 ## Community standards
 
