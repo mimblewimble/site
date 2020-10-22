@@ -4,7 +4,7 @@ layout: page
 
 # Blog
 
-The [core team]({{ 'governance.html#core-team' | relative_url }}) uses this blog to communicate big announcements in Grin.
+Used for communicating project announcements.
 
 ## List of posts
 {% for post in site.posts %}
