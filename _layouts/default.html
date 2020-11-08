@@ -20,6 +20,9 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css" />
   </head>
   <body>
+    <div class="warning-footer">
+      IMPORTANT NOTICE: The Grin network hashrate has increased considerably over a short period of time. Notably this coincides with the nicehash rate doubling in this time with well over 50% of the network hashrate currently outside of known pools. Considering these circumstances it is wise to wait for extra confirmations on transactions for payment finality.
+    </div>
     <div id="fullscreen-menu" class="nav-hamburger-fullscreen">
       <a href="{{'.' | relative_url}}"><h2>Index</h2></a>
       <a href="{{'get-started' | relative_url}}"><h2>Get Started</h2></a>
@@ -47,6 +50,9 @@
     </header>
     {{ content }}
     {% include footer.html %}
+    <div class="warning-footer">
+      IMPORTANT NOTICE: The Grin network hashrate has increased considerably over a short period of time. Notably this coincides with the nicehash rate doubling in this time with well over 50% of the network hashrate currently outside of known pools. Considering these circumstances it is wise to wait for extra confirmations on transactions for payment finality.
+    </div>
     <script type="text/javascript">
       var logo = document.getElementById('grin-logo-bare');
       var fullLogo = document.getElementById('grin-logo-full-svg');
