@@ -13,14 +13,13 @@ Feel free to join us on [Keybase](https://keybase.io/team/grincoin) to discuss t
 | --- | --- |
 | 1 | [BLS Signatures](#1-bls-signatures) |
 | 2 | [Accumulator](#2-accumulator) |
-| 3 | [Kernel Aggregation](#3-kernel-aggregation) |
+| 3 | [Research on ZKPs Recent Advances](#3-research-on-zkps-recent-advances) |
 | 4 | [Scriptless Scripts](#4-scriptless-scripts) |
 | 5 | [FlyClient](#5-flyclient) |
 | 6 | [Asynchronous Transaction Building](#6-asynchronous-transaction-building) |
 | 7 | [Reducing Linkability of Outputs On Chain](#7-reducing-linkability-of-outputs-on-chain) |
 | 8 | [Erlay Transaction Relaying](#8-erlay-transaction-relaying) |
 | 9 | [Payment Channel Hubs](#9-payment-channel-hubs) |
-| 10 | [Research on ZKPs Recent Advances](#10-research-on-zkps-recent-advances) |
 
 ## 1. BLS Signatures
 
@@ -58,37 +57,32 @@ The goal of this research problem is to identify whether or not Grin can leverag
 - D. Boneh, B. Bünz, and B. Fisch. Batching techniques for accumulators with applications to IOPs and stateless blockchains. Cryptology ePrint Archive. 2018
 [https://eprint.iacr.org/2018/1188.pdf](https://eprint.iacr.org/2018/1188.pdf)
 
-## 3. Kernel Aggregation
 
-### Description
+## 3. Research on ZKPs Recent Advances
 
-Grin blockchain implements the mimblewimble protocol. This design allows the blockchain to be massively prunable. However, while inputs/outputs can be thrown away once spent, there is another piece of data called the kernel that must stay. For each transaction a kernel is created, this piece of information cannot currently be aggregated or discarded as it is needed to verify the current chain state.
+This research subject is about investigating recent advances in zero knowledge proofs and how Grin can leverage their potential improvements. Improvements can be on:
+- Alternative small proof of existence of kernel history up to horizon
+- Privacy
+- Soundness
+- Hardness
+- Efficiency (whether speed or size)
+- ...
 
-The goal of this research problem is to identify potential ways to aggregate transaction kernels and/or possibly discard them if not needed.
-
-One potential construct is BLS signature. Introduced in 2001 by Boneh, Lynn and Shacham, BLS signatures introduce non-interactive kernel aggregation and potentially simpler multisignature schemes. While it is not for certain that such signatures are well suited for Grin it is still interesting to explore this design.
-
-### Relevant Papers
-
-- D. Boneh, B. Lynn, and H. Shacham. Short signatures from the weil pairing. In Proceedings of the 7th International Conference on the Theory and Application of Cryptology and Information Security: Advances in Cryptology, ASIACRYPT &#39;01, pages 514–532, Berlin, Heidelberg, 2001. Springer-Verlag.
-[https://www.iacr.org/archive/asiacrypt2001/22480516.pdf](https://www.iacr.org/archive/asiacrypt2001/22480516.pdf)
-
-- D. Boneh, M. Drijvers, and G. Neven. Compact multi-signatures for smaller blockchains. Cryptology ePrint Archive, Report 2018/483, 2018.
-[https://eprint.iacr.org/2018/483](https://eprint.iacr.org/2018/483)
-
-### Github Issue
-
-- [https://github.com/mimblewimble/grin/issues/2504](https://github.com/mimblewimble/grin/issues/2504)
+### Relevant papers
+ - https://eprint.iacr.org/2020/1618.pdf - Proof-Carrying Data without Succinct Arguments
+ - https://eprint.iacr.org/2019/1021.pdf - Halo: Recursive Proof Composition without a Trusted Setup
+ - https://www.benthamsgaze.org/2019/02/07/introducing-sonic-a-practical-zk-snark-with-a-nearly-trustless-setup/ - SuperSonic
+- https://github.com/matter-labs/awesome-zero-knowledge-proofs - Awesome Zero Knowledge Proofs
 
 ## 4. Scriptless Scripts
 
 ### Description
 
-Mimblewimble does not support any kind of script. In 2017, Andrew Poelstra introduced a way to add smart contracts ability to this type of blockchain: scriptless scripts.
+Mimblewimble does not support any kind of script. In 2017, Andrew Poelstra introduced a way to add smart contract ability to this type of blockchain: scriptless scripts.
 
 While a significant research effort has been done on the subject there are very few concrete implementations of such cryptographic structure.
 
-The goal of this research problems is to investigate scriptless scripts in Grin and potentially implement basic contracts features on a second layer.
+The goal of this research problems is to investigate scriptless scripts in Grin and potentially implement basic contract features.
 
 ### Relevant Presentations
 
@@ -101,7 +95,7 @@ The goal of this research problems is to investigate scriptless scripts in Grin 
 
 &quot;To validate transactions, cryptocurrencies such as Bitcoin and Ethereum require nodes to verify that a blockchain is valid. This entails downloading and verifying all blocks, taking hours and requiring gigabytes of bandwidth and storage. Hence, clients with limited resources cannot verify transactions independently without trusting full nodes.[...] FlyClient is a novel transaction verification light client for chains of variable difficulty. FlyClient is efficient both asymptotically and practically and requires downloading only a logarithmic number of block headers while storing only a single block header between executions.&quot;
 
-The goal of this research problems is to investigate/implement the necessaries prerequisites for the introduction of a FlyClient in Grin.
+The goal of this research problems is to investigate/implement the necessaries prerequisites for the introduction of FlyClient in Grin.
 
 ### Relevant Papers
 
@@ -136,6 +130,8 @@ However, it is possible for someone listening on the network to build a transact
 
 Techniques like [Dandelion++](https://arxiv.org/abs/1805.11060) mitigate this issue but are insufficient for a privacy coin.
 
+A much more promising design is this Mimblewimble [CoinSwap proposal](https://forum.grin.mw/t/mimblewimble-coinswap-proposal)
+
 The goal of this research is to investigate ways to obfuscate the Grin transaction and implement such design.
 
 ### Relevant Papers
@@ -160,23 +156,9 @@ https://forum.grin.mw/t/erlay-bandwidth-efficient-transaction-relay-in-bitcoin/5
 
 ## 9. Payment Channel Hubs
 
-Payment channel hubs offer the possibility of instant payments that improve privacy by joining transactions (like a coinjoin server), and improving scalability by pruning intermediate txs and potentially even aggregating kernels. The difficulty is in trying to design a PCH that is trustless (can't steal/freeze coins or rollback txs), and that doesn't learn everything about the individual transactions (amounts, input/output links, etc). These past few years have seen a lot of developments in this area (TumbleBit, Bolt, A2L, etc.) but nothing that can be directly applied to Grin in a way that doesn't requiring trusting hub operators to preserve your privacy.
+Payment channel hubs offer the possibility of instant payments that improve privacy by joining transactions (like a coinjoin server), and improving scalability by pruning intermediate txs and potentially even aggregating kernels. Grin already has NRD (NoRecentDuplicate) kernels waiting to be activated, which provide the relative timelocks needed for implementing basic payment channels. The difficulty is in trying to design a PCH that is trustless (can't steal/freeze coins or rollback txs), and that doesn't learn everything about the individual transactions (amounts, input/output links, etc). These past few years have seen a lot of developments in this area (TumbleBit, Bolt, A2L, etc.) but nothing that can be directly applied to Grin in a way that doesn't requiring trusting hub operators to preserve your privacy.
 
 ### Relevant papers
  - https://eprint.iacr.org/2016/701 - Bolt
  - https://eprint.iacr.org/2016/575 - TumbleBit
  - https://eprint.iacr.org/2019/589 - Anonymous Atomic Locks (A2L)
-
-## 10. Research on ZKPs Recent Advances
-
-This research subject is about investigating recent advances in zero knowledge proofs and how Grin can leverage their potential improvements. Improvements can be on:
-- Privacy
-- Soundness
-- Hardness
-- Efficiency (whether speed or size)
-- ...
-
-### Relevant papers
- - https://eprint.iacr.org/2019/1021.pdf - Halo: Recursive Proof Composition without a Trusted Setup
- - https://www.benthamsgaze.org/2019/02/07/introducing-sonic-a-practical-zk-snark-with-a-nearly-trustless-setup/ - SuperSonic
-- https://github.com/matter-labs/awesome-zero-knowledge-proofs - Awesome Zero Knowledge Proofs
