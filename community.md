@@ -37,6 +37,12 @@ Longer form writing in the forum with the most comprehensive list of Grin & Mimb
 Focused on development, the [Mimblewimble mailing list↗](https://lists.launchpad.net/mimblewimble/) offers insight into the evolution of the protocol and some of the motivations behind the project's design decisions.
 <br>
 
+## StackExchange
+
+We proposed a [new StackExchange community focused on GRIN](https://area51.stackexchange.com/proposals/126325/grin). It is intended to be mainly for technical issues and development but other sorts of questions will be welcome as well. The community is still in its proposal stage and will remain this way until it gathers sufficient number of followers and activity. We will highly appreciate your help to build it! 
+
+<a href="https://area51.stackexchange.com/proposals/126325/grin?referrer=ZTRmMGM2OWRmMjE0Yjk2YmEyY2YwZjUyMzgzN2Y3MzcyNDRmOGNjZTA5NzgyYzdjZGRlOTEzMzM1ZTZlMDg3OHDbglFYEAo8HGLbQnRiXuAvrYKl0FU1lDUh3vRY0yQN0"><img src="https://area51.stackexchange.com/ads/proposal/126325.png" width="300" height="250" alt="Stack Exchange Q&A site proposal: GRINツ" /></a>
+
 ## RFC process
 
 Grin's [Request For Comments (RFC) process↗](https://github.com/mimblewimble/grin-rfcs/blob/master/text/0001-rfc-process.md) provides a consistent and controlled path for introducing substantial improvements. Smaller changes, such as bug fixes and documentation improvements, can be implemented and reviewed via the normal GitHub pull request workflow. Major or complex changes benefit from a more formalized process to build consensus among Grin's community participants.
