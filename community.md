@@ -5,6 +5,11 @@ layout: page
 # Get involved in Grin's community
 <br>
 
+## Grin Forum
+
+Longer form writing in the forum with the most comprehensive list of Grin & Mimblewimble related topics and thoughts: [https://forum.grin.mw](https://forum.grin.mw)
+<br>
+
 ## Keybase Chat
 The main place for real time and asynch communication. End to end encrypted, works over TOR, and supports command line. [Grincoin team on keybase↗](https://keybase.io/team/grincoin)
 
@@ -15,9 +20,10 @@ The main place for real time and asynch communication. End to end encrypted, wor
    * **From the command line:** `keybase team request-access grincoin`
 <br>
 
-## Grin Forum
+## Community Hub
 
-Longer form writing in the forum with the most comprehensive list of Grin & Mimblewimble related topics and thoughts: [https://forum.grin.mw](https://forum.grin.mw)
+Discover a wealth of resources in the [Community Hub↗](https://grincc.mw/hub/). Explore tools, documentation, channels, and stay updated with articles and relevant information.
+
 <br>
 
 ## Mailing List
