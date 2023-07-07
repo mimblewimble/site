@@ -1,5 +1,5 @@
 function fetchFundBalance(address, callback) {
-    var url = 'https://blockchain.info/balance?active=' + address;
+    var url = 'https://api.blockcypher.com/v1/btc/main/addrs/' + address + '/balance';
     var xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
     xhr.responseType = 'json';
@@ -20,7 +20,7 @@ window.onload = function () {
         if (error != null) {
             return;
         }
-        var amount = (response[address].final_balance / 100000000).toFixed(2)
+        var amount = (response.balance / 100000000).toFixed(2)
         document.getElementById("funding-amount").textContent = amount + " BTC";
     }
     fetchFundBalance(address, callback);
