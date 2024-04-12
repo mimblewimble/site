@@ -126,9 +126,9 @@ The goal is this research problem is to investigate and develop an asynchronous,
 
 Mimblewimble/Grin leverage [confidential transactions](https://en.bitcoin.it/wiki/Confidential_transactions) to hide the identity of the sender and recipients. As such, there are no public amounts or addresses.
 
-However, it is possible for someone listening on the network to build a transaction graph and possibly cluster entities together. Ivan Bogatyy has shown this attack works in practice, being able to [link 96% of Grin transactions](https://github.com/bogatyy/grin-linkability) broadcasted during the run of his experiment.
+However, it is possible for someone listening on the network to build a transaction graph and possibly cluster entities together. Ivan Bogatyy has shown this in practice, being able to [link 96% of Grin transactions](https://github.com/bogatyy/grin-linkability) broadcasted during the run of his experiment.
 
-The [Dandelion++](https://arxiv.org/abs/1805.11060) inspired transaction propagation technique implemented in Grin was insufficient to mitigate the attack. It successfully hides IP addresses but cannot aggregate enough transaction to obscure the transaction graph. This is insufficient for a privacy coin.
+Grin implements a [Dandelion++](https://arxiv.org/abs/1805.11060) inspired transaction propagation technique, which, besides the main goal of hiding the source IP address, also aggregates transactions during the stem phase. Unfortunately it cannot aggregate enough transactions to obscure the transaction graph and meaningfully reduce the linkability.
 
 A much more promising design is the [Mimblewimble CoinSwap proposal](https://forum.grin.mw/t/mimblewimble-coinswap-proposal).
 
