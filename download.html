@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<script type="text/javascript" src="./assets/js/download.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/download.js"></script>
 <main class="site pad">
   <div class="download">
     <div class="download-heading">
@@ -25,63 +25,63 @@ layout: default
       </div>
       <!-- Tab content -->
       <div id="Windows" class="tabcontent">
-        <h3><a
-            href="https://github.com/mimblewimble/grin-wallet/releases/download/v5.0.3/grin-wallet-v5.0.3-win-x64.zip">grin-wallet
-            v5.0.3</a></h3>
-        <div class="codebox-heading">SHA256 HASH:</div>
+        <h3>
+          <a id="win-wallet-link" href="#">grin-wallet</a>
+        </h3>
+        <div class="codebox-heading">SHA256 HASH FILE:</div>
         <div class="codebox">
-          97CF851C947F1C5F3DC5E78E3756B55CBB27E1DC9EA658C36A4F536B37510A50
+          <a id="win-wallet-hash" href="#">Download Hash File</a>
         </div>
-        <h3> <a href="https://github.com/mimblewimble/grin/releases/download/v5.1.2/grin-v5.1.2-win-x64.zip">grin
-            v5.1.2</a></h3>
-        <div class="codebox-heading">SHA256 HASH:</div>
+
+        <h3>
+          <a id="win-node-link" href="#">grin</a>
+        </h3>
+        <div class="codebox-heading">SHA256 HASH FILE:</div>
         <div class="codebox">
-          D3480F049D74557415EF6854D831EC07C653502C793C2CB6BBCE51EDAA167C90
+          <a id="win-node-hash" href="#">Download Hash File</a>
         </div>
       </div>
 
       <div id="macOS" class="tabcontent">
-        <h3><a
-            href="https://github.com/mimblewimble/grin-wallet/releases/download/v5.0.3/grin-wallet-v5.0.3-macos.tar.gz">grin-wallet
-            v5.0.3</a></h3>
-        <div class="codebox-heading">SHA256 HASH:</div>
+        <h3>
+          <a id="macos-wallet-link" href="#">grin-wallet</a>
+        </h3>
+        <div class="codebox-heading">SHA256 HASH FILE:</div>
         <div class="codebox">
-          8139e8a74ef8dc52ff759566917219dc26fd4eba7f5e182ce20adf1b7216557e
+          <a id="macos-wallet-hash" href="#">Download Hash File</a>
         </div>
         <div class="codebox-heading">or with homebrew</div>
+        <div class="codebox">brew install grin-wallet</div>
+
+        <h3>
+          <a id="macos-node-link" href="#">grin</a>
+        </h3>
+        <div class="codebox-heading">SHA256 HASH FILE:</div>
         <div class="codebox">
-          brew install grin-wallet
-        </div>
-        <h3><a href="https://github.com/mimblewimble/grin/releases/download/v5.1.2/grin-v5.1.2-macos.tar.gz">grin
-            v5.1.2</a></h3>
-        <div class="codebox-heading">SHA256 HASH:</div>
-        <div class="codebox">
-          5dc8895554f1a65e2b782e8548fb08418cbad6b0de5bcc78f1ace740bd651cac
+          <a id="macos-node-hash" href="#">Download Hash File</a>
         </div>
         <div class="codebox-heading">or with homebrew</div>
-        <div class="codebox">
-          brew install grin
-        </div>
+        <div class="codebox">brew install grin</div>
       </div>
 
       <div id="Linux" class="tabcontent">
-        <h3> <a
-            href="https://github.com/mimblewimble/grin-wallet/releases/download/v5.0.3/grin-wallet-v5.0.3-linux-amd64.tar.gz">grin-wallet
-            v5.0.3</a></h3>
-        <div class="codebox-heading">SHA256 HASH:</div>
+        <h3>
+          <a id="linux-wallet-link" href="#">grin-wallet</a>
+        </h3>
+        <div class="codebox-heading">SHA256 HASH FILE:</div>
         <div class="codebox">
-          4dd24a03be40e91cefdeb2d95a01e009d1b2b1a473beab6a50281fcbfa576f72
+          <a id="linux-wallet-hash" href="#">Download Hash File</a>
         </div>
-        <h3> <a href="https://github.com/mimblewimble/grin/releases/download/v5.1.2/grin-v5.1.2-linux-amd64.tar.gz">grin
-            v5.1.2</a></h3>
-        <div class="codebox-heading">SHA256 HASH:</div>
+
+        <h3>
+          <a id="linux-node-link" href="#">grin</a>
+        </h3>
+        <div class="codebox-heading">SHA256 HASH FILE:</div>
         <div class="codebox">
-          35de24bb2c1bc6fd250ab57bad3a4740177209cbc2bbd1ca3db8abf216e37705
+          <a id="linux-node-hash" href="#">Download Hash File</a>
         </div>
-	<div class="codebox-heading">or using <a href="https://snapcraft.io/grin">snap</a> install grin and grin-wallet with one command</div>
-        <div class="codebox">
-          snap install grin
-	</div>
+        <div class="codebox-heading">or using <a href="https://snapcraft.io/grin">snap</a> install grin and grin-wallet with one command</div>
+        <div class="codebox">snap install grin</div>
       </div>
     </section>
   </div>
