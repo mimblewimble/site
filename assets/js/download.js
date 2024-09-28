@@ -89,7 +89,7 @@ async function updateReleaseLinks() {
             document.getElementById(elementIds.link).textContent = repoData?.releaseVersion ? `${type === 'wallet' ? 'Grin Wallet' : 'Grin Node'} ${repoData.releaseVersion}` : `${type === 'wallet' ? 'Grin Wallet' : 'Grin Node'}`;
             
             document.getElementById(elementIds.hash).href = hashUrl;
-            document.getElementById(elementIds.hash).textContent = hashAsset ? 'Download hash file from GitHub' : 'Go to GitHub and download sha256sum.txt hash file';
+            document.getElementById(elementIds.hash).textContent = hashAsset ? 'Link to official GitHub hashfile: sha256sum.txt' : 'See GitHub for official sha256sum.txt hashfile';
         }
 
         ['win', 'macos', 'linux'].forEach(platform => {
@@ -112,7 +112,7 @@ async function updateReleaseLinks() {
             document.getElementById(`${platform}-wallet-link`).textContent = 'Grin Wallet';
 
             document.getElementById(`${platform}-wallet-hash`).href = walletFallbackUrl;
-            document.getElementById(`${platform}-wallet-hash`).textContent = 'Go to GitHub and download sha256sum.txt hash file';
+            document.getElementById(`${platform}-wallet-hash`).textContent = 'See GitHub for official sha256sum.txt hashfile';
 
             document.getElementById(`${platform}-node-link`).href = nodeFallbackUrl;
             document.getElementById(`${platform}-node-link`).textContent = 'Grin Node';
