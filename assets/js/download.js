@@ -52,8 +52,8 @@ async function fetchReleaseData(repositoryName) {
 
 async function updateReleaseLinks() {
     try {
-        const walletData = await fetchReleaseData('grin-walletx');
-        const nodeData = await fetchReleaseData('grinx');
+        const walletData = await fetchReleaseData('grin-wallet');
+        const nodeData = await fetchReleaseData('grin');
 
         const links = {
             win: {
