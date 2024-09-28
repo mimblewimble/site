@@ -89,7 +89,7 @@ async function updateReleaseLinks() {
             document.getElementById(elementIds.link).textContent = repoData?.releaseVersion ? `${type === 'wallet' ? 'Grin Wallet' : 'Grin Node'} ${repoData.releaseVersion}` : `${type === 'wallet' ? 'Grin Wallet' : 'Grin Node'}`;
             
             document.getElementById(elementIds.hash).href = hashUrl;
-            document.getElementById(elementIds.hash).textContent = hashAsset ? 'Link to official GitHub hashfile: sha256sum.txt' : 'See GitHub for official sha256sum.txt hashfile';
+            document.getElementById(elementIds.hash).textContent = hashAsset ? 'Link to GitHub hashfile: sha256sum.txt' : 'See GitHub for official sha256sum.txt hashfile';
         }
 
         ['win', 'macos', 'linux'].forEach(platform => {
