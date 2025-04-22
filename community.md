@@ -22,7 +22,7 @@ The main place for real time and asynch communication. End to end encrypted, wor
 
 ## SimpleX chat
 
-Privacy focused and community hosted Grin chat. E2E Encryption, TOR routing, no identifiers assigned to users: [https://forum.grinchat.mw](https://forum.grin.mw)
+Privacy focused and community hosted Grin chat. E2E Encryption, TOR routing, no identifiers assigned to users: [https://grinchat.mw](https://grinchat.mw)
 <br>
 
 ## Community Hub
