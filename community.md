@@ -3,6 +3,7 @@ layout: page
 ---
 
 # Get involved in Grin's community
+
 <br>
 
 ## Grin Forum
@@ -10,17 +11,14 @@ layout: page
 Longer form writing in the forum with the most comprehensive list of Grin & Mimblewimble related topics and thoughts: [https://forum.grin.mw](https://forum.grin.mw)
 <br>
 
-## Keybase Chat
-The main place for real time and asynch communication. End to end encrypted, works over TOR, and supports command line. [Grincoin team on keybase↗](https://keybase.io/team/grincoin)
+## Telegram Chats
 
-### How to join
-1. Install and setup keybase.
-2. Join the grin community:
-   * **From the app:** Select "Teams" >> "Join a team" and then type "grincoin"
-   * **From the command line:** `keybase team request-access grincoin`
+Grin community chat grinprivacy on Telegram: [https://https://t.me/grinprivacy](https://t.me/grinprivacy)
+Grin trading chat grintrader on Telegram: [https://https://t.me/grintrader](https://t.me/grintrader)
+Grin mining chat grinmining on Telegram: [https://https://t.me/grinmining](https://t.me/grinmining)
 <br>
 
-## SimpleX chat
+## SimpleX Chat
 
 Privacy focused and community hosted Grin chat. E2E Encryption, TOR routing, no identifiers assigned to users: [https://grinchat.mw](https://grinchat.mw)
 <br>
@@ -42,7 +40,6 @@ Grin's [Request For Comments (RFC) process↗](https://github.com/mimblewimble/g
 
 The [grin-rfcs repo↗](https://github.com/mimblewimble/grin-rfcs) contains all active RFCs.
 <br>
-
 
 ## Community standards
 

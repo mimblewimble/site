@@ -7,9 +7,9 @@
     <link rel="manifest" href="{{ site.baseurl }}/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    
+
     <title>{{ site.title }}</title>
-    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
     <!-- Font Awesome -->
@@ -17,23 +17,22 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- CSS Main  -->
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css">
   </head>
   <body>
     <div id="fullscreen-menu" class="nav-hamburger-fullscreen">
-      <a href="{{'.' | relative_url}}"><h2>Index</h2></a>
+       <a href="{{'.' | relative_url}}"><h2>Index</h2></a>
       <a href="{{'get-started' | relative_url}}"><h2>Get Started</h2></a>
       <a href="{{'download' | relative_url}}"><h2>Download</h2></a>
       <a href="{{'community' | relative_url}}"><h2>Community</h2></a>
       <a href="{{'fund' | relative_url}}"><h2>Funding</h2></a>
-      <a href="{{'open-research-problems' | relative_url}}"><h2>Research</h2></a>
-      <a href="{{'blog' | relative_url}}"><h2>Blog</h2></a>
       <a href="https://docs.grin.mw"><h2>Docs</h2></a>
       <a href="https://github.com/mimblewimble/grin"><h2>GitHub</h2></a>
+      <a href="https://grincc.mw"><h2>GrinCC</h2></a>
     </div>
     <div class="full-header">
       <div class="full-nav">
-        <a href="/" id="grin-logo-full">
+        <a href="/" alt="grin-logo" id="grin-logo-full">
           <svg id="grin-logo-full-svg" width="61" height="61" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100Z" fill="black" />
             <path d="M49.8911 94.6322C74.5417 94.6322 94.525 74.6489 94.525 49.9983C94.525 25.3477 74.5417 5.36449 49.8911 5.36449C25.2405 5.36449 5.25726 25.3477 5.25726 49.9983C5.25726 74.6489 25.2405 94.6322 49.8911 94.6322Z" fill="#FEF102" />
@@ -47,7 +46,7 @@
     </header>
     {{ content }}
     {% include footer.html %}
-    <script type="text/javascript">
+    <script>
       var logo = document.getElementById('grin-logo-bare');
       var fullLogo = document.getElementById('grin-logo-full-svg');
       logo.addEventListener('mouseover', () => {
