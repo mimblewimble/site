@@ -13,9 +13,9 @@ Longer form writing in the forum with the most comprehensive list of Grin & Mimb
 
 ## Telegram Chats
 
-Grin community chat grinprivacy on Telegram: [https://https://t.me/grinprivacy](https://t.me/grinprivacy)
-Grin trading chat grintrader on Telegram: [https://https://t.me/grintrader](https://t.me/grintrader)
-Grin mining chat grinmining on Telegram: [https://https://t.me/grinmining](https://t.me/grinmining)
+Grin community chat grinprivacy on Telegram: [https://t.me/grinprivacy](https://t.me/grinprivacy)
+Grin trading chat grintrader on Telegram: [https://t.me/grintrader](https://t.me/grintrader)
+Grin mining chat grinmining on Telegram: [https://t.me/grinmining](https://t.me/grinmining)
 <br>
 
 ## SimpleX Chat
