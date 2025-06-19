@@ -23,10 +23,14 @@ Grin mining chat grinmining on Telegram: [https://t.me/grinmining](https://t.me/
 Privacy focused and community hosted Grin chat. E2E Encryption, TOR routing, no identifiers assigned to users: [https://grinchat.mw](https://grinchat.mw)
 <br>
 
+## Keybase Chat
+
+A place for real time and asynch communication. End to end encrypted, works over TOR, and supports command line. [https://keybase.io/team/grincoin](https://keybase.io/team/grincoin)
+<br>
+
 ## Community Hub
 
 Discover a wealth of resources in the [Community Hub↗](https://grincc.mw/hub/). Explore tools, documentation, channels, and stay updated with articles and relevant information.
-
 <br>
 
 ## Mailing List
