@@ -7,11 +7,10 @@ header {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  mix-blend-mode: difference;
   z-index: 1000;
   a {
     font-family: 'Courier', monospace;
-    color: white;
+    color: black;
     font-size: 13px;
     font-weight: normal;
     border: 0;
@@ -64,7 +63,7 @@ nav {
 }
 .nav-list {
   display: flex;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 5px;
   padding-top: 10px;
   padding-left: 20px;  
