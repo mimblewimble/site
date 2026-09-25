@@ -15,7 +15,7 @@ function fetchFundBalance(address, callback) {
 }
 
 window.onload = function () {
-    var address = "bc1qmsy32rn6hu5vrelpfyqj52cmrpwwr690dkca6pefpw0p843urwnqws6d6v"
+    var address = "bc1qmrsfczpd7xye6h4h32577yxljnam86zlkgpjmpe998x222pqsu7sejz5nk"
     var callback = function(error, response) {
         if (error != null) {
             return;
